@@ -1,0 +1,238 @@
+head,relation,tail,head_id,tail_id
+(05.CAUS),whichIs,[Assertion: #122‹],75,76
+(01.DESCR),whichIs,[Médecin: #tt2‹],77,78
+(05.CAUS),whichIs,[Assertion: #122‹],75,76
+(01.DESCR),whichIs,[Conjonction: #1‹],114,115
+(ET),whichIs,[Assertion: #11‹],116,71
+(01.DESCR),whichIs,[Situation: #1‹],118,119
+(01.DESCR),whichIs,[Patient: #x‹],120,121
+(02.est_patient_de),whichIs,[Demande: #d‹],122,123
+(01.DESCR),whichIs,[Prestation: #00‹],126,127
+(01.DESCR),whichIs,[Conjonction: #1‹],114,115
+(ET),whichIs,[Assertion: #11‹],116,71
+(01.DESCR),whichIs,[Situation: #1‹],118,119
+(01.DESCR),whichIs,[Patient: #x‹],120,121
+(02.est_patient_de),whichIs,[Demande: #d‹],122,123
+(01.DESCR),whichIs,[Prestation: #00‹],143,127
+(01.DESCR),whichIs,[Conjonction: #1‹],114,115
+(ET),whichIs,[Assertion: #11‹],116,71
+(01.DESCR),whichIs,[Situation: #1‹],118,119
+(01.DESCR),whichIs,[Patient: #x‹],120,121
+(02.est_patient_de),whichIs,[Demande: #d‹],122,123
+(01.DESCR),whichIs,[Situation: #2‹],160,161
+(01.DESCR),whichIs,[Demande: #d‹],176,123
+(01.DESCR),whichIs,[Prestation: #00‹],180,127
+(07.MNT),whichIs,[Moment: #t0‹],182,183
+(----),whichIs,[Assertion: #15 ‹],238,239
+(----),whichIs,[Besoin de Santé: #1‹],246,237
+(01.DESCR),whichIs,[Problème de Santé: #1n‹],248,249
+(05.CAUS),whichIs,[Prestation: #1n‹],255,256
+(05.CAUS),whichIs,[Prestation: #1n‹],262,256
+(01.DESCR),whichIs,[Suivi: #01‹],267,268
+(TYP),whichIs,[HTA: #1‹],271,272
+(01.DESCR),whichIs,[Suivi: #02‹],274,275
+(01.DESCR),whichIs,[Suivi: #03‹],281,282
+(01.DESCR),whichIs,[Suivi: #04‹],288,289
+(01.DESCR),whichIs,[Suivi: #05‹],295,296
+(01.DESCR),whichIs,[Suivi: #06‹],302,303
+(01.DESCR),whichIs,[Suivi: #07‹],309,310
+(01.DESCR),whichIs,[Suivi: #08‹],316,317
+(01.DESCR),whichIs,[Suivi: #09‹],323,324
+(01.DESCR),whichIs,[Suivi: #10‹],330,331
+(01.DESCR),whichIs,[Suivi: #11‹],337,338
+(01.DESCR),whichIs,[Suivi: #12‹],344,345
+(01.DESCR),whichIs,[Suivi: #13‹],351,352
+(01.DESCR),whichIs,[Suivi: #14‹],360,361
+(01.DESCR),whichIs,[Suivi: #15‹],367,368
+(01.DESCR),whichIs,[Suivi: #16‹],374,375
+(01.DESCR),whichIs,[Suivi: #17‹],383,384
+(01.DESCR),whichIs,[Suivi: #19‹],392,393
+(01.DESCR),whichIs,[Suivi: #20‹],399,400
+(01.DESCR),whichIs,[Suivi: #21‹],406,407
+(01.DESCR),whichIs,[Suivi: #22‹],413,414
+(01.DESCR),whichIs,[Suivi: #23‹],420,421
+(01.DESCR),whichIs,[Suivi: #30‹],427,428
+(01.DESCR),whichIs,[Suivi: #52‹],434,435
+(01.DESCR),whichIs,[Suivi: #60‹],441,442
+(01.DESCR),whichIs,[Suivi: #99‹],448,449
+(05.CAUS),whichIs,[Processus Morbide: #1‹],457,458
+(07.MNT),whichIs,[Moment: #t0‹],464,183
+(PAT),whichIs,[Sport: #10‹],478,479
+(PAT),whichIs,[Sport: #11‹],485,486
+(PAT),whichIs,[Sport: #12‹],492,493
+(PAT),whichIs,[Sport: #13‹],499,500
+(PAT),whichIs,[Sport: #14‹],506,507
+(PAT),whichIs,[Sport: #15‹],513,514
+(PAT),whichIs,[Sport: #16‹],520,521
+(PAT),whichIs,[Sport: #17‹],527,528
+(PAT),whichIs,[Sport: #18‹],534,535
+(PAT),whichIs,[Sport: #19‹],541,542
+(PAT),whichIs,[Sport: #1‹],548,549
+(PAT),whichIs,[Sport: #20‹],555,556
+(PAT),whichIs,[Sport: #21‹],562,563
+(PAT),whichIs,[Sport: #22‹],569,570
+(PAT),whichIs,[Sport: #23‹],576,577
+(PAT),whichIs,[Sport: #24‹],583,584
+(PAT),whichIs,[Sport: #25‹],590,591
+(PAT),whichIs,[Sport: #2‹],597,598
+(PAT),whichIs,[Sport: #3‹],604,605
+(PAT),whichIs,[Sport: #4‹],611,612
+(PAT),whichIs,[Sport: #5‹],618,619
+(PAT),whichIs,[Sport: #6‹],625,626
+(PAT),whichIs,[Sport: #7‹],632,633
+(PAT),whichIs,[Sport: #8‹],639,640
+(PAT),whichIs,[Sport: #9‹],646,647
+(TYP),whichIs,[HTA: #1‹],728,272
+(ET),whichIs,[Assertion: #13‹],837,107
+(01.DESCR),whichIs,[Patient: #x3‹],839,840
+(01.PAT),whichIs,[Limitation: #2‹],841,842
+(a_un),whichIs,[Temps écoulé: #c‹],848,849
+(a_un),whichIs,[Temps écoulé: #c‹],855,849
+(a_un),whichIs,[Temps écoulé: #c‹],862,849
+(a_un),whichIs,[Temps écoulé: #o‹],869,870
+(a_un),whichIs,[Temps écoulé: #o‹],876,870
+(a_un),whichIs,[Temps écoulé: #o‹],883,870
+(07.MNT),whichIs,[Moment: #t0‹],894,183
+(01.DESCR),whichIs,[Prestation: #00‹],915,127
+(01.DESCR),whichIs,[Prestation: #00‹],922,127
+(01.DESCR),whichIs,[Prestation: #00‹],929,127
+(01.DESCR),whichIs,[Prestation: #00‹],936,127
+(01.DESCR),whichIs,[Prestation: #00‹],943,127
+(01.DESCR),whichIs,[Situation: #2‹],950,161
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Certificat Médical: #1‹],977,472
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Check-up: #‹],982,655
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Conduite à tenir: #1‹],994,995
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Conduite à tenir: #1‹],994,995
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Conduite à tenir: #1‹],994,995
+(05.CAUS),whichIs,[Résultat: #1‹],1016,1017
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Conduite à tenir: #1‹],994,995
+(05.CAUS),whichIs,[Résultat: #1‹],1016,1017
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Conduite à tenir: #1‹],994,995
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(METH),whichIs,[Prévention: #1‹],1106,1107
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(METH),whichIs,[Prévention: #2‹],1115,1116
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Prescription: #1‹],1129,1130
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(01.DESCR),whichIs,[Problème de Santé: #1n‹],248,249
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(05.CAUS),whichIs,[Besoin de Santé: #1‹],955,237
+(AGT-1),whichIs,[Patient: #x‹],1201,121
+(AGT),whichIs,[Personne: x‹],1496,1497
+(----),whichIs,[Evènement de santé: #01‹],1622,1618
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(QUANT),whichIs,[Test de FACE: #F‹],1642,1643
+(a_un),whichIs,[Déroulement: #tbc‹],1790,1791
+(a_un),whichIs,[Déroulement: #tbc‹],1790,1791
+(a_un),whichIs,[Déroulement: #tbc‹],1790,1791
+(PART),whichIs,[Exposition: #t4‹],1823,1756
+(PART),whichIs,[Exposition: #t5‹],1826,1766
+(PART),whichIs,[Exposition: #t6‹],1829,1776
+(01.DESCR),whichIs,[Frissons: #1‹],2275,2276
+(01.DESCR),whichIs,[Signe Cardio-Vasculaire: € ‹],2287,2288
+(01.DESCR),whichIs,[Signe Général: € ‹],2292,2293
+(01.DESCR),whichIs,[Signe Neurologique: €‹],2297,2298
+(01.DESCR),whichIs,[Signe Ophtalmologique: €‹],2300,2301
+(01.DESCR),whichIs,[Signe Rhumatologique: €‹],2303,2304
+(01.DESCR),whichIs,[Syndrôme Fébrile: #1‹],2306,2307
+(01.DESCR),whichIs,[Syndrôme Gastro-Enteritique: #1‹],2309,2310
+(01.DESCR),whichIs,[Syndrôme Grippal: #1‹],2312,2313
+(01.DESCR),whichIs,[Syndrôme Infectieux: #1‹],2315,2316
+(a_début),whichIs,[Début: #db‹],2327,2328
+(a_début),whichIs,[Début: #db‹],2327,2328
+(DUR),whichIs,[Durée: #m - #tdb #‹],2342,2343
+(DUR),whichIs,[Durée: #m - #tdb #‹],2342,2343
+(DUR),whichIs,[Durée: #m - #tdb #‹],2342,2343
+(DUR),whichIs,[Durée: #m - #tdb #‹],2342,2343
+(DUR),whichIs,[Durée: #m - #tdb #‹],2342,2343
+(DUR),whichIs,[Durée: #m - #tdb #‹],2342,2343
+(DUR),whichIs,[Durée: #m - tdb #‹],2384,2385
+(07.a_moment_emission),whichIs,[Moment: #m‹],2417,2418
+(10.a_contenu),whichIs,[Assertion: #1‹],2420,110
+(01.DESCR),whichIs,[Conjonction: #1‹],114,115
+(ET),whichIs,[Assertion: #11‹],116,71
+(01.DESCR),whichIs,[Situation: #1‹],118,119
+(01.DESCR),whichIs,[Patient: #x‹],120,121
+(10.a_contenu),whichIs,[Assertion: #2‹],2431,175
+(10.a_contenu),whichIs,[Assertion: #3‹],2436,2437
+(----),whichIs,[Patient: #x‹],2443,121
+(10.a_contenu),whichIs,[Assertion: #6‹],2450,193
+(10.a_contenu),whichIs,[Assertion: #7‹],2455,204
+(10.a_contenu),whichIs,[Assertion: #8‹],2460,2461
+(10.a_contenu),whichIs,[Assertion: #9‹],2465,2466
+(10.a_contenu),whichIs,[Assertion: #9‹],2465,2466
+(DESCR),whichIs,[Exposition: #OH‹],2472,1638
+(01.DESCR),whichIs,[Personne: #x‹],2660,2661
+(02.est_patient_de),whichIs,[Processus Morbide: #1‹],2668,458
+(02.est_patient_de),whichIs,[Processus Morbide: #1‹],2668,458
+(02.est_patient_de),whichIs,[Processus Morbide: #1‹],2668,458
+(02.est_patient_de),whichIs,[Processus Morbide: #1‹],2668,458
+(02.est_patient_de),whichIs,[Processus Morbide: #1‹],2668,458
+(00.date_naissance),whichIs,[Naissance: #‹],2795,2796
+(01.a_age),whichIs,[Age: #‹],2800,2801
+(01.a_age),whichIs,[Age: #‹],2800,2801
+(01.DESCR),whichIs,[Nom: #‹],2810,2811
+(01.DESCR),whichIs,[Prénom: #‹],2815,2816
+(02.est_patient_de),whichIs,[Séjour: #‹],2829,2830
+(MEMBR-1),whichIs,[Union: #u‹],2861,2862
+(07.MNT),whichIs,[Moment: #s‹],3043,3044
+(PREC),whichIs,[Evènement: €n‹],3049,1621
+(DUR),whichIs,[Durée: t0-t99 #‹],3077,3078
+(SIGN),whichIs,[Manifestation: #1p‹],3152,2239
+(SIGN),whichIs,[Manifestation: #1p‹],3152,2239
+(SIGN),whichIs,[Manifestation: #1p‹],3152,2239
+(SIGN),whichIs,[Manifestation: #1p‹],3152,2239
+(01.DESCR),whichIs,[Syndrôme Dépressif: #1‹],3169,3170
+(SIGN),whichIs,[Manifestation: #1r‹],3172,2245
+(10.a_un_suivi),whichIs,[Suivi: #diab‹],3192,3193
+(01.PAT),whichIs,[Consultation: #c‹],3196,845
+(10.a_un_suivi),whichIs,[Suivi: #diab‹],3203,3193
+(01.PAT),whichIs,[Consultation: #o‹],3207,866
+(ELT),whichIs,[Douleur: #G0‹],3404,3405
+(LOC),whichIs,[Tout ou Partie de l'Abdomen: #1‹],3406,3407
+(ELT),whichIs,[Douleur: #G1‹],3409,1388
+(LOC),whichIs,[Tout ou Partie de l'Abdomen: #1‹],3411,3407
+(TYP),whichIs,[HTA: #1‹],3559,272

@@ -1,0 +1,692 @@
+head,relation,tail,head_id,tail_id
+[Antécédent personnel: #Kc‹],hasA,(05.CAUS),29,30
+[Assertion: #11‹],hasA,(00.Denotatum),71,72
+[Assertion: #121‹],hasA,(05.CAUS),74,75
+[Assertion: #122‹],hasA,(01.DESCR),76,77
+[Médecin: #tt2‹],hasA,(---¬),78,79
+[Assertion: #121‹],hasA,(05.CAUS),74,75
+[Assertion: #122‹],hasA,(01.DESCR),76,86
+[Assertion: #121‹],hasA,(05.CAUS),74,95
+[Assertion: #121‹],hasA,(05.CAUS),74,102
+[Assertion: #12‹],hasA,(00.Denotatum),104,105
+[Assertion: #13‹],hasA,(00.Denotatum),107,108
+[Assertion: #1‹],hasA,(00.Denotatum),110,111
+[Assertion: #1‹],hasA,(01.DESCR),110,114
+[Conjonction: #1‹],hasA,(ET),115,116
+[Assertion: #11‹],hasA,(01.DESCR),71,118
+[Situation: #1‹],hasA,(01.DESCR),119,120
+[Patient: #x‹],hasA,(02.est_patient_de),121,122
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,124
+[Prestation: #00‹],hasA,(00.de_type),127,128
+[Assertion: #1‹],hasA,(01.DESCR),110,114
+[Conjonction: #1‹],hasA,(ET),115,116
+[Assertion: #11‹],hasA,(01.DESCR),71,118
+[Situation: #1‹],hasA,(01.DESCR),119,120
+[Patient: #x‹],hasA,(02.est_patient_de),121,122
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,141
+[Prestation: #00‹],hasA,(00.de_type),127,145
+[Assertion: #1‹],hasA,(01.DESCR),110,114
+[Conjonction: #1‹],hasA,(ET),115,116
+[Assertion: #11‹],hasA,(01.DESCR),71,118
+[Situation: #1‹],hasA,(01.DESCR),119,120
+[Patient: #x‹],hasA,(02.est_patient_de),121,122
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,158
+[Situation: #2‹],hasA,(00.de_type),161,162
+[Assertion: #2‹],hasA,(01.DESCR),175,176
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,178
+[Prestation: #00‹],hasA,(07.MNT),127,182
+[Assertion: #5‹],hasA,(0.a_pour_valeur),187,188
+[Assertion: #5‹],hasA,(0.a_pour_valeur),187,191
+[Assertion: #6‹],hasA,(DQM),193,194
+[Assertion: #6‹],hasA,(DQM),193,197
+[Assertion: #6‹],hasA,(PART-1),193,200
+[Assertion: #7‹],hasA,(DESCR),204,205
+[Assertion: #7‹],hasA,(DESCR),204,214
+[Assertion: #7‹],hasA,(DESCR),204,223
+[Besoin de Santé: #1‹],hasA,(----),237,238
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,241
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,244
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,248
+[Problème de Santé: #1n‹],hasA,(occurrence),249,250
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,253
+[Prestation: #1n‹],hasA,(a_occurrence),256,257
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,260
+[Prestation: #1n‹],hasA,(a_occurrence),256,264
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,267
+[Suivi: #01‹],hasA,(PAT),268,269
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,274
+[Suivi: #02‹],hasA,(PAT),275,276
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,281
+[Suivi: #03‹],hasA,(PAT),282,283
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,288
+[Suivi: #04‹],hasA,(PAT),289,290
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,295
+[Suivi: #05‹],hasA,(PAT),296,297
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,302
+[Suivi: #06‹],hasA,(PAT),303,304
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,309
+[Suivi: #07‹],hasA,(PAT),310,311
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,316
+[Suivi: #08‹],hasA,(PAT),317,318
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,323
+[Suivi: #09‹],hasA,(PAT),324,325
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,330
+[Suivi: #10‹],hasA,(PAT),331,332
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,337
+[Suivi: #11‹],hasA,(PAT),338,339
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,344
+[Suivi: #12‹],hasA,(PAT),345,346
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,351
+[Suivi: #13‹],hasA,(PAT),352,353
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,360
+[Suivi: #14‹],hasA,(PAT),361,362
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,367
+[Suivi: #15‹],hasA,(PAT),368,369
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,374
+[Suivi: #16‹],hasA,(PAT),375,376
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,383
+[Suivi: #17‹],hasA,(PAT),384,385
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,392
+[Suivi: #19‹],hasA,(PAT),393,394
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,399
+[Suivi: #20‹],hasA,(PAT),400,401
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,406
+[Suivi: #21‹],hasA,(PAT),407,408
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,413
+[Suivi: #22‹],hasA,(PAT),414,415
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,420
+[Suivi: #23‹],hasA,(PAT),421,422
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,427
+[Suivi: #30‹],hasA,(PAT),428,429
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,434
+[Suivi: #52‹],hasA,(PAT),435,436
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,441
+[Suivi: #60‹],hasA,(PAT),442,443
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,448
+[Suivi: #99‹],hasA,(PAT),449,450
+[Besoin de Santé: #1‹],hasA,(05.CAUS),237,457
+[Processus Morbide: #1‹],hasA,(EVOL),458,459
+[Besoin de Santé: #1‹],hasA,(07.MNT),237,464
+[Certificat Médical: #1‹],hasA,(PAT),472,473
+[Certificat Médical: #1‹],hasA,(PAT),472,476
+[Sport: #10‹],hasA,(TYP),479,480
+[Certificat Médical: #1‹],hasA,(PAT),472,483
+[Sport: #11‹],hasA,(TYP),486,487
+[Certificat Médical: #1‹],hasA,(PAT),472,490
+[Sport: #12‹],hasA,(TYP),493,494
+[Certificat Médical: #1‹],hasA,(PAT),472,497
+[Sport: #13‹],hasA,(TYP),500,501
+[Certificat Médical: #1‹],hasA,(PAT),472,504
+[Sport: #14‹],hasA,(TYP),507,508
+[Certificat Médical: #1‹],hasA,(PAT),472,511
+[Sport: #15‹],hasA,(TYP),514,515
+[Certificat Médical: #1‹],hasA,(PAT),472,518
+[Sport: #16‹],hasA,(TYP),521,522
+[Certificat Médical: #1‹],hasA,(PAT),472,525
+[Sport: #17‹],hasA,(TYP),528,529
+[Certificat Médical: #1‹],hasA,(PAT),472,532
+[Sport: #18‹],hasA,(TYP),535,536
+[Certificat Médical: #1‹],hasA,(PAT),472,539
+[Sport: #19‹],hasA,(TYP),542,543
+[Certificat Médical: #1‹],hasA,(PAT),472,546
+[Sport: #1‹],hasA,(TYP),549,550
+[Certificat Médical: #1‹],hasA,(PAT),472,553
+[Sport: #20‹],hasA,(TYP),556,557
+[Certificat Médical: #1‹],hasA,(PAT),472,560
+[Sport: #21‹],hasA,(TYP),563,564
+[Certificat Médical: #1‹],hasA,(PAT),472,567
+[Sport: #22‹],hasA,(TYP),570,571
+[Certificat Médical: #1‹],hasA,(PAT),472,574
+[Sport: #23‹],hasA,(TYP),577,578
+[Certificat Médical: #1‹],hasA,(PAT),472,581
+[Sport: #24‹],hasA,(TYP),584,585
+[Certificat Médical: #1‹],hasA,(PAT),472,588
+[Sport: #25‹],hasA,(TYP),591,592
+[Certificat Médical: #1‹],hasA,(PAT),472,595
+[Sport: #2‹],hasA,(TYP),598,599
+[Certificat Médical: #1‹],hasA,(PAT),472,602
+[Sport: #3‹],hasA,(TYP),605,606
+[Certificat Médical: #1‹],hasA,(PAT),472,609
+[Sport: #4‹],hasA,(TYP),612,613
+[Certificat Médical: #1‹],hasA,(PAT),472,616
+[Sport: #5‹],hasA,(TYP),619,620
+[Certificat Médical: #1‹],hasA,(PAT),472,623
+[Sport: #6‹],hasA,(TYP),626,627
+[Certificat Médical: #1‹],hasA,(PAT),472,630
+[Sport: #7‹],hasA,(TYP),633,634
+[Certificat Médical: #1‹],hasA,(PAT),472,637
+[Sport: #8‹],hasA,(TYP),640,641
+[Certificat Médical: #1‹],hasA,(PAT),472,644
+[Sport: #9‹],hasA,(TYP),647,648
+[Certificat Médical: #1‹],hasA,(PAT),472,651
+[Check-up: #‹],hasA,(05.CAUS),655,656
+[Check-up: #‹],hasA,(05.CAUS),655,659
+[Check-up: #‹],hasA,(05.CAUS),655,662
+[Check-up: #‹],hasA,(05.CAUS),655,669
+[Check-up: #‹],hasA,(05.CAUS),655,676
+[Check-up: #‹],hasA,(05.CAUS),655,681
+[Check-up: #‹],hasA,(05.CAUS),655,686
+[Check-up: #‹],hasA,(05.CAUS),655,691
+[Check-up: #‹],hasA,(05.CAUS),655,696
+[Check-up: #‹],hasA,(05.CAUS),655,701
+[Check-up: #‹],hasA,(05.CAUS),655,706
+[Check-up: #‹],hasA,(05.CAUS),655,711
+[Check-up: #‹],hasA,(05.CAUS),655,716
+[Check-up: #‹],hasA,(05.CAUS),655,721
+[Check-up: #‹],hasA,(05.CAUS),655,726
+[Check-up: #‹],hasA,(05.CAUS),655,731
+[Check-up: #‹],hasA,(05.CAUS),655,736
+[Check-up: #‹],hasA,(05.CAUS),655,741
+[Check-up: #‹],hasA,(05.CAUS),655,746
+[Check-up: #‹],hasA,(05.CAUS),655,751
+[Check-up: #‹],hasA,(05.CAUS),655,756
+[Check-up: #‹],hasA,(05.CAUS),655,761
+[Check-up: #‹],hasA,(05.CAUS),655,766
+[Check-up: #‹],hasA,(05.CAUS),655,771
+[Check-up: #‹],hasA,(05.CAUS),655,778
+[Check-up: #‹],hasA,(05.CAUS),655,783
+[Check-up: #‹],hasA,(05.CAUS),655,788
+[Check-up: #‹],hasA,(précédent),655,793
+[Communication: #1‹],hasA,(10.a_contenu),824,825
+[Conjonction: #1‹],hasA,(ET),115,837
+[Assertion: #13‹],hasA,(01.DESCR),107,839
+[Patient: #x3‹],hasA,(01.PAT),840,841
+[Limitation: #2‹],hasA,(01.PAT),842,843
+[Consultation: #c‹],hasA,(OCCUR),845,846
+[Temps écoulé: #c‹],hasA,(0.a_pour_valeur),849,850
+[Consultation: #c‹],hasA,(OCCUR),845,853
+[Temps écoulé: #c‹],hasA,(depuis),849,857
+[Consultation: #c‹],hasA,(OCCUR),845,860
+[Temps écoulé: #c‹],hasA,(par rapport à),849,864
+[Consultation: #o‹],hasA,(OCCUR),866,867
+[Temps écoulé: #o‹],hasA,(0.a_pour_valeur),870,871
+[Consultation: #o‹],hasA,(OCCUR),866,874
+[Temps écoulé: #o‹],hasA,(depuis),870,878
+[Consultation: #o‹],hasA,(OCCUR),866,881
+[Temps écoulé: #o‹],hasA,(par rapport à),870,885
+[Contexte Pysiologique: #1‹],hasA,(07.MNT),893,894
+[Demande: #d‹],hasA,(02.AGT),123,903
+[Demande: #d‹],hasA,(02.AGT),123,908
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,913
+[Prestation: #00‹],hasA,(00.de_type),127,917
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,920
+[Prestation: #00‹],hasA,(00.de_type),127,924
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,927
+[Prestation: #00‹],hasA,(00.de_type),127,931
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,934
+[Prestation: #00‹],hasA,(00.de_type),127,938
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,941
+[Prestation: #00‹],hasA,(04.BENEF),127,945
+[Demande: #d‹],hasA,(05.a_pour_réponse),123,948
+[Situation: #2‹],hasA,(00.de_type),161,952
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,957
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,962
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,967
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,972
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,977
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,982
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,987
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,994
+[Conduite à tenir: #1‹],hasA,(05.CAUS),995,996
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,994
+[Conduite à tenir: #1‹],hasA,(05.CAUS),995,1007
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,994
+[Conduite à tenir: #1‹],hasA,(05.CAUS),995,1016
+[Résultat: #1‹],hasA,(RESUL-1),1017,1018
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,994
+[Conduite à tenir: #1‹],hasA,(05.CAUS),995,1016
+[Résultat: #1‹],hasA,(RESUL-1),1017,1029
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,994
+[Conduite à tenir: #1‹],hasA,(05.CAUS),995,1040
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1049
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1054
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1059
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1066
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1071
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1078
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1089
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1094
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1099
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1104
+[Prévention: #1‹],hasA,(MOY),1107,1108
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1113
+[Prévention: #2‹],hasA,(METH),1116,1117
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1124
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1129
+[Prescription: #1‹],hasA,(PAT),1130,1131
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1138
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1147
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1152
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,248
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1164
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1175
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1180
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1185
+[Demande: #d‹],hasA,(05.CAUS),123,955
+[Besoin de Santé: #1‹],hasA,(01.DESCR),237,1190
+[Demande: #d‹],hasA,(a_pour_objet),123,1195
+[Demande: #d‹],hasA,(cumul),123,1204
+[Demande: #d‹],hasA,(cumul),123,1209
+[Demande: #d‹],hasA,(cumul),123,1214
+[Demande: #d‹],hasA,(cumul),123,1219
+[Demande: #d‹],hasA,(cumul),123,1224
+[Demande: #d‹],hasA,(cumul),123,1229
+[Demande: #d‹],hasA,(cumul),123,1234
+[Demande: #d‹],hasA,(cumul),123,1239
+[Demande: #d‹],hasA,(cumul),123,1244
+[Demande: #d‹],hasA,(cumul),123,1249
+[Demande: #d‹],hasA,(cumul),123,1254
+[Demande: #d‹],hasA,(cumul),123,1259
+[Demande: #d‹],hasA,(cumul),123,1264
+[Demande: #d‹],hasA,(cumul),123,1269
+[Demande: #d‹],hasA,(cumul),123,1274
+[Demande: #d‹],hasA,(cumul),123,1279
+[Demande: #d‹],hasA,(cumul),123,1284
+[Demande: #d‹],hasA,(cumul),123,1289
+[Demande: #d‹],hasA,(cumul),123,1294
+[Demande: #d‹],hasA,(cumul),123,1299
+[Demande: #d‹],hasA,(cumul),123,1304
+[Demande: #d‹],hasA,(cumul),123,1309
+[Demande: #d‹],hasA,(cumul),123,1314
+[Demande: #d‹],hasA,(cumul),123,1319
+[Demande: #d‹],hasA,(cumul),123,1324
+[Demande: #d‹],hasA,(cumul),123,1329
+[Demande: #d‹],hasA,(cumul),123,1334
+[Demande: #d‹],hasA,(cumul),123,1339
+[Demande: #d‹],hasA,(cumul),123,1344
+[Demande: #d‹],hasA,(cumul),123,1349
+[Demande: #d‹],hasA,(cumul),123,1354
+[Dernier Dosage: #1‹],hasA,(TMP),1358,1359
+[Dernier Dosage: #2‹],hasA,(TMP),1363,1364
+[Dernier Dosage: #3‹],hasA,(TMP),1368,1369
+[Dernier Dosage: #4‹],hasA,(TMP),1373,1374
+[Douleur: #CPH1‹],hasA,(INT),1383,1384
+[Douleur: #G1‹],hasA,(INT),1388,1389
+[Douleur: #G1‹],hasA,(LOC),1388,1394
+[Décision: #1‹],hasA,(05.CAUS),1398,1399
+[Décision: #1‹],hasA,(OUTPUT),1398,1404
+[Ecoulement: #1‹],hasA,(1.a_constituant),1504,1505
+[Ecoulement: #1‹],hasA,(1.a_constituant),1504,1508
+[Ecoulement: ¬€‹],hasA,(1.a_constituant),1510,1511
+[Evènement de santé: #01‹],hasA,(01.DESCR),1618,1619
+[Evènement: €n‹],hasA,(----),1621,1622
+[Expertise Médicale: #as‹],hasA,(01.PAT),1624,1625
+[Expertise Médicale: #pc‹],hasA,(01.PAT),1627,1628
+[Expertise Médicale: #pc‹],hasA,(05.CAUS),1627,1631
+[Exposition: #OH‹],hasA,(PAT-1),1638,1639
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1644
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1651
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1658
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1665
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1672
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1679
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1686
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1693
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1700
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1707
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1714
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1721
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1728
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1735
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1742
+[Exposition: #OH‹],hasA,(QUANT),1638,1642
+[Test de FACE: #F‹],hasA,(ITEM),1643,1749
+[Exposition: #PHYS‹],hasA,(PAT-1),1753,1754
+[Exposition: #t4‹],hasA,(DUR),1756,1757
+[Exposition: #t4‹],hasA,(QUANT),1756,1762
+[Exposition: #t5‹],hasA,(DUR),1766,1767
+[Exposition: #t5‹],hasA,(QUANT),1766,1772
+[Exposition: #t6‹],hasA,(DUR),1776,1777
+[Exposition: #t6‹],hasA,(QUANT),1776,1782
+[Exposition: #tbc‹],hasA,(a_un),1789,1790
+[Déroulement: #tbc‹],hasA,(a_un),1791,1792
+[Exposition: #tbc‹],hasA,(a_un),1789,1790
+[Déroulement: #tbc‹],hasA,(a_un),1791,1799
+[Exposition: #tbc‹],hasA,(a_un),1789,1790
+[Déroulement: #tbc‹],hasA,(a_un),1791,1806
+[Exposition: #TBC‹],hasA,(PAT-1),1810,1811
+[Exposition: #tbc‹],hasA,(val_qual),1789,1814
+[Exposition: #tbc‹],hasA,(val_qual),1789,1817
+[Exposition: #tbc‹],hasA,(val_qual),1789,1820
+[Exposition: #tc4‹],hasA,(PART),1822,1823
+[Exposition: #tc5‹],hasA,(PART),1825,1826
+[Exposition: #tc6‹],hasA,(PART),1828,1829
+[HTA: #1‹],hasA,(a_début),272,1919
+[Limitation: #1‹],hasA,(05.CAUS),2183,2184
+[Limitation: #1‹],hasA,(05.CAUS),2183,2187
+[Limitation: #2‹],hasA,(05.CAUS),842,2196
+[Manifestation: #1c‹],hasA,(06.CSQCE),2231,2232
+[Manifestation: #1musc‹],hasA,(ELT),2236,2237
+[Manifestation: #1p‹],hasA,(01.DESCR),2239,2240
+[Manifestation: #1p‹],hasA,(01.DESCR),2239,2243
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2246
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2249
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2252
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2257
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2260
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2263
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2266
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2269
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2272
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2275
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2278
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2281
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2284
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2287
+[Signe Cardio-Vasculaire: € ‹],hasA,(ELT),2288,2289
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2292
+[Signe Général: € ‹],hasA,(ELT),2293,2294
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2297
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2300
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2303
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2306
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2309
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2312
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2315
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2318
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2321
+[Manifestation: #1r‹],hasA,(01.DESCR),2245,2324
+[Manifestation: #1r‹],hasA,(a_début),2245,2327
+[Début: #db‹],hasA,(VAL.QUAL),2328,2329
+[Manifestation: #1r‹],hasA,(a_début),2245,2327
+[Début: #db‹],hasA,(VAL.QUAL),2328,2334
+[Manifestation: #1r‹],hasA,(a_fin),2245,2337
+[Manifestation: #1r‹],hasA,(DUR),2245,2342
+[Durée: #m - #tdb #‹],hasA,(≤),2343,2344
+[Manifestation: #1r‹],hasA,(DUR),2245,2342
+[Durée: #m - #tdb #‹],hasA,(≤),2343,2351
+[Manifestation: #1r‹],hasA,(DUR),2245,2342
+[Durée: #m - #tdb #‹],hasA,(≤),2343,2358
+[Manifestation: #1r‹],hasA,(DUR),2245,2342
+[Durée: #m - #tdb #‹],hasA,(≤),2343,2365
+[Manifestation: #1r‹],hasA,(DUR),2245,2342
+[Durée: #m - #tdb #‹],hasA,(≥),2343,2372
+[Manifestation: #1r‹],hasA,(DUR),2245,2342
+[Durée: #m - #tdb #‹],hasA,(≥),2343,2379
+[Manifestation: #1r‹],hasA,(DUR),2245,2384
+[Durée: #m - tdb #‹],hasA,(>),2385,2386
+[Manifestation: #1r‹],hasA,(TYP),2245,2391
+[Message: #‹],hasA,(01.a_canal),2396,2397
+[Message: #‹],hasA,(02.a_locuteur),2396,2400
+[Message: #‹],hasA,(03.a_propositus),2396,2403
+[Message: #‹],hasA,(04.a_destinataire),2396,2410
+[Message: #‹],hasA,(07.a_moment_emission),2396,2417
+[Message: #‹],hasA,(10.a_contenu),2396,2420
+[Assertion: #1‹],hasA,(01.DESCR),110,114
+[Conjonction: #1‹],hasA,(ET),115,116
+[Assertion: #11‹],hasA,(01.DESCR),71,118
+[Situation: #1‹],hasA,(01.DESCR),119,120
+[Message: #‹],hasA,(10.a_contenu),2396,2431
+[Assertion: #2‹],hasA,(00.Denotatum),175,2433
+[Message: #‹],hasA,(10.a_contenu),2396,2436
+[Assertion: #3‹],hasA,(00.Denotatum),2437,2438
+[Message: #‹],hasA,(10.a_contenu),2396,2441
+[Patient: #x‹],hasA,(est_objet),121,2445
+[Message: #‹],hasA,(10.a_contenu),2396,2450
+[Assertion: #6‹],hasA,(00.Denotatum),193,2452
+[Message: #‹],hasA,(10.a_contenu),2396,2455
+[Assertion: #7‹],hasA,(00.Denotatum),204,2457
+[Message: #‹],hasA,(10.a_contenu),2396,2460
+[Assertion: #8‹],hasA,(00.Denotatum),2461,2462
+[Message: #‹],hasA,(10.a_contenu),2396,2465
+[Assertion: #9‹],hasA,(00.Denotatum),2466,2467
+[Message: #‹],hasA,(10.a_contenu),2396,2465
+[Assertion: #9‹],hasA,(DESCR),2466,2472
+[Exposition: #OH‹],hasA,(facteur de risque),1638,2474
+[Moment: #t0‹],hasA,(a_date),183,2498
+[Moment: #t0‹],hasA,(a_heure),183,2503
+[Médecin: #tt2‹],hasA,(rôle),78,2592
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2597
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2600
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2603
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2606
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2609
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2612
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2615
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2618
+[Partie de l'Abdomen: #1‹],hasA,(DESCR),2596,2621
+[Patient: #x3‹],hasA,(a_un),840,2624
+[Patient: #x‹],hasA,(----),121,2627
+[Patient: #x‹],hasA,(---¬),121,2634
+[Patient: #x‹],hasA,(---¬),121,2641
+[Patient: #x‹],hasA,(---¬),121,2646
+[Patient: #x‹],hasA,(-?-),121,2653
+[Patient: #x‹],hasA,(01.DESCR),121,2660
+[Patient: #x‹],hasA,(02.est_patient_de),121,2663
+[Patient: #x‹],hasA,(02.est_patient_de),121,2668
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,2670
+[Patient: #x‹],hasA,(02.est_patient_de),121,2668
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,2675
+[Patient: #x‹],hasA,(02.est_patient_de),121,2668
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,2682
+[Patient: #x‹],hasA,(02.est_patient_de),121,2668
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,2689
+[Patient: #x‹],hasA,(02.est_patient_de),121,2668
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,2696
+[Patient: #x‹],hasA,(a_température),121,2701
+[Patient: #x‹],hasA,(PAT-1),121,2704
+[Patient: #x‹],hasA,(PAT-1),121,2711
+[Patient: #x‹],hasA,(PAT-1),121,2720
+[Patient: #x‹],hasA,(PAT-1),121,2727
+[Patient: #x‹],hasA,(PAT-1),121,2734
+[Personne: #x‹],hasA,(---¬),2661,2776
+[Personne: #x‹],hasA,(00.a_nom),2661,2783
+[Personne: #x‹],hasA,(00.a_nom),2661,2786
+[Personne: #x‹],hasA,(00.a_nom),2661,2789
+[Personne: #x‹],hasA,(00.a_nom),2661,2792
+[Personne: #x‹],hasA,(00.date_naissance),2661,2795
+[Naissance: #‹],hasA,(0.a_pour_valeur),2796,2797
+[Personne: #x‹],hasA,(01.a_age),2661,2800
+[Age: #‹],hasA,(1.classé en),2801,2802
+[Personne: #x‹],hasA,(01.a_age),2661,2800
+[Age: #‹],hasA,(1.classé en),2801,2807
+[Personne: #x‹],hasA,(01.DESCR),2661,2810
+[Nom: #‹],hasA,(0.a_pour_valeur),2811,2812
+[Personne: #x‹],hasA,(01.DESCR),2661,2815
+[Prénom: #‹],hasA,(0.a_pour_valeur),2816,2817
+[Personne: #x‹],hasA,(01.PAT),2661,2820
+[Personne: #x‹],hasA,(02.a_genre),2661,2823
+[Personne: #x‹],hasA,(02.a_genre),2661,2826
+[Personne: #x‹],hasA,(02.est_patient_de),2661,2829
+[Séjour: #‹],hasA,(LOC),2830,2831
+[Personne: #x‹],hasA,(03.a_poids),2661,2836
+[Personne: #x‹],hasA,(03.a_poids),2661,2841
+[Personne: #x‹],hasA,(03.a_poids),2661,2846
+[Personne: #x‹],hasA,(04.a_taille),2661,2851
+[Personne: #x‹],hasA,(a_une),2661,2856
+[Personne: #x‹],hasA,(MEMBR-1),2661,2861
+[Union: #u‹],hasA,(MEMBR),2862,2863
+[Prescription: #1‹],hasA,(CARD),1130,3001
+[Prescription: #1‹],hasA,(CARD),1130,3006
+[Prescription: #1‹],hasA,(CARD),1130,3011
+[Prescription: #1‹],hasA,(CARD),1130,3016
+[Prescription: #1‹],hasA,(CARD),1130,3021
+[Prescription: #1‹],hasA,(CARD),1130,3026
+[Prescription: #1‹],hasA,(CARD),1130,3031
+[Prestation: #00‹],hasA,(00.de_type),127,3036
+[Prestation: #00‹],hasA,(00.TYP),127,3041
+[Prestation: #00‹],hasA,(02.AGT),127,3046
+[Prestation: #00‹],hasA,(PREC),127,3049
+[Evènement: €n‹],hasA,(PREC),1621,3051
+[Prestation: #99n‹],hasA,(02.AGT),3053,3054
+[Prestation: #99‹],hasA,(a_occurrence),3056,3057
+[Prestation: #99‹],hasA,(a_occurrence),3056,3060
+[Prestation: #99‹],hasA,(a_occurrence),3056,3063
+[Prestation: #99‹],hasA,(a_profil),3056,3066
+[Prestation: #99‹],hasA,(a_profil),3056,3069
+[Prestation: #99‹],hasA,(a_profil),3056,3072
+[Prestation: #99‹],hasA,(ANC),3056,3075
+[Durée: t0-t99 #‹],hasA,(≤),3078,3079
+[Problème de Santé: #1n‹],hasA,(SIGN),249,3152
+[Manifestation: #1p‹],hasA,(00.TYP),2239,3154
+[Problème de Santé: #1n‹],hasA,(SIGN),249,3152
+[Manifestation: #1p‹],hasA,(00.TYP),2239,3159
+[Problème de Santé: #1n‹],hasA,(SIGN),249,3152
+[Manifestation: #1p‹],hasA,(00.TYP),2239,3164
+[Problème de Santé: #1n‹],hasA,(SIGN),249,3152
+[Manifestation: #1p‹],hasA,(01.DESCR),2239,3169
+[Problème de Santé: #1n‹],hasA,(SIGN),249,3172
+[Manifestation: #1r‹],hasA,(00.TYP),2245,3174
+[Processus Morbide: #1‹],hasA,(00.TYP),458,3180
+[Processus Morbide: #1‹],hasA,(00.TYP),458,3185
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,3190
+[Suivi: #diab‹],hasA,(01.DESCR),3193,3194
+[Consultation: #c‹],hasA,(02.AGT),845,3198
+[Processus Morbide: #1‹],hasA,(01.DESCR),458,3201
+[Suivi: #diab‹],hasA,(01.DESCR),3193,3205
+[Consultation: #o‹],hasA,(02.AGT),866,3209
+[Prévention: #00‹],hasA,(METH),3255,3256
+[Prévention: #03‹],hasA,(METH),3262,3263
+[Prévention: #03‹],hasA,(METH),3262,3270
+[Prévention: #06‹],hasA,(METH),3276,3277
+[Prévention: #12‹],hasA,(METH),3283,3284
+[Prévention: #13‹],hasA,(METH),3290,3291
+[Radiographie: #1‹],hasA,(Cible),3297,3298
+[Radiographie: #2‹],hasA,(Cible),3302,3303
+[Radiographie: #3‹],hasA,(Cible),3307,3308
+[Radiographie: #4‹],hasA,(Cible),3312,3313
+[Radiographie: #5‹],hasA,(Cible),3317,3318
+[Radiographie: #6‹],hasA,(Cible),3322,3323
+[Résultat: #1‹],hasA,(CARD),1017,3334
+[Résultat: #1‹],hasA,(CARD),1017,3339
+[Résultat: #1‹],hasA,(CARD),1017,3344
+[Résultat: #1‹],hasA,(CARD),1017,3349
+[Résultat: #1‹],hasA,(CARD),1017,3354
+[Résultat: #1‹],hasA,(CARD),1017,3359
+[Résultat: #1‹],hasA,(CARD),1017,3364
+[Résultat: #1‹],hasA,(CARD),1017,3369
+[Signe Cutané: €‹],hasA,(ELT),3382,3383
+[Signe Digestif: €‹],hasA,(0.a_pour_valeur),3385,3386
+[Signe Digestif: €‹],hasA,(ELT),3385,3389
+[Signe Digestif: €‹],hasA,(ELT),3385,3392
+[Signe Digestif: €‹],hasA,(ELT),3385,3395
+[Signe Digestif: €‹],hasA,(ELT),3385,3398
+[Signe Digestif: €‹],hasA,(ELT),3385,3401
+[Signe Digestif: €‹],hasA,(ELT),3385,3404
+[Douleur: #G0‹],hasA,(LOC),3405,3406
+[Signe Digestif: €‹],hasA,(ELT),3385,3409
+[Douleur: #G1‹],hasA,(LOC),1388,3411
+[Signe Digestif: €‹],hasA,(ELT),3385,3414
+[Signe Digestif: €‹],hasA,(ELT),3385,3419
+[Signe Digestif: €‹],hasA,(ELT),3385,3422
+[Signe Digestif: €‹],hasA,(ELT),3385,3425
+[Signe Digestif: €‹],hasA,(ELT),3385,3430
+[Signe Digestif: €‹],hasA,(ELT),3385,3433
+[Signe Digestif: €‹],hasA,(ELT),3385,3436
+[Signe Digestif: €‹],hasA,(ELT),3385,3441
+[Signe Digestif: €‹],hasA,(ELT),3385,3444
+[Signe Digestif: €‹],hasA,(ELT),3385,3447
+[Signe Digestif: €‹],hasA,(ELT),3385,3450
+[Signe Génito-Urinaire: €‹],hasA,(0.a_pour_valeur),3452,3453
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3456
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3459
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3462
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3467
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3472
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3477
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3480
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3485
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3488
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3491
+[Signe Génito-Urinaire: €‹],hasA,(ELT),3452,3494
+[Signe ORL: €‹],hasA,(ELT),3496,3497
+[Signe ORL: €‹],hasA,(ELT),3496,3502
+[Signe ORL: €‹],hasA,(ELT),3496,3507
+[Situation: #1‹],hasA,(00.a_lieu),119,3512
+[Situation: #1‹],hasA,(00.a_lieu),119,3515
+[Situation: #e‹],hasA,(01.DESCR),3519,3520
+[Situation: #e‹],hasA,(01.DESCR),3519,3527
+[Situation: #e‹],hasA,(05.CAUS),3519,3534
+[Situation: #e‹],hasA,(DUR),3519,3537
+[Sommeil: #1‹],hasA,(moment),3539,3540
+[Sport: #26‹],hasA,(TYP),3551,3552
+[Suivi: #01‹],hasA,(PAT),268,3557
+[Suivi: #02‹],hasA,(PAT),275,3562
+[Suivi: #03‹],hasA,(PAT),282,3567
+[Suivi: #04‹],hasA,(PAT),289,3572
+[Suivi: #05‹],hasA,(PAT),296,3577
+[Suivi: #06‹],hasA,(PAT),303,3582
+[Suivi: #07‹],hasA,(PAT),310,3587
+[Suivi: #08‹],hasA,(PAT),317,3592
+[Suivi: #09‹],hasA,(PAT),324,3597
+[Suivi: #10‹],hasA,(PAT),331,3602
+[Suivi: #11‹],hasA,(PAT),338,3607
+[Suivi: #12‹],hasA,(PAT),345,3612
+[Suivi: #13‹],hasA,(PAT),352,3617
+[Suivi: #14‹],hasA,(PAT),361,3624
+[Suivi: #15‹],hasA,(PAT),368,3629
+[Suivi: #16‹],hasA,(PAT),375,3634
+[Suivi: #17‹],hasA,(PAT),384,3641
+[Suivi: #18‹],hasA,(PAT),3647,3648
+[Suivi: #19‹],hasA,(PAT),393,3653
+[Suivi: #20‹],hasA,(PAT),400,3658
+[Suivi: #21‹],hasA,(PAT),407,3663
+[Suivi: #22‹],hasA,(PAT),414,3668
+[Suivi: #23‹],hasA,(PAT),421,3673
+[Suivi: #30‹],hasA,(PAT),428,3678
+[Suivi: #52‹],hasA,(PAT),435,3683
+[Suivi: #60‹],hasA,(PAT),442,3688
+[Suivi: #99‹],hasA,(PAT),449,3693
+[Surveillance: #1‹],hasA,(AGT),3699,3700
+[Surveillance: #1‹],hasA,(RESULT),3699,3703
+[Surveillance: #1‹],hasA,(RESULT),3699,3708
+[Syndrôme Dépressif: #1‹],hasA,(ELT),3170,3713
+[Syndrôme Fébrile: #1‹],hasA,(fin),2307,3716
+[Syndrôme Fébrile: #1‹],hasA,(fin),2307,3721
+[Syndrôme Fébrile: #1‹],hasA,(PAT-1),2307,3726
+[Syndrôme Fébrile: #1‹],hasA,(SIGN),2307,3731
+[Séjour: #‹],hasA,(DATE),2830,3734
+[Traitement: #tt1‹],hasA,(----),3765,3766
+[Traitement: #tt1‹],hasA,(---¬),3765,3773
+[Traitement: #tt1‹],hasA,(PAT),3765,3780
+[Traitement: #tt‹],hasA,(DUR),3782,3783
+[Union: #u‹],hasA,(FIN),2862,3792
+[Union: #u‹],hasA,(FIN),2862,3795

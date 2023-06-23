@@ -1,0 +1,1274 @@
+head,relation,tail,head_id,tail_id
+(PART-1),whichIs,[Dossier Médical],1,2
+(PART-1),whichIs,[Dossier Médical],4,5
+(Objet),whichIs,[Document],7,8
+(05.CAUS),whichIs,[Médicament: #1],10,11
+(0.a_pour_valeur),whichIs,[Valeur: #?],12,13
+(05.CAUS),whichIs,[Médicament: #2],15,16
+(0.a_pour_valeur),whichIs,[Valeur: #?],17,18
+(05.CAUS),whichIs,[Médicament: #3],20,21
+(0.a_pour_valeur),whichIs,[Valeur: #?],22,23
+(05.CAUS),whichIs,[Médicament],25,26
+(0.a_pour_valeur),whichIs,[Valeur: #?],27,28
+(05.CAUS),whichIs,[Hospitalisation],30,31
+(LOC),whichIs,[Service],32,33
+(a_spécialité),whichIs,[Cancerologie],34,35
+(01.DESCR),whichIs,[Consultation],37,38
+(AGT),whichIs,[Médecin],39,40
+(a_spécialité),whichIs,[Spécialité],41,42
+(01.DESCR),whichIs,[Patient],44,45
+(01.PAT),whichIs,[Evènement],46,47
+(00.TYP),whichIs,[Type],48,49
+(0.a_pour_valeur),whichIs,[Valeur: #?],50,51
+(01.DESCR),whichIs,[Patient],53,54
+(01.PAT),whichIs,[Hospitalisation],55,56
+(01.DESCR),whichIs,[Patient],58,59
+(01.PAT),whichIs,[Procédure],60,61
+(00.TYP),whichIs,[Biologie],62,63
+(01.DESCR),whichIs,[Patient],65,66
+(01.PAT),whichIs,[Procédure],67,68
+(00.TYP),whichIs,[Imagerie médicale],69,70
+(00.Denotatum),whichIs,[>PATIENT<],72,73
+(---¬),whichIs,[Médecin: €],79,80
+(a_une),whichIs,[Disponibilité],81,82
+(01.DESCR),whichIs,[Personne: #x30],86,87
+(---¬),whichIs,[Personne: €],88,89
+(REL-1),whichIs,[Médecin Traitant: €],90,91
+(rôle-1),whichIs,[Médecin: €],92,93
+(05.CAUS),whichIs,[Assertion: #32],95,96
+(01.DESCR),whichIs,[Personne: #x4],97,98
+(AGT),whichIs,[Déplacement],99,100
+(05.CAUS),whichIs,[Autre],102,103
+(00.Denotatum),whichIs,[>MEDECIN<],105,106
+(00.Denotatum),whichIs,[>AUTONOMIE<],108,109
+(00.Denotatum),whichIs,[CONTEXTE],111,112
+(05.a_pour_réponse),whichIs,[Réponse attendue],124,125
+(00.de_type),whichIs,[Consultation],128,129
+(05.a_pour_réponse),whichIs,[Réponse attendue],141,142
+(00.de_type),whichIs,[Renseignement],145,146
+(05.a_pour_réponse),whichIs,[Réponse attendue],158,159
+(00.de_type),whichIs,[Rendez-Vous],162,163
+(----),whichIs,[Traitement],165,166
+(a_cause),whichIs,[Prescription],167,168
+(0.a_pour_valeur),whichIs,[FAUX],170,171
+(0.a_pour_valeur),whichIs,[VRAI],173,174
+(05.a_pour_réponse),whichIs,[Réponse attendue],178,179
+(0.a_pour_valeur),whichIs,[FAUX],185,186
+(0.a_pour_valeur),whichIs,[Faux],188,189
+(0.a_pour_valeur),whichIs,[Vrai],191,192
+(DQM),whichIs,[Renseignement: ¬€],194,195
+(DQM),whichIs,[Renseignement: €],197,198
+(PART-1),whichIs,[Dossier Médical],200,201
+(POSS),whichIs,[Médecin: #z],202,203
+(DESCR),whichIs,[Personne: #x],205,206
+(01.PAT),whichIs,[Fausse-Couche],207,208
+(CARD),whichIs,[Nombre],209,210
+(0.a_pour_valeur),whichIs,[Valeur: #?],211,212
+(DESCR),whichIs,[Personne: #x],214,215
+(01.PAT),whichIs,[IVG],216,217
+(CARD),whichIs,[Nombre],218,219
+(0.a_pour_valeur),whichIs,[Valeur: #?],220,221
+(DESCR),whichIs,[Personne: #x],223,224
+(AGT),whichIs,[Accouchement],225,226
+(CARD),whichIs,[Nombre],227,228
+(0.a_pour_valeur),whichIs,[Valeur: #?],229,230
+(0.a_pour_valeur),whichIs,[Valeur: #?],232,233
+(0.a_pour_valeur),whichIs,[Valeur: #?],235,236
+(01.DESCR),whichIs,[Besoin de Santé perçu],241,242
+(01.DESCR),whichIs,[Problème de Santé],244,245
+(occurrence),whichIs,[Occurrence: N>1],250,251
+(01.DESCR),whichIs,[Problème de Santé],253,254
+(a_occurrence),whichIs,[Occurrence: N=0],257,258
+(01.DESCR),whichIs,[Problème de Santé],260,261
+(a_occurrence),whichIs,[Occurrence: N≥1],264,265
+(PAT),whichIs,[Processus Pathologique Chronique],269,270
+(PAT),whichIs,[Processus Pathologique Chronique],276,277
+(TYP),whichIs,[Hyperlipidémie],278,279
+(PAT),whichIs,[Processus Pathologique Chronique],283,284
+(TYP),whichIs,[Insomnie],285,286
+(PAT),whichIs,[Processus Pathologique Chronique],290,291
+(TYP),whichIs,[Surcharge Pondérale],292,293
+(PAT),whichIs,[Processus Pathologique Chronique],297,298
+(TYP),whichIs,[Diabète],299,300
+(PAT),whichIs,[Processus Pathologique Chronique],304,305
+(TYP),whichIs,[Dépression],306,307
+(PAT),whichIs,[Processus Pathologique Chronique],311,312
+(TYP),whichIs,[Maladie Coronarienne],313,314
+(PAT),whichIs,[Processus Pathologique Chronique],318,319
+(TYP),whichIs,[Constipation],320,321
+(PAT),whichIs,[Processus Pathologique Chronique],325,326
+(TYP),whichIs,[Ménopause],327,328
+(PAT),whichIs,[Processus Pathologique Chronique],332,333
+(TYP),whichIs,[Colite],334,335
+(PAT),whichIs,[Processus Pathologique Chronique],339,340
+(TYP),whichIs,[Arthrose],341,342
+(PAT),whichIs,[Processus Pathologique Chronique],346,347
+(TYP),whichIs,[Asthme],348,349
+(PAT),whichIs,[Processus Pathologique Chronique],353,354
+(TYP),whichIs,[Varice],355,356
+(LOC),whichIs,[Membre Inférieur],357,358
+(PAT),whichIs,[Processus Pathologique Chronique],362,363
+(TYP),whichIs,[Lourdeurs de jambe],364,365
+(PAT),whichIs,[Processus Pathologique Chronique],369,370
+(TYP),whichIs,[Hypothyroïdie],371,372
+(PAT),whichIs,[Processus Pathologique Chronique],376,377
+(TYP),whichIs,[Addiction],378,379
+(AGT),whichIs,[Alcool],380,381
+(PAT),whichIs,[Processus Pathologique Chronique],385,386
+(TYP),whichIs,[Addiction],387,388
+(AGT),whichIs,[Tabac],389,390
+(PAT),whichIs,[Processus Pathologique Chronique],394,395
+(TYP),whichIs,[Cancer],396,397
+(PAT),whichIs,[Processus Pathologique Chronique],401,402
+(TYP),whichIs,[Fibrillation Auriculaire],403,404
+(PAT),whichIs,[Processus Pathologique Chronique],408,409
+(TYP),whichIs,[Insuffisance Cardiaque],410,411
+(PAT),whichIs,[Processus Pathologique Chronique],415,416
+(TYP),whichIs,[Bronchite Chronique],417,418
+(PAT),whichIs,[Processus Pathologique Chronique],422,423
+(TYP),whichIs,[Apnée du sommeil],424,425
+(PAT),whichIs,[Processus Pathologique Chronique],429,430
+(TYP),whichIs,[Maladie de Parkinson],431,432
+(PAT),whichIs,[Processus Pathologique Chronique],436,437
+(TYP),whichIs,[Eczéma],438,439
+(PAT),whichIs,[Processus Pathologique Chronique],443,444
+(TYP),whichIs,[Maladie Infectieuse],445,446
+(PAT),whichIs,[Processus Pathologique Chronique],450,451
+(TYP),whichIs,[Maladie],452,453
+(0.a_pour_valeur),whichIs,[Valeur: #?],454,455
+(EVOL),whichIs,[Profil Evolutif],459,460
+(00.de_type),whichIs,[Récurrent],461,462
+(0.a_pour_valeur),whichIs,[Faux],467,468
+(0.a_pour_valeur),whichIs,[Vrai],470,471
+(PAT),whichIs,[Arrêt de Travail],473,474
+(PAT),whichIs,[Pratique],476,477
+(TYP),whichIs,[Volley-ball],480,481
+(PAT),whichIs,[Pratique],483,484
+(TYP),whichIs,[Badmington],487,488
+(PAT),whichIs,[Pratique],490,491
+(TYP),whichIs,[Gymnastique],494,495
+(PAT),whichIs,[Pratique],497,498
+(TYP),whichIs,[Boxe],501,502
+(PAT),whichIs,[Pratique],504,505
+(TYP),whichIs,[Vélo-Tout-Terrain],508,509
+(PAT),whichIs,[Pratique],511,512
+(TYP),whichIs,[Judo],515,516
+(PAT),whichIs,[Pratique],518,519
+(TYP),whichIs,[Natation],522,523
+(PAT),whichIs,[Pratique],525,526
+(TYP),whichIs,[Moto-Cross],529,530
+(PAT),whichIs,[Pratique],532,533
+(TYP),whichIs,[Karting],536,537
+(PAT),whichIs,[Pratique],539,540
+(TYP),whichIs,[Course-à-Pied],543,544
+(PAT),whichIs,[Pratique],546,547
+(TYP),whichIs,[Football],550,551
+(PAT),whichIs,[Pratique],553,554
+(TYP),whichIs,[Marathon],557,558
+(PAT),whichIs,[Pratique],560,561
+(TYP),whichIs,[Escalade],564,565
+(PAT),whichIs,[Pratique],567,568
+(TYP),whichIs,[Canoë-Kayak],571,572
+(PAT),whichIs,[Pratique],574,575
+(TYP),whichIs,[Escrime],578,579
+(PAT),whichIs,[Pratique],581,582
+(TYP),whichIs,[Sport de Combat],585,586
+(PAT),whichIs,[Pratique],588,589
+(TYP),whichIs,[Equitation],592,593
+(PAT),whichIs,[Pratique],595,596
+(TYP),whichIs,[Basket-Ball],599,600
+(PAT),whichIs,[Pratique],602,603
+(TYP),whichIs,[Tennis],606,607
+(PAT),whichIs,[Pratique],609,610
+(TYP),whichIs,[Hand-Ball],613,614
+(PAT),whichIs,[Pratique],616,617
+(TYP),whichIs,[Ski],620,621
+(PAT),whichIs,[Pratique],623,624
+(TYP),whichIs,[Musculation],627,628
+(PAT),whichIs,[Pratique],630,631
+(TYP),whichIs,[Ping-Pong],634,635
+(PAT),whichIs,[Pratique],637,638
+(TYP),whichIs,[Cyclisme],641,642
+(PAT),whichIs,[Pratique],644,645
+(TYP),whichIs,[Rugby],648,649
+(PAT),whichIs,[Pratique],651,652
+(PAT),whichIs,[Sport],653,654
+(05.CAUS),whichIs,[Cause: ¬€],656,657
+(05.CAUS),whichIs,[Processus Pathologique Chronique],659,660
+(05.CAUS),whichIs,[Processus Pathologique Chronique],662,663
+(TYP),whichIs,[Addiction],664,665
+(AGT),whichIs,[Alcool],666,667
+(05.CAUS),whichIs,[Processus Pathologique Chronique],669,670
+(TYP),whichIs,[Addiction],671,672
+(AGT),whichIs,[Tabac],673,674
+(05.CAUS),whichIs,[Processus Pathologique Chronique],676,677
+(TYP),whichIs,[Arthrose],678,679
+(05.CAUS),whichIs,[Processus Pathologique Chronique],681,682
+(TYP),whichIs,[Asthme],683,684
+(05.CAUS),whichIs,[Processus Pathologique Chronique],686,687
+(TYP),whichIs,[Bronchite Chronique],688,689
+(05.CAUS),whichIs,[Processus Pathologique Chronique],691,692
+(TYP),whichIs,[Cancer],693,694
+(05.CAUS),whichIs,[Processus Pathologique Chronique],696,697
+(TYP),whichIs,[Colite],698,699
+(05.CAUS),whichIs,[Processus Pathologique Chronique],701,702
+(TYP),whichIs,[Constipation],703,704
+(05.CAUS),whichIs,[Processus Pathologique Chronique],706,707
+(TYP),whichIs,[Diabète],708,709
+(05.CAUS),whichIs,[Processus Pathologique Chronique],711,712
+(TYP),whichIs,[Dépression],713,714
+(05.CAUS),whichIs,[Processus Pathologique Chronique],716,717
+(TYP),whichIs,[Eczéma],718,719
+(05.CAUS),whichIs,[Processus Pathologique Chronique],721,722
+(TYP),whichIs,[Fibrillation auriculaire],723,724
+(05.CAUS),whichIs,[Processus Pathologique Chronique],726,727
+(05.CAUS),whichIs,[Processus Pathologique Chronique],731,732
+(TYP),whichIs,[Hyperlipidémie],733,734
+(05.CAUS),whichIs,[Processus Pathologique Chronique],736,737
+(TYP),whichIs,[Hypothyroïdie],738,739
+(05.CAUS),whichIs,[Processus Pathologique Chronique],741,742
+(TYP),whichIs,[Insomnie],743,744
+(05.CAUS),whichIs,[Processus Pathologique Chronique],746,747
+(TYP),whichIs,[Insuffisance cardiaque],748,749
+(05.CAUS),whichIs,[Processus Pathologique Chronique],751,752
+(TYP),whichIs,[Lourdeurs de jambe],753,754
+(05.CAUS),whichIs,[Processus Pathologique Chronique],756,757
+(TYP),whichIs,[Maladie coronarienne],758,759
+(05.CAUS),whichIs,[Processus Pathologique Chronique],761,762
+(TYP),whichIs,[Maladie de Parkinson],763,764
+(05.CAUS),whichIs,[Processus Pathologique Chronique],766,767
+(TYP),whichIs,[Maladie infectieuse],768,769
+(05.CAUS),whichIs,[Processus Pathologique Chronique],771,772
+(TYP),whichIs,[Maladie],773,774
+(0.a_pour_valeur),whichIs,[Valeur: #?],775,776
+(05.CAUS),whichIs,[Processus Pathologique Chronique],778,779
+(TYP),whichIs,[Ménopause],780,781
+(05.CAUS),whichIs,[Processus Pathologique Chronique],783,784
+(TYP),whichIs,[Surcharge pondérale],785,786
+(05.CAUS),whichIs,[Processus Pathologique Chronique],788,789
+(TYP),whichIs,[Varice des jambes],790,791
+(précédent),whichIs,[Date],793,794
+(0.a_pour_valeur),whichIs,[Valeur: #?],795,796
+(LOC),whichIs,[côlon],798,799
+(LOC),whichIs,[Estomac],801,802
+(LOC),whichIs,[Foie],804,805
+(LOC),whichIs,[Intestin],807,808
+(LOC),whichIs,[Oesophage],810,811
+(LOC),whichIs,[Pancréas],813,814
+(LOC),whichIs,[Rectum],816,817
+(LOC),whichIs,[Vésicule],819,820
+(00.TYP),whichIs,[LDL-Cholesterol],822,823
+(10.a_contenu),whichIs,[Problème de santé],825,826
+(0.a_pour_valeur),whichIs,[Valeur: #?],828,829
+(REL),whichIs,[Concept],831,832
+(REL),whichIs,[Concept],834,835
+(01.PAT),whichIs,[Mobilité],843,844
+(OCCUR),whichIs,[Occurrence],846,847
+(0.a_pour_valeur),whichIs,[Valeur: #?],850,851
+(OCCUR),whichIs,[Occurrence],853,854
+(depuis),whichIs,[Temps: #t],857,858
+(OCCUR),whichIs,[Occurrence],860,861
+(par rapport à),whichIs,[Temps: #Maintenant],864,865
+(OCCUR),whichIs,[Occurrence],867,868
+(0.a_pour_valeur),whichIs,[Valeur: #?],871,872
+(OCCUR),whichIs,[Occurrence],874,875
+(depuis),whichIs,[Temps: #t],878,879
+(OCCUR),whichIs,[Occurrence],881,882
+(par rapport à),whichIs,[Temps: #Maintenant],885,886
+(00.de_type),whichIs,[Consultation au cabinet],888,889
+(00.de_type),whichIs,[Téléconsultation],891,892
+(0.a_pour_valeur),whichIs,[Faux],897,898
+(0.a_pour_valeur),whichIs,[Vrai],900,901
+(02.AGT),whichIs,[Locuteur],903,904
+(01.DESCR),whichIs,[Personne: #x],905,906
+(02.AGT),whichIs,[Locuteur],908,909
+(01.DESCR),whichIs,[Personne: #y],910,911
+(05.a_pour_réponse),whichIs,[Réponse attendue],913,914
+(00.de_type),whichIs,[Consultation],917,918
+(05.a_pour_réponse),whichIs,[Réponse attendue],920,921
+(00.de_type),whichIs,[Renseignement],924,925
+(05.a_pour_réponse),whichIs,[Réponse attendue],927,928
+(00.de_type),whichIs,[Téléconsultation],931,932
+(05.a_pour_réponse),whichIs,[Réponse attendue],934,935
+(00.de_type),whichIs,[Visite],938,939
+(05.a_pour_réponse),whichIs,[Réponse attendue],941,942
+(04.BENEF),whichIs,[Patient: #x],945,946
+(05.a_pour_réponse),whichIs,[Réponse attendue],948,949
+(00.de_type),whichIs,[Rendez-Vous],952,953
+(01.DESCR),whichIs,[Anomalie Glande Mammaire],957,958
+(01.DESCR),whichIs,[Anomalie Menstruation],962,963
+(01.DESCR),whichIs,[Autre Demande],967,968
+(01.DESCR),whichIs,[Bouffées de chaleur],972,973
+(01.DESCR),whichIs,[Concept],987,988
+(0.a_pour_valeur),whichIs,[Valeur: #?],989,990
+(05.CAUS),whichIs,[Avis],996,997
+(AGT),whichIs,[Médecin],998,999
+(a_spécialité),whichIs,[Spécialité],1000,1001
+(05.CAUS),whichIs,[Procédure Sanitaire],1007,1008
+(00.TYP),whichIs,[Hospitalisation],1009,1010
+(RESUL-1),whichIs,[Procédure Sanitaire],1018,1019
+(00.TYP),whichIs,[Biologie Médicale],1020,1021
+(RESUL-1),whichIs,[Procédure Sanitaire],1029,1030
+(00.TYP),whichIs,[Concept],1031,1032
+(0.a_pour_valeur),whichIs,[Valeur: #?],1033,1034
+(05.CAUS),whichIs,[Résultat: #2],1040,1041
+(RESUL-1),whichIs,[Procédure Sanitaire],1042,1043
+(00.TYP),whichIs,[Imagerie Médicale],1044,1045
+(01.DESCR),whichIs,[Conseil],1049,1050
+(01.DESCR),whichIs,[Contraception],1054,1055
+(01.DESCR),whichIs,[Doléance Psychique],1059,1060
+(TYPE),whichIs,[Anxiété-Dépression],1061,1062
+(01.DESCR),whichIs,[Déclaration de Grossesse],1066,1067
+(01.DESCR),whichIs,[Ecoulement],1071,1072
+(2.a_origine),whichIs,[Vagin],1073,1074
+(01.DESCR),whichIs,[Examen Oblgatoire],1078,1079
+(PAT),whichIs,[Enfant],1080,1081
+(01.a_age),whichIs,[Age],1082,1083
+(0.a_pour_valeur),whichIs,[Valeur: #x],1084,1085
+(01.DESCR),whichIs,[Examen Obligatoire],1089,1090
+(01.DESCR),whichIs,[Expertise Médicale],1094,1095
+(01.DESCR),whichIs,[Interruption Volontaire de Grossesse],1099,1100
+(01.DESCR),whichIs,[Maintien Santé],1104,1105
+(MOY),whichIs,[Dépistage],1108,1109
+(01.DESCR),whichIs,[Maintien Santé],1113,1114
+(METH),whichIs,[Injection],1117,1118
+(RESOR),whichIs,[Vaccin],1119,1120
+(01.DESCR),whichIs,[Ménopause],1124,1125
+(PAT),whichIs,[Procédure Sanitaire],1131,1132
+(00.TYP),whichIs,[Biologie Médicale],1133,1134
+(01.DESCR),whichIs,[Prescription: #2],1138,1139
+(PAT),whichIs,[Procédure Sanitaire],1140,1141
+(00.TYP),whichIs,[Imagerie Médicale],1142,1143
+(01.DESCR),whichIs,[Prescription],1147,1148
+(01.DESCR),whichIs,[Prescription],1152,1153
+(01.PAT),whichIs,[Pilule],1154,1155
+(01.DESCR),whichIs,[Procédure],1164,1165
+(01.PAT),whichIs,[Admission],1166,1167
+(DEST),whichIs,[Etablissement de Santé],1168,1169
+(00.TYP),whichIs,[EHPAD],1170,1171
+(01.DESCR),whichIs,[Renouvellement Traitement],1175,1176
+(01.DESCR),whichIs,[Suivi de Grossesse],1180,1181
+(01.DESCR),whichIs,[Suivi],1185,1186
+(01.DESCR),whichIs,[Suivi],1190,1191
+(PAT),whichIs,[Processus Pathologique Chronique],1192,1193
+(a_pour_objet),whichIs,[Prestation],1195,1196
+(00.de_type),whichIs,[Réponse],1197,1198
+(REP-1),whichIs,[Questionnement],1199,1200
+(cumul),whichIs,[Cumul: #10],1204,1205
+(0.a_pour_valeur),whichIs,[Valeur: 1],1206,1207
+(cumul),whichIs,[Cumul: #11],1209,1210
+(0.a_pour_valeur),whichIs,[Valeur: 1],1211,1212
+(cumul),whichIs,[Cumul: #12],1214,1215
+(0.a_pour_valeur),whichIs,[Valeur: 1],1216,1217
+(cumul),whichIs,[Cumul: #13],1219,1220
+(0.a_pour_valeur),whichIs,[Valeur: 1],1221,1222
+(cumul),whichIs,[Cumul: #14],1224,1225
+(0.a_pour_valeur),whichIs,[Valeur: 1],1226,1227
+(cumul),whichIs,[Cumul: #15],1229,1230
+(0.a_pour_valeur),whichIs,[Valeur: 1],1231,1232
+(cumul),whichIs,[Cumul: #16],1234,1235
+(0.a_pour_valeur),whichIs,[Valeur: 1],1236,1237
+(cumul),whichIs,[Cumul: #18],1239,1240
+(0.a_pour_valeur),whichIs,[Valeur: 1],1241,1242
+(cumul),whichIs,[Cumul: #19],1244,1245
+(0.a_pour_valeur),whichIs,[Valeur: 1],1246,1247
+(cumul),whichIs,[Cumul: #1],1249,1250
+(0.a_pour_valeur),whichIs,[Valeur: 1],1251,1252
+(cumul),whichIs,[Cumul: #20],1254,1255
+(0.a_pour_valeur),whichIs,[Valeur: 1],1256,1257
+(cumul),whichIs,[Cumul: #21],1259,1260
+(0.a_pour_valeur),whichIs,[Valeur: 1],1261,1262
+(cumul),whichIs,[Cumul: #22],1264,1265
+(0.a_pour_valeur),whichIs,[Valeur: 1],1266,1267
+(cumul),whichIs,[Cumul: #23],1269,1270
+(0.a_pour_valeur),whichIs,[Valeur: 1],1271,1272
+(cumul),whichIs,[Cumul: #24],1274,1275
+(0.a_pour_valeur),whichIs,[Valeur: 1],1276,1277
+(cumul),whichIs,[Cumul: #25],1279,1280
+(0.a_pour_valeur),whichIs,[Valeur: 1],1281,1282
+(cumul),whichIs,[Cumul: #26],1284,1285
+(0.a_pour_valeur),whichIs,[Valeur: 1],1286,1287
+(cumul),whichIs,[Cumul: #27],1289,1290
+(0.a_pour_valeur),whichIs,[Valeur: 1],1291,1292
+(cumul),whichIs,[Cumul: #27a],1294,1295
+(0.a_pour_valeur),whichIs,[Valeur: 1],1296,1297
+(cumul),whichIs,[Cumul: #27b],1299,1300
+(0.a_pour_valeur),whichIs,[Valeur: 1],1301,1302
+(cumul),whichIs,[Cumul: #28],1304,1305
+(0.a_pour_valeur),whichIs,[Valeur: 1],1306,1307
+(cumul),whichIs,[Cumul: #29],1309,1310
+(0.a_pour_valeur),whichIs,[Valeur: 1],1311,1312
+(cumul),whichIs,[Cumul: #2],1314,1315
+(0.a_pour_valeur),whichIs,[Valeur: 1],1316,1317
+(cumul),whichIs,[Cumul: #30],1319,1320
+(0.a_pour_valeur),whichIs,[Valeur: 1],1321,1322
+(cumul),whichIs,[Cumul: #3],1324,1325
+(0.a_pour_valeur),whichIs,[Valeur: 1],1326,1327
+(cumul),whichIs,[Cumul: #4],1329,1330
+(0.a_pour_valeur),whichIs,[Valeur: 1],1331,1332
+(cumul),whichIs,[Cumul: #5],1334,1335
+(0.a_pour_valeur),whichIs,[Valeur: 1],1336,1337
+(cumul),whichIs,[Cumul: #6],1339,1340
+(0.a_pour_valeur),whichIs,[Valeur: 1],1341,1342
+(cumul),whichIs,[Cumul: #7],1344,1345
+(0.a_pour_valeur),whichIs,[Valeur: 1],1346,1347
+(cumul),whichIs,[Cumul: #97],1349,1350
+(0.a_pour_valeur),whichIs,[Valeur: 1],1351,1352
+(cumul),whichIs,[Cumul: #99],1354,1355
+(0.a_pour_valeur),whichIs,[Valeur: 1],1356,1357
+(TMP),whichIs,[Durée: maintenant-t1],1359,1360
+(0.a_pour_valeur),whichIs,[Valeur: #?],1361,1362
+(TMP),whichIs,[Durée: maintenant-t2],1364,1365
+(0.a_pour_valeur),whichIs,[Valeur: #?],1366,1367
+(TMP),whichIs,[Durée: maintenant-t3],1369,1370
+(0.a_pour_valeur),whichIs,[Valeur: #?],1371,1372
+(TMP),whichIs,[Durée: maintenant-t3],1374,1375
+(0.a_pour_valeur),whichIs,[Valeur: #?],1376,1377
+(INT),whichIs,[Intensité],1379,1380
+(0.a_pour_valeur),whichIs,[Valeur: #?],1381,1382
+(INT),whichIs,[Intensité],1384,1385
+(0.a_pour_valeur),whichIs,[Valeur: #?],1386,1387
+(INT),whichIs,[Intensité],1389,1390
+(0.a_pour_valeur),whichIs,[Valeur: #?],1391,1392
+(LOC),whichIs,[Tout ou Partie de l'Abdomen],1394,1395
+(00.TYP),whichIs,[Tout l'Abdomen],1396,1397
+(05.CAUS),whichIs,[Problème de santé: #45],1399,1400
+(---¬),whichIs,[Besoin de Santé: #1],1401,1402
+(OUTPUT),whichIs,[Adressage],1404,1405
+(PAT),whichIs,[Consultation],1406,1407
+(02.AGT),whichIs,[Médecin],1408,1409
+(a_spécialité),whichIs,[Spécialité],1410,1411
+(DET),whichIs,[Hypothyroïdie],1413,1414
+(----),whichIs,[Dépistage: #1],1416,1417
+(DET),whichIs,[Cancer],1418,1419
+(LOC),whichIs,[Tout ou Partie],1420,1421
+(PART-1),whichIs,[Côlon],1422,1423
+(----),whichIs,[Dépistage: #2],1425,1426
+(DET),whichIs,[Cancer],1427,1428
+(INIT),whichIs,[Mélanocyte],1429,1430
+(PART),whichIs,[Peau],1431,1432
+(----),whichIs,[Dépistage: #6],1434,1435
+(DET),whichIs,[Cancer],1436,1437
+(LOC),whichIs,[Tout ou Partie],1438,1439
+(PART-1),whichIs,[Sein],1440,1441
+(----),whichIs,[Dépistage: #7],1443,1444
+(DET),whichIs,[Cancer],1445,1446
+(LOC),whichIs,[Partie],1447,1448
+(PART-1),whichIs,[Uterus],1449,1450
+(PART),whichIs,[Col],1451,1452
+(----),whichIs,[Dépistage: #8],1454,1455
+(DET),whichIs,[Cancer],1456,1457
+(LOC),whichIs,[Tout ou Partie],1458,1459
+(PART-1),whichIs,[Prostate],1460,1461
+(cible),whichIs,[Population],1463,1464
+(ELT),whichIs,[Personne: n],1465,1466
+(ELT-1),whichIs,[Famille],1467,1468
+(ELT),whichIs,[Personne: x],1469,1470
+(cible),whichIs,[Population],1472,1473
+(ELT),whichIs,[Personne: x],1474,1475
+(cible),whichIs,[Population],1477,1478
+(ELT),whichIs,[Personne: x],1479,1480
+(01.PAT),whichIs,[Maladie],1481,1482
+(METH),whichIs,[Frottis: 1 an > t ≥ #Maintenant],1484,1485
+(METH),whichIs,[Frottis: 2 ans > t ≥ 1 an],1487,1488
+(METH),whichIs,[Frottis: 3 ans > t ≥ 2 ans],1490,1491
+(METH),whichIs,[Frottis: t ≥ 3 ans],1493,1494
+(MOY),whichIs,[Transport en Commun],1499,1500
+(MOY),whichIs,[Transport Sanitaire],1502,1503
+(1.a_constituant),whichIs,[Mucus],1505,1506
+(1.a_constituant),whichIs,[Sang],1508,1509
+(1.a_constituant),whichIs,[Air],1511,1512
+(voie),whichIs,[Urine],1514,1515
+(0.a_pour_valeur),whichIs,[Valeur: 0],1517,1518
+(0.a_pour_valeur),whichIs,[Valeur: 1],1520,1521
+(0.a_pour_valeur),whichIs,[Valeur: 2],1523,1524
+(0.a_pour_valeur),whichIs,[Valeur: 3],1526,1527
+(0.a_pour_valeur),whichIs,[Valeur: 0],1529,1530
+(0.a_pour_valeur),whichIs,[Valeur: 1],1532,1533
+(0.a_pour_valeur),whichIs,[Valeur: 2],1535,1536
+(0.a_pour_valeur),whichIs,[Valeur: 3],1538,1539
+(0.a_pour_valeur),whichIs,[Valeur: 0],1541,1542
+(0.a_pour_valeur),whichIs,[Valeur: 1],1544,1545
+(0.a_pour_valeur),whichIs,[Valeur: 2],1547,1548
+(0.a_pour_valeur),whichIs,[Valeur: 3],1550,1551
+(0.a_pour_valeur),whichIs,[Valeur: 0],1553,1554
+(0.a_pour_valeur),whichIs,[Valeur: 1],1556,1557
+(0.a_pour_valeur),whichIs,[Valeur: 2],1559,1560
+(0.a_pour_valeur),whichIs,[Valeur: 3],1562,1563
+(0.a_pour_valeur),whichIs,[Valeur: 0],1565,1566
+(0.a_pour_valeur),whichIs,[Valeur: 1],1568,1569
+(0.a_pour_valeur),whichIs,[Valeur: 2],1571,1572
+(0.a_pour_valeur),whichIs,[Valeur: 3],1574,1575
+(0.a_pour_valeur),whichIs,[Valeur: 0],1577,1578
+(0.a_pour_valeur),whichIs,[Valeur: 1],1580,1581
+(0.a_pour_valeur),whichIs,[Valeur: 2],1583,1584
+(0.a_pour_valeur),whichIs,[Valeur: 3],1586,1587
+(0.a_pour_valeur),whichIs,[Valeur: 0],1589,1590
+(0.a_pour_valeur),whichIs,[Valeur: 1],1592,1593
+(0.a_pour_valeur),whichIs,[Valeur: 2],1595,1596
+(0.a_pour_valeur),whichIs,[Valeur: 3],1598,1599
+(0.a_pour_valeur),whichIs,[Valeur: 0],1601,1602
+(0.a_pour_valeur),whichIs,[Valeur: 1],1604,1605
+(0.a_pour_valeur),whichIs,[Valeur: 2],1607,1608
+(0.a_pour_valeur),whichIs,[Valeur: 3],1610,1611
+(1.classé en),whichIs,[Habituel],1613,1614
+(EVT),whichIs,[Evènement],1616,1617
+(01.DESCR),whichIs,[Problème de santé],1619,1620
+(01.PAT),whichIs,[Assurance],1625,1626
+(01.PAT),whichIs,[Permis de Conduire],1628,1629
+(05.CAUS),whichIs,[Autre],1631,1632
+(01.PAT),whichIs,[Objet],1634,1635
+(---¬),whichIs,[Permis de Conduire],1636,1637
+(PAT-1),whichIs,[Modification],1639,1640
+(ITEM),whichIs,[Test de FACE: #1],1644,1645
+(0.a_pour_valeur),whichIs,[Valeur: 0],1646,1647
+(ITEM),whichIs,[Test de FACE: #1],1651,1652
+(0.a_pour_valeur),whichIs,[Valeur: 1],1653,1654
+(ITEM),whichIs,[Test de FACE: #1],1658,1659
+(0.a_pour_valeur),whichIs,[Valeur: 2],1660,1661
+(ITEM),whichIs,[Test de FACE: #1],1665,1666
+(0.a_pour_valeur),whichIs,[Valeur: 3],1667,1668
+(ITEM),whichIs,[Test de FACE: #1],1672,1673
+(0.a_pour_valeur),whichIs,[Valeur: 4],1674,1675
+(ITEM),whichIs,[Test de FACE: #2],1679,1680
+(0.a_pour_valeur),whichIs,[Valeur: 0],1681,1682
+(ITEM),whichIs,[Test de FACE: #2],1686,1687
+(0.a_pour_valeur),whichIs,[Valeur: 1],1688,1689
+(ITEM),whichIs,[Test de FACE: #2],1693,1694
+(0.a_pour_valeur),whichIs,[Valeur: 2],1695,1696
+(ITEM),whichIs,[Test de FACE: #2],1700,1701
+(0.a_pour_valeur),whichIs,[Valeur: 3],1702,1703
+(ITEM),whichIs,[Test de FACE: #2],1707,1708
+(0.a_pour_valeur),whichIs,[Valeur: 4],1709,1710
+(ITEM),whichIs,[Test de FACE: #3],1714,1715
+(0.a_pour_valeur),whichIs,[Valeur: 0],1716,1717
+(ITEM),whichIs,[Test de FACE: #3],1721,1722
+(0.a_pour_valeur),whichIs,[Valeur: 4],1723,1724
+(ITEM),whichIs,[Test de FACE: #4],1728,1729
+(0.a_pour_valeur),whichIs,[Valeur: 0],1730,1731
+(ITEM),whichIs,[Test de FACE: #4],1735,1736
+(0.a_pour_valeur),whichIs,[Valeur: 4],1737,1738
+(ITEM),whichIs,[Test de FACE: #5],1742,1743
+(0.a_pour_valeur),whichIs,[Valeur: 0],1744,1745
+(ITEM),whichIs,[Test de FACE: #5],1749,1750
+(0.a_pour_valeur),whichIs,[Valeur: 4],1751,1752
+(PAT-1),whichIs,[Modification],1754,1755
+(DUR),whichIs,[Durée],1757,1758
+(0.a_pour_valeur),whichIs,[Valeur: #?],1759,1760
+(QUANT),whichIs,[Cigarette],1762,1763
+(0.a_pour_valeur),whichIs,[Valeur: #?],1764,1765
+(DUR),whichIs,[Durée],1767,1768
+(0.a_pour_valeur),whichIs,[Valeur: #?],1769,1770
+(QUANT),whichIs,[Cigarette],1772,1773
+(0.a_pour_valeur),whichIs,[Valeur: #?],1774,1775
+(DUR),whichIs,[Durée],1777,1778
+(0.a_pour_valeur),whichIs,[Valeur: #?],1779,1780
+(QUANT),whichIs,[Cigarette],1782,1783
+(0.a_pour_valeur),whichIs,[Valeur: #?],1784,1785
+(RES),whichIs,[Tabac],1787,1788
+(a_un),whichIs,[Début],1792,1793
+(Time),whichIs,[Temps: t ≤ #maintenant],1794,1795
+(a_un),whichIs,[Fin],1799,1800
+(Time),whichIs,[Temps: t < #maintenant],1801,1802
+(a_un),whichIs,[Fin],1806,1807
+(Time),whichIs,[Temps: t > #maintenant],1808,1809
+(PAT-1),whichIs,[Modification],1811,1812
+(val_qual),whichIs,[Non précisé],1814,1815
+(val_qual),whichIs,[Occasionnel],1817,1818
+(val_qual),whichIs,[Régulier],1820,1821
+(0.a_pour_valeur),whichIs,[Valeur: 0],1832,1833
+(0.a_pour_valeur),whichIs,[Valeur: 1],1835,1836
+(0.a_pour_valeur),whichIs,[Valeur: 2],1838,1839
+(0.a_pour_valeur),whichIs,[Valeur: 3],1841,1842
+(0.a_pour_valeur),whichIs,[Valeur: 0],1844,1845
+(0.a_pour_valeur),whichIs,[Valeur: 1],1847,1848
+(0.a_pour_valeur),whichIs,[Valeur: 2],1850,1851
+(0.a_pour_valeur),whichIs,[Valeur: 3],1853,1854
+(0.a_pour_valeur),whichIs,[Valeur: 0],1856,1857
+(0.a_pour_valeur),whichIs,[Valeur: 1],1859,1860
+(0.a_pour_valeur),whichIs,[Valeur: 2],1862,1863
+(0.a_pour_valeur),whichIs,[Valeur: 3],1865,1866
+(0.a_pour_valeur),whichIs,[Valeur: 0],1868,1869
+(0.a_pour_valeur),whichIs,[Valeur: 1],1871,1872
+(0.a_pour_valeur),whichIs,[Valeur: 2],1874,1875
+(0.a_pour_valeur),whichIs,[Valeur: 3],1877,1878
+(0.a_pour_valeur),whichIs,[Valeur: 0],1880,1881
+(0.a_pour_valeur),whichIs,[Valeur: 1],1883,1884
+(0.a_pour_valeur),whichIs,[Valeur: 2],1886,1887
+(0.a_pour_valeur),whichIs,[Valeur: 3],1889,1890
+(0.a_pour_valeur),whichIs,[Valeur: 0],1892,1893
+(0.a_pour_valeur),whichIs,[Valeur: 1],1895,1896
+(0.a_pour_valeur),whichIs,[Valeur: 2],1898,1899
+(0.a_pour_valeur),whichIs,[Valeur: 3],1901,1902
+(0.a_pour_valeur),whichIs,[Valeur: 0],1904,1905
+(0.a_pour_valeur),whichIs,[Valeur: 1],1907,1908
+(0.a_pour_valeur),whichIs,[Valeur: 2],1910,1911
+(0.a_pour_valeur),whichIs,[Valeur: 3],1913,1914
+(LOC),whichIs,[Maternité],1916,1917
+(a_début),whichIs,[Début],1919,1920
+(au_cours),whichIs,[Année],1921,1922
+(0.a_pour_valeur),whichIs,[Valeur: #?],1923,1924
+(00.TYP),whichIs,[Echographie],1926,1927
+(Cible),whichIs,[Contenu],1928,1929
+(Conteneur),whichIs,[Uterus],1930,1931
+(01.PAT),whichIs,[Grossesse],1932,1933
+(00.TYP),whichIs,[Echographie],1935,1936
+(Cible),whichIs,[Partie du corps humain spécifiée],1937,1938
+(00.TYP),whichIs,[Articulation],1939,1940
+(00.TYP),whichIs,[Echographie],1942,1943
+(Cible),whichIs,[Partie du corps humain spécifiée],1944,1945
+(00.TYP),whichIs,[Coeur],1946,1947
+(00.TYP),whichIs,[Echographie],1949,1950
+(Cible),whichIs,[Partie du corps humain spécifiée],1951,1952
+(00.TYP),whichIs,[Muscle],1953,1954
+(00.TYP),whichIs,[Echographie],1956,1957
+(Cible),whichIs,[Partie du corps humain spécifiée],1958,1959
+(00.TYP),whichIs,[Organe: {*}],1960,1961
+(LOC),whichIs,[Abdomen],1962,1963
+(00.TYP),whichIs,[Echographie],1965,1966
+(Cible),whichIs,[Partie du corps humain spécifiée],1967,1968
+(00.TYP),whichIs,[Organe: {*}],1969,1970
+(LOC),whichIs,[Pelvis],1971,1972
+(00.TYP),whichIs,[Echographie],1974,1975
+(Cible),whichIs,[Partie du corps humain spécifiée],1976,1977
+(00.TYP),whichIs,[Prostate],1978,1979
+(00.TYP),whichIs,[Echographie],1981,1982
+(Cible),whichIs,[Partie du corps humain spécifiée],1983,1984
+(00.TYP),whichIs,[Rein: {*}],1985,1986
+(00.TYP),whichIs,[Echographie],1988,1989
+(Cible),whichIs,[Partie du corps humain spécifiée],1990,1991
+(00.TYP),whichIs,[Thyroïde],1992,1993
+(00.TYP),whichIs,[Echographie],1995,1996
+(Cible),whichIs,[Partie du corps humain spécifiée],1997,1998
+(00.TYP),whichIs,[Type],1999,2000
+(0.a_pour_valeur),whichIs,[Valeur: #?],2001,2002
+(00.TYP),whichIs,[IRM],2004,2005
+(Cible),whichIs,[Partie du corps humain spécifiée],2006,2007
+(00.TYP),whichIs,[Articulation: *],2008,2009
+(LOC),whichIs,[Membre inférieur],2010,2011
+(00.TYP),whichIs,[IRM],2013,2014
+(Cible),whichIs,[Partie du corps humain spécifiée],2015,2016
+(00.TYP),whichIs,[Articulation: *],2017,2018
+(LOC),whichIs,[Membre supérieur],2019,2020
+(00.TYP),whichIs,[IRM],2022,2023
+(Cible),whichIs,[Partie du corps humain spécifiée],2024,2025
+(00.TYP),whichIs,[Articulation],2026,2027
+(00.TYP),whichIs,[IRM],2029,2030
+(Cible),whichIs,[Partie du corps humain spécifiée],2031,2032
+(00.TYP),whichIs,[Encéphale],2033,2034
+(00.TYP),whichIs,[IRM],2036,2037
+(Cible),whichIs,[Partie du corps humain spécifiée],2038,2039
+(00.TYP),whichIs,[Organe: {*}],2040,2041
+(LOC),whichIs,[Abdomen V Pelvis],2042,2043
+(00.TYP),whichIs,[IRM],2045,2046
+(Cible),whichIs,[Partie du corps humain spécifiée],2047,2048
+(00.TYP),whichIs,[Organe: {*}],2049,2050
+(LOC),whichIs,[Abdomen],2051,2052
+(00.TYP),whichIs,[IRM],2054,2055
+(Cible),whichIs,[Partie du corps humain spécifiée],2056,2057
+(00.TYP),whichIs,[Organe: {*}],2058,2059
+(LOC),whichIs,[Thorax],2060,2061
+(00.TYP),whichIs,[IRM],2063,2064
+(Cible),whichIs,[Partie du corps humain spécifiée],2065,2066
+(00.TYP),whichIs,[Rachis cervical],2067,2068
+(00.TYP),whichIs,[IRM],2070,2071
+(Cible),whichIs,[Partie du corps humain spécifiée],2072,2073
+(00.TYP),whichIs,[Rachis],2074,2075
+(00.TYP),whichIs,[IRM],2077,2078
+(Cible),whichIs,[Partie du corps humain spécifiée],2079,2080
+(00.TYP),whichIs,[Vaisseau: {*}],2081,2082
+(00.TYP),whichIs,[Scanner],2084,2085
+(Cible),whichIs,[Partie du corps humain spécifiée],2086,2087
+(00.TYP),whichIs,[Articulation: *],2088,2089
+(LOC),whichIs,[Membre inférieur],2090,2091
+(00.TYP),whichIs,[Scanner],2093,2094
+(Cible),whichIs,[Partie du corps humain spécifiée],2095,2096
+(00.TYP),whichIs,[Articulation: *],2097,2098
+(LOC),whichIs,[Membre supérieur],2099,2100
+(00.TYP),whichIs,[Scanner],2102,2103
+(Cible),whichIs,[Partie du corps humain spécifiée],2104,2105
+(00.TYP),whichIs,[Articulation],2106,2107
+(00.TYP),whichIs,[Scanner],2109,2110
+(Cible),whichIs,[Partie du corps humain spécifiée],2111,2112
+(00.TYP),whichIs,[Encéphale],2113,2114
+(00.TYP),whichIs,[Scanner],2116,2117
+(Cible),whichIs,[Partie du corps humain spécifiée],2118,2119
+(00.TYP),whichIs,[Organe: {*}],2120,2121
+(LOC),whichIs,[[Abdomen]v[Pelvis]],2122,2123
+(00.TYP),whichIs,[Scanner],2125,2126
+(Cible),whichIs,[Partie du corps humain spécifiée],2127,2128
+(00.TYP),whichIs,[Organe: {*}],2129,2130
+(LOC),whichIs,[Abdomen],2131,2132
+(00.TYP),whichIs,[Scanner],2134,2135
+(Cible),whichIs,[Partie du corps humain spécifiée],2136,2137
+(00.TYP),whichIs,[Organe: {*}],2138,2139
+(LOC),whichIs,[Thorax],2140,2141
+(00.TYP),whichIs,[Scanner],2143,2144
+(Cible),whichIs,[Partie du corps humain spécifiée],2145,2146
+(00.TYP),whichIs,[Rachis cervical],2147,2148
+(00.TYP),whichIs,[Scanner],2150,2151
+(Cible),whichIs,[Partie du corps humain spécifiée],2152,2153
+(00.TYP),whichIs,[Rachis],2154,2155
+(00.TYP),whichIs,[Scanner],2157,2158
+(Cible),whichIs,[Partie du corps humain spécifiée],2159,2160
+(00.TYP),whichIs,[Vaisseau: {*}],2161,2162
+(2.a_date),whichIs,[Date],2164,2165
+(0.a_pour_valeur),whichIs,[Valeur: #?],2166,2167
+(a_un),whichIs,[Nom],2169,2170
+(0.a_pour_valeur),whichIs,[Valeur: #?],2171,2172
+(a_un),whichIs,[Téléphone],2174,2175
+(0.a_pour_valeur),whichIs,[Valeur : #?],2176,2177
+(a_un),whichIs,[Téléphone],2179,2180
+(0.a_pour_valeur),whichIs,[Valeur: #?],2181,2182
+(05.CAUS),whichIs,[Handicap],2184,2185
+(05.CAUS),whichIs,[Personne: #x3],2187,2188
+(01.PAT),whichIs,[Difficulté],2189,2190
+(REL),whichIs,[Language],2191,2192
+(00.TYP),whichIs,[Français],2193,2194
+(05.CAUS),whichIs,[Handicap],2196,2197
+(0.a_pour_valeur),whichIs,[Valeur: #?],2199,2200
+(01.DESCR),whichIs,[[Colon] v [Rectum]],2202,2203
+(01.DESCR),whichIs,[Poumon],2205,2206
+(01.DESCR),whichIs,[Prostate],2208,2209
+(01.DESCR),whichIs,[Rein],2211,2212
+(01.DESCR),whichIs,[Sein],2214,2215
+(01.DESCR),whichIs,[Thyroïde],2217,2218
+(01.DESCR),whichIs,[Utérus],2220,2221
+(01.DESCR),whichIs,[Vessie],2223,2224
+(01.DESCR),whichIs,[Personne: #x],2226,2227
+(01.DESCR),whichIs,[Personne: #y],2229,2230
+(06.CSQCE),whichIs,[Inquiétude],2232,2233
+(PAT),whichIs,[Personne: #x],2234,2235
+(ELT),whichIs,[Myalgie],2237,2238
+(01.DESCR),whichIs,[Syndrôme Anxieux],2240,2241
+(01.DESCR),whichIs,[Syndrôme Dépressif],2243,2244
+(01.DESCR),whichIs,[Apathie],2246,2247
+(01.DESCR),whichIs,[Autre problème],2249,2250
+(01.DESCR),whichIs,[Autre Signe],2252,2253
+(0.a_pour_valeur),whichIs,[Valeur: #?],2254,2255
+(01.DESCR),whichIs,[Conjonctivite],2257,2258
+(01.DESCR),whichIs,[Convulsion],2260,2261
+(01.DESCR),whichIs,[Céphalée],2263,2264
+(01.DESCR),whichIs,[Diarrhée],2266,2267
+(01.DESCR),whichIs,[Dyspnée],2269,2270
+(01.DESCR),whichIs,[Eruption cutanée],2272,2273
+(01.DESCR),whichIs,[Ictère],2278,2279
+(01.DESCR),whichIs,[Pleurs],2281,2282
+(01.DESCR),whichIs,[Selles décolorées],2284,2285
+(ELT),whichIs,[Prodromes],2289,2290
+(ELT),whichIs,[Amaigrissement],2294,2295
+(01.DESCR),whichIs,[Toux],2318,2319
+(01.DESCR),whichIs,[Troubles du Comportement],2321,2322
+(01.DESCR),whichIs,[Vomissements],2324,2325
+(VAL.QUAL),whichIs,[Brutal],2329,2330
+(VAL.QUAL),whichIs,[Progressif],2334,2335
+(a_fin),whichIs,[Fin],2337,2338
+(VAL),whichIs,[t = #Maintenant],2339,2340
+(≤),whichIs,[Valeur: 14],2344,2345
+(unité),whichIs,[Unité: jours],2346,2347
+(≤),whichIs,[Valeur: 2],2351,2352
+(unité),whichIs,[Unité: jours],2353,2354
+(≤),whichIs,[Valeur: 31],2358,2359
+(unité),whichIs,[Unité: jours],2360,2361
+(≤),whichIs,[Valeur: 8],2365,2366
+(unité),whichIs,[Unité: jours],2367,2368
+(≥),whichIs,[Valeur: 1],2372,2373
+(unité),whichIs,[Unité: mois],2374,2375
+(≥),whichIs,[Valeur: 3],2379,2380
+(unité),whichIs,[Unité: mois],2381,2382
+(>),whichIs,[Valeur: 0],2386,2387
+(unité),whichIs,[Unité: jours],2388,2389
+(TYP),whichIs,[Syndrôme d'Altération de l'Etat Général],2391,2392
+(a_un),whichIs,[Prénom: #?],2394,2395
+(01.a_canal),whichIs,[SmartCare],2397,2398
+(02.a_locuteur),whichIs,[Locuteur],2400,2401
+(03.a_propositus),whichIs,[Propositus],2403,2404
+(01.DESCR),whichIs,[Personne: #x],2405,2406
+(----),whichIs,[Patient: #x],2407,2408
+(04.a_destinataire),whichIs,[Interlocuteur],2410,2411
+(01.DESCR),whichIs,[Personne: #z],2412,2413
+(----),whichIs,[Médecin: #z],2414,2415
+(00.Denotatum),whichIs,[>DEMANDE<],2433,2434
+(00.Denotatum),whichIs,[MODE_DE_VIE],2438,2439
+(10.a_contenu),whichIs,[Assertion: #5],2441,2442
+(est_objet),whichIs,[Traitement],2445,2446
+(a_début),whichIs,[Début: t ≤ #Maintenant],2447,2448
+(00.Denotatum),whichIs,[>ANTECEDENTS FAMILIAUX<],2452,2453
+(00.Denotatum),whichIs,[>ANTECEDENTS PERSONNELS<],2457,2458
+(00.Denotatum),whichIs,[TRAITEMENTS],2462,2463
+(00.Denotatum),whichIs,[HYGIENE_DE_VIE],2467,2468
+(facteur de risque),whichIs,[Alcool],2474,2475
+(REL),whichIs,[Autre],2477,2478
+(REL),whichIs,[Collocation],2480,2481
+(REL),whichIs,[Communauté],2483,2484
+(REL),whichIs,[Famille d'accueil],2486,2487
+(REL),whichIs,[Famille],2489,2490
+(REL),whichIs,[Parents],2492,2493
+(REL),whichIs,[Seul],2495,2496
+(a_date),whichIs,[DateJour],2498,2499
+(0.a_pour_valeur),whichIs,[Valeur: #?],2500,2501
+(a_heure),whichIs,[Heure],2503,2504
+(0.a_pour_valeur),whichIs,[Valeur: #?],2505,2506
+(0.a_pour_valeur),whichIs,[Valeur: #?],2508,2509
+(0.a_pour_valeur),whichIs,[Valeur: #?],2511,2512
+(0.a_pour_valeur),whichIs,[Valeur: #?],2514,2515
+(0.a_pour_valeur),whichIs,[Valeur: #?],2517,2518
+(0.a_pour_valeur),whichIs,[Valeur: #?],2520,2521
+(0.a_pour_valeur),whichIs,[Valeur: #?],2523,2524
+(0.a_pour_valeur),whichIs,[Valeur: #?],2526,2527
+(0.a_pour_valeur),whichIs,[Valeur: #?],2529,2530
+(0.a_pour_valeur),whichIs,[Valeur: #?],2532,2533
+(0.a_pour_valeur),whichIs,[Valeur: #?],2535,2536
+(0.a_pour_valeur),whichIs,[Valeur: #?],2538,2539
+(0.a_pour_valeur),whichIs,[Valeur: #?],2541,2542
+(0.a_pour_valeur),whichIs,[Valeur: #?],2544,2545
+(0.a_pour_valeur),whichIs,[Valeur: #?],2547,2548
+(0.a_pour_valeur),whichIs,[Valeur: #?],2550,2551
+(0.a_pour_valeur),whichIs,[Valeur: #?],2553,2554
+(0.a_pour_valeur),whichIs,[Valeur: #?],2556,2557
+(0.a_pour_valeur),whichIs,[Valeur: #?],2559,2560
+(0.a_pour_valeur),whichIs,[Valeur: #?],2562,2563
+(0.a_pour_valeur),whichIs,[Valeur: #?],2565,2566
+(0.a_pour_valeur),whichIs,[Valeur: #?],2568,2569
+(0.a_pour_valeur),whichIs,[Valeur: #?],2571,2572
+(0.a_pour_valeur),whichIs,[Valeur: #?],2574,2575
+(0.a_pour_valeur),whichIs,[Valeur: #?],2577,2578
+(0.a_pour_valeur),whichIs,[Valeur: #?],2580,2581
+(0.a_pour_valeur),whichIs,[Valeur: #?],2583,2584
+(0.a_pour_valeur),whichIs,[Valeur: #?],2586,2587
+(0.a_pour_valeur),whichIs,[Valeur: #?],2589,2590
+(rôle),whichIs,[Médecin Traitant: #tt2],2592,2593
+(REL),whichIs,[Personne: #x],2594,2595
+(DESCR),whichIs,[Epigastre],2597,2598
+(DESCR),whichIs,[Flanc Droit],2600,2601
+(DESCR),whichIs,[Flanc Gauche],2603,2604
+(DESCR),whichIs,[Fosse Iliaque Droite],2606,2607
+(DESCR),whichIs,[Fosse Iliaque Gauche],2609,2610
+(DESCR),whichIs,[Hypochondre Droit],2612,2613
+(DESCR),whichIs,[Hypochondre Gauche],2615,2616
+(DESCR),whichIs,[Hypogastre],2618,2619
+(DESCR),whichIs,[Région ombilicale],2621,2622
+(a_un),whichIs,[Problème de communication: €],2624,2625
+(----),whichIs,[Patient: #],2627,2628
+(02.est_patient_de),whichIs,[Consultation antérieure],2629,2630
+(LOC),whichIs,[Cabinet Médical: #c],2631,2632
+(---¬),whichIs,[Patient: #],2634,2635
+(02.est_patient_de),whichIs,[Consultation antérieure],2636,2637
+(LOC),whichIs,[Cabinet Médical: #c],2638,2639
+(---¬),whichIs,[Personne: #],2641,2642
+(PAT-1),whichIs,[Accompagnement],2643,2644
+(---¬),whichIs,[Personne: #],2646,2647
+(PAT-1),whichIs,[Accompagnement],2648,2649
+(AGT),whichIs,[Personne: #p],2650,2651
+(-?-),whichIs,[Patient: #],2653,2654
+(02.est_patient_de),whichIs,[Consultation antérieure],2655,2656
+(LOC),whichIs,[Cabinet Médical: #c],2657,2658
+(02.est_patient_de),whichIs,[Mesure],2663,2664
+(RESULT),whichIs,[Température],2665,2666
+(01.DESCR),whichIs,[Diabète],2670,2671
+(01.DESCR),whichIs,[Diabète],2675,2676
+(00.TYP),whichIs,[Diabète de type I],2677,2678
+(01.DESCR),whichIs,[Diabète],2682,2683
+(00.TYP),whichIs,[Diabète de type II],2684,2685
+(01.DESCR),whichIs,[Diabète],2689,2690
+(00.TYP),whichIs,[Diabète Gestationnel],2691,2692
+(01.DESCR),whichIs,[Diabète],2696,2697
+(00.TYP),whichIs,[Diabète Secondaire],2698,2699
+(a_température),whichIs,[Température: #1],2701,2702
+(PAT-1),whichIs,[Accompagnement],2704,2705
+(AGT),whichIs,[Mère],2706,2707
+(REL),whichIs,[Personne: #x],2708,2709
+(PAT-1),whichIs,[Accompagnement],2711,2712
+(AGT),whichIs,[Personne: #p],2713,2714
+(AGT-1),whichIs,[Aide],2715,2716
+(PAT),whichIs,[Personne: #x],2717,2718
+(PAT-1),whichIs,[Accompagnement],2720,2721
+(AGT),whichIs,[Personne: #p],2722,2723
+(AGT-1),whichIs,[Traduction],2724,2725
+(PAT-1),whichIs,[Accompagnement],2727,2728
+(AGT),whichIs,[Personne: #p],2729,2730
+(REL),whichIs,[Personne: #x],2731,2732
+(PAT-1),whichIs,[Accompagnement],2734,2735
+(AGT),whichIs,[Père],2736,2737
+(REL),whichIs,[Personne: #x],2738,2739
+(---¬),whichIs,[Personne: #],2741,2742
+(EFF),whichIs,[Sommeil: #2],2743,2744
+(moment),whichIs,[Jour],2745,2746
+(a_un),whichIs,[Fille],2748,2749
+(nbr),whichIs,[Nombre],2750,2751
+(0.a_pour_valeur),whichIs,[Valeur: #?],2752,2753
+(a_un),whichIs,[Fils],2755,2756
+(nbr),whichIs,[Nombre],2757,2758
+(0.a_pour_valeur),whichIs,[Valeur: #?],2759,2760
+(a_un),whichIs,[Frère],2762,2763
+(nbr),whichIs,[Nombre],2764,2765
+(0.a_pour_valeur),whichIs,[Valeur: #?],2766,2767
+(a_un),whichIs,[Soeur],2769,2770
+(nbr),whichIs,[Nombre],2771,2772
+(0.a_pour_valeur),whichIs,[Valeur: #?],2773,2774
+(---¬),whichIs,[Personne: #],2776,2777
+(MEMBR-1),whichIs,[Union],2778,2779
+(MEMBR),whichIs,[Personne: #w],2780,2781
+(00.a_nom),whichIs,[Nom: GRANDJEAN],2783,2784
+(00.a_nom),whichIs,[Nom: JAWADHI],2786,2787
+(00.a_nom),whichIs,[Nom: KERBREZ],2789,2790
+(00.a_nom),whichIs,[Nom: MARTIN],2792,2793
+(0.a_pour_valeur),whichIs,[Valeur: #?],2797,2798
+(1.classé en),whichIs,[Enfant,2802,2803
+(1.classé en),whichIs,[Enfant],2807,2808
+(0.a_pour_valeur),whichIs,[Valeur: #?],2812,2813
+(0.a_pour_valeur),whichIs,[Valeur: #?],2817,2818
+(01.PAT),whichIs,[Allergie],2820,2821
+(02.a_genre),whichIs,[Genre: Féminin],2823,2824
+(02.a_genre),whichIs,[Genre: Masculin],2826,2827
+(LOC),whichIs,[Pays],2831,2832
+(00.de_type),whichIs,[#?],2833,2834
+(03.a_poids),whichIs,[Poids: #m1],2836,2837
+(0.a_pour_valeur),whichIs,[Valeur: #?],2838,2839
+(03.a_poids),whichIs,[Poids: #m6],2841,2842
+(0.a_pour_valeur),whichIs,[Valeur: #?],2843,2844
+(03.a_poids),whichIs,[Poids],2846,2847
+(0.a_pour_valeur),whichIs,[Valeur: #?],2848,2849
+(04.a_taille),whichIs,[Taille],2851,2852
+(0.a_pour_valeur),whichIs,[Valeur: #?],2853,2854
+(a_une),whichIs,[Profession],2856,2857
+(00.de_type),whichIs,[#?],2858,2859
+(MEMBR),whichIs,[Personne: #w],2863,2864
+(01.PAT),whichIs,[Décès],2865,2866
+(a_un),whichIs,[Nom],2868,2869
+(0.a_pour_valeur),whichIs,[Valeur: #?],2870,2871
+(a_un),whichIs,[Téléphone],2873,2874
+(0.a_pour_valeur),whichIs,[Valeur: #?],2875,2876
+(a_un),whichIs,[Nom],2878,2879
+(0.a_pour_valeur),whichIs,[Valeur: #?],2880,2881
+(a_un),whichIs,[Téléphone],2883,2884
+(0.a_pour_valeur),whichIs,[Valeur: #?],2885,2886
+(0.a_pour_valeur),whichIs,[Valeur: 0],2888,2889
+(0.a_pour_valeur),whichIs,[Valeur: 1],2891,2892
+(0.a_pour_valeur),whichIs,[Valeur: 2],2894,2895
+(0.a_pour_valeur),whichIs,[Valeur: 3],2897,2898
+(0.a_pour_valeur),whichIs,[Valeur: 0],2900,2901
+(0.a_pour_valeur),whichIs,[Valeur: 1],2903,2904
+(0.a_pour_valeur),whichIs,[Valeur: 2],2906,2907
+(0.a_pour_valeur),whichIs,[Valeur: 3],2909,2910
+(0.a_pour_valeur),whichIs,[Valeur: 0],2912,2913
+(0.a_pour_valeur),whichIs,[Valeur: 1],2915,2916
+(0.a_pour_valeur),whichIs,[Valeur: 2],2918,2919
+(0.a_pour_valeur),whichIs,[Valeur: 3],2921,2922
+(0.a_pour_valeur),whichIs,[Valeur: 0],2924,2925
+(0.a_pour_valeur),whichIs,[Valeur: 1],2927,2928
+(0.a_pour_valeur),whichIs,[Valeur: 2],2930,2931
+(0.a_pour_valeur),whichIs,[Valeur: 3],2933,2934
+(0.a_pour_valeur),whichIs,[Valeur: 0],2936,2937
+(0.a_pour_valeur),whichIs,[Valeur: 1],2939,2940
+(0.a_pour_valeur),whichIs,[Valeur: 2],2942,2943
+(0.a_pour_valeur),whichIs,[Valeur: 3],2945,2946
+(0.a_pour_valeur),whichIs,[Valeur: 0],2948,2949
+(0.a_pour_valeur),whichIs,[Valeur: 1],2951,2952
+(0.a_pour_valeur),whichIs,[Valeur: 2],2954,2955
+(0.a_pour_valeur),whichIs,[Valeur: 3],2957,2958
+(0.a_pour_valeur),whichIs,[Valeur: 0],2960,2961
+(0.a_pour_valeur),whichIs,[Valeur: 1],2963,2964
+(0.a_pour_valeur),whichIs,[Valeur: 2],2966,2967
+(0.a_pour_valeur),whichIs,[Valeur: 3],2969,2970
+(0.a_pour_valeur),whichIs,[Valeur: 0],2972,2973
+(0.a_pour_valeur),whichIs,[Valeur: 1],2975,2976
+(0.a_pour_valeur),whichIs,[Valeur: 2],2978,2979
+(0.a_pour_valeur),whichIs,[Valeur: 3],2981,2982
+(0.a_pour_valeur),whichIs,[Valeur: 0],2984,2985
+(0.a_pour_valeur),whichIs,[Valeur: 1],2987,2988
+(0.a_pour_valeur),whichIs,[Valeur: 2],2990,2991
+(0.a_pour_valeur),whichIs,[Valeur: 3],2993,2994
+(a_une),whichIs,[Réponse],2996,2997
+(0.a_pour_valeur),whichIs,[Valeur: #?],2998,2999
+(CARD),whichIs,[Nombre: #1],3001,3002
+(0.a_pour_valeur),whichIs,[Valeur: 1],3003,3004
+(CARD),whichIs,[Nombre: #2],3006,3007
+(0.a_pour_valeur),whichIs,[Valeur: 1],3008,3009
+(CARD),whichIs,[Nombre: #3],3011,3012
+(0.a_pour_valeur),whichIs,[Valeur: 1],3013,3014
+(CARD),whichIs,[Nombre: #4],3016,3017
+(0.a_pour_valeur),whichIs,[Valeur: 1],3018,3019
+(CARD),whichIs,[Nombre: #5],3021,3022
+(0.a_pour_valeur),whichIs,[Valeur: 1],3023,3024
+(CARD),whichIs,[Nombre: #6],3026,3027
+(0.a_pour_valeur),whichIs,[Valeur: 1],3028,3029
+(CARD),whichIs,[Nombre: #7],3031,3032
+(0.a_pour_valeur),whichIs,[Valeur: 1],3033,3034
+(00.de_type),whichIs,[Procédure],3036,3037
+(METH),whichIs,[Frottis],3038,3039
+(00.TYP),whichIs,[Consultation Médicale],3041,3042
+(02.AGT),whichIs,[Médecin: #z],3046,3047
+(PREC),whichIs,[Prestation: #99],3051,3052
+(02.AGT),whichIs,[Médecin: #z],3054,3055
+(a_occurrence),whichIs,[Occurrence: N>10],3057,3058
+(a_occurrence),whichIs,[Occurrence: N>1],3060,3061
+(a_occurrence),whichIs,[Occurrence: N≥1],3063,3064
+(a_profil),whichIs,[Profil: Alice],3066,3067
+(a_profil),whichIs,[Profil: Bob],3069,3070
+(a_profil),whichIs,[Profil: Charlie],3072,3073
+(ANC),whichIs,[Ancienneté],3075,3076
+(≤),whichIs,[Quantité],3079,3080
+(0.a_pour_valeur),whichIs,[Valeur: #?],3081,3082
+(01.DESCR),whichIs,[Angine],3084,3085
+(01.DESCR),whichIs,[Bronchiolite],3087,3088
+(01.DESCR),whichIs,[Bronchite],3090,3091
+(01.DESCR),whichIs,[Colique néphrétique],3093,3094
+(01.DESCR),whichIs,[Constipation],3096,3097
+(01.DESCR),whichIs,[Crise d'asthme],3099,3100
+(01.DESCR),whichIs,[Crise de goutte],3102,3103
+(01.DESCR),whichIs,[Dépression],3105,3106
+(01.DESCR),whichIs,[Gastro-entérite],3108,3109
+(01.DESCR),whichIs,[Grippe],3111,3112
+(01.DESCR),whichIs,[Hypoglycémie],3114,3115
+(01.DESCR),whichIs,[Infection urinaire],3117,3118
+(01.DESCR),whichIs,[Insomnie],3120,3121
+(01.DESCR),whichIs,[Lombalgie/Lumbago],3123,3124
+(01.DESCR),whichIs,[Migraine],3126,3127
+(01.DESCR),whichIs,[Otite],3129,3130
+(01.DESCR),whichIs,[Pyélonéphrite],3132,3133
+(01.DESCR),whichIs,[Rhino-pharyngite],3135,3136
+(01.DESCR),whichIs,[Rhume des foins],3138,3139
+(01.DESCR),whichIs,[Sciatique],3141,3142
+(01.DESCR),whichIs,[Tachycardie],3144,3145
+(a_un),whichIs,[Libellé],3147,3148
+(0.a_pour_valeur),whichIs,[Valeur: #?],3149,3150
+(00.TYP),whichIs,[Intolérance traitement],3154,3155
+(00.TYP),whichIs,[Manifestation Psychique],3159,3160
+(00.TYP),whichIs,[Troubles du sommeil],3164,3165
+(00.TYP),whichIs,[Manifestation Somatique],3174,3175
+(00.de_type),whichIs,[Intervention: #O1],3177,3178
+(00.TYP),whichIs,[Trouble Homéostasie],3180,3181
+(01.PAT),whichIs,[Cholesterol],3182,3183
+(00.TYP),whichIs,[Trouble Homéostasie],3185,3186
+(01.PAT),whichIs,[Triglycéride],3187,3188
+(01.DESCR),whichIs,[Diabète],3190,3191
+(01.DESCR),whichIs,[Personne: #x],3194,3195
+(02.AGT),whichIs,[Cardiologue],3198,3199
+(01.DESCR),whichIs,[Diabète],3201,3202
+(01.DESCR),whichIs,[Personne: #x],3205,3206
+(02.AGT),whichIs,[Ophtalmologue],3209,3210
+(00.de_type),whichIs,[Hospitalisation: #H1],3212,3213
+(2.a_date),whichIs,[Date],3215,3216
+(0.a_pour_valeur),whichIs,[Valeur: #?],3217,3218
+(00.de_type),whichIs,[Hospitalisation: #H1],3220,3221
+(2.a_date),whichIs,[Date],3223,3224
+(0.a_pour_valeur),whichIs,[Valeur: #?],3225,3226
+(00.TYP),whichIs,[Radiographie],3228,3229
+(Cible),whichIs,[Partie du corps humain spécifiée],3230,3231
+(00.TYP),whichIs,[Abdomen],3232,3233
+(00.TYP),whichIs,[Radiographie],3235,3236
+(Cible),whichIs,[Partie du corps humain spécifiée],3237,3238
+(00.TYP),whichIs,[Dent],3239,3240
+(00.TYP),whichIs,[Radiographie],3242,3243
+(Cible),whichIs,[Partie du corps humain spécifiée],3244,3245
+(00.TYP),whichIs,[Os],3246,3247
+(00.TYP),whichIs,[Radiographie],3249,3250
+(Cible),whichIs,[Partie du corps humain spécifiée],3251,3252
+(00.TYP),whichIs,[Poumon],3253,3254
+(METH),whichIs,[Injection],3256,3257
+(RESOR),whichIs,[Vaccin],3258,3259
+(00.de_type),whichIs,[Vaccin anti-coqueluche],3260,3261
+(METH),whichIs,[Injection],3263,3264
+(RESOR),whichIs,[Vaccin],3265,3266
+(00.de_type),whichIs,[Vaccin anti-grippal],3267,3268
+(METH),whichIs,[Injection],3270,3271
+(RESOR),whichIs,[Vaccin],3272,3273
+(00.de_type),whichIs,[Vaccin Covid-19],3274,3275
+(METH),whichIs,[Injection],3277,3278
+(RESOR),whichIs,[Vaccin],3279,3280
+(00.de_type),whichIs,[Vaccin anti Hépatite B],3281,3282
+(METH),whichIs,[Injection],3284,3285
+(RESOR),whichIs,[Vaccin],3286,3287
+(00.de_type),whichIs,[Vaccin anti-variolique],3288,3289
+(METH),whichIs,[Injection],3291,3292
+(RESOR),whichIs,[Vaccin],3293,3294
+(00.de_type),whichIs,[BCG],3295,3296
+(Cible),whichIs,[Partie du corps humain spécifiée],3298,3299
+(00.TYP),whichIs,[Artère],3300,3301
+(Cible),whichIs,[Partie du corps humain spécifiée],3303,3304
+(00.TYP),whichIs,[Artère coronaire],3305,3306
+(Cible),whichIs,[Partie du corps humain spécifiée],3308,3309
+(00.TYP),whichIs,[Veine],3310,3311
+(Cible),whichIs,[Partie du corps humain spécifiée],3313,3314
+(00.TYP),whichIs,[Voie urinaire],3315,3316
+(Cible),whichIs,[Partie du corps humain spécifiée],3318,3319
+(00.TYP),whichIs,[Vessie],3320,3321
+(Cible),whichIs,[Partie du corps humain spécifiée],3323,3324
+(00.TYP),whichIs,[Voie Biliaire],3325,3326
+(a_objet),whichIs,[Traitement],3328,3329
+(a_objet),whichIs,[État de Santé],3331,3332
+(CARD),whichIs,[Nombre: #1],3334,3335
+(0.a_pour_valeur),whichIs,[Valeur: 1],3336,3337
+(CARD),whichIs,[Nombre: #2],3339,3340
+(0.a_pour_valeur),whichIs,[Valeur: 1],3341,3342
+(CARD),whichIs,[Nombre: #3],3344,3345
+(0.a_pour_valeur),whichIs,[Valeur: 1],3346,3347
+(CARD),whichIs,[Nombre: #4],3349,3350
+(0.a_pour_valeur),whichIs,[Valeur: 1],3351,3352
+(CARD),whichIs,[Nombre: #5],3354,3355
+(0.a_pour_valeur),whichIs,[Valeur: 1],3356,3357
+(CARD),whichIs,[Nombre: #6],3359,3360
+(0.a_pour_valeur),whichIs,[Valeur: 1],3361,3362
+(CARD),whichIs,[Nombre: #7],3364,3365
+(0.a_pour_valeur),whichIs,[Valeur: 1],3366,3367
+(CARD),whichIs,[Nombre: #99],3369,3370
+(0.a_pour_valeur),whichIs,[Valeur: 1],3371,3372
+(---¬),whichIs,[Contenu],3374,3375
+(est_contenu_pour),whichIs,[Message],3376,3377
+(04.a_destinataire),whichIs,[Interlocuteur],3378,3379
+(01.DESCR),whichIs,[Médecin: #z],3380,3381
+(ELT),whichIs,[Ictère: #G1],3383,3384
+(0.a_pour_valeur),whichIs,[Valeur: #?],3386,3387
+(ELT),whichIs,[Ballonnement Abdominal],3389,3390
+(ELT),whichIs,[Circulation Veineuse Collatérale],3392,3393
+(ELT),whichIs,[Constipation],3395,3396
+(ELT),whichIs,[Diarrhée: #G0],3398,3399
+(ELT),whichIs,[Diarrhée: #G1],3401,3402
+(ELT),whichIs,[Douleur: #GA],3414,3415
+(LOC),whichIs,[Anus],3416,3417
+(ELT),whichIs,[Dysphagie],3419,3420
+(ELT),whichIs,[Grosseur],3422,3423
+(ELT),whichIs,[Incontinence],3425,3426
+(LOC),whichIs,[Anus],3427,3428
+(ELT),whichIs,[Nausée: #G0],3430,3431
+(ELT),whichIs,[Nausée: #G1],3433,3434
+(ELT),whichIs,[Prurit],3436,3437
+(LOC),whichIs,[Anus],3438,3439
+(ELT),whichIs,[Pyrosis],3441,3442
+(ELT),whichIs,[Saignement],3444,3445
+(ELT),whichIs,[Vomissement: #G0],3447,3448
+(ELT),whichIs,[Vomissement: #G1],3450,3451
+(0.a_pour_valeur),whichIs,[Valeur: #?],3453,3454
+(ELT),whichIs,[Brûlure Mictionnelle: #U0],3456,3457
+(ELT),whichIs,[Brûlure Mictionnelle: #U1],3459,3460
+(ELT),whichIs,[Douleur: #U0],3462,3463
+(LOC),whichIs,[Fosse Lombaire],3464,3465
+(ELT),whichIs,[Douleur: #U1],3467,3468
+(LOC),whichIs,[Fosse Lombaire],3469,3470
+(ELT),whichIs,[Douleur: #U],3472,3473
+(LOC),whichIs,[Hypogastre],3474,3475
+(ELT),whichIs,[Dysurie],3477,3478
+(ELT),whichIs,[Ecoulement],3480,3481
+(voie),whichIs,[Orifice Uro-génital],3482,3483
+(ELT),whichIs,[Incontinence Urinaire],3485,3486
+(ELT),whichIs,[Oligo-anurie],3488,3489
+(ELT),whichIs,[Pollakiurie],3491,3492
+(ELT),whichIs,[Polyurie],3494,3495
+(ELT),whichIs,[Douleur: #O],3497,3498
+(LOC),whichIs,[Oreille],3499,3500
+(ELT),whichIs,[Douleur: #P],3502,3503
+(LOC),whichIs,[Pharynx],3504,3505
+(ELT),whichIs,[Douleur: #T],3507,3508
+(LOC),whichIs,[Tête],3509,3510
+(00.a_lieu),whichIs,[Lieu],3512,3513
+(00.a_lieu),whichIs,[Lieu],3515,3516
+(01.DESCR),whichIs,[Cabinet Médical: #c],3517,3518
+(01.DESCR),whichIs,[Personne: #x],3520,3521
+(----),whichIs,[Personne: #],3522,3523
+(a_emploi),whichIs,[Emploi],3524,3525
+(01.DESCR),whichIs,[Personne: #x],3527,3528
+(---¬),whichIs,[Personne: #],3529,3530
+(a_emploi),whichIs,[Emploi],3531,3532
+(05.CAUS),whichIs,[Invalidité],3534,3535
+(DUR),whichIs,[Durée: t = age],3537,3538
+(moment),whichIs,[Nuit],3540,3541
+(occurence),whichIs,[Fréquent],3543,3544
+(occurence),whichIs,[ND],3546,3547
+(occurence),whichIs,[Rare],3549,3550
+(TYP),whichIs,[Autre],3552,3553
+(0.a_pour_valeur),whichIs,[Libellé: #?],3554,3555
+(PAT),whichIs,[Processus Pathologique Chronique],3557,3558
+(PAT),whichIs,[Processus Pathologique Chronique],3562,3563
+(TYP),whichIs,[Hyperlipidémie],3564,3565
+(PAT),whichIs,[Processus Pathologique Chronique],3567,3568
+(TYP),whichIs,[Insomnie],3569,3570
+(PAT),whichIs,[Processus Pathologique Chronique],3572,3573
+(TYP),whichIs,[Surcharge Pondérale],3574,3575
+(PAT),whichIs,[Processus Pathologique Chronique],3577,3578
+(TYP),whichIs,[Diabète],3579,3580
+(PAT),whichIs,[Processus Pathologique Chronique],3582,3583
+(TYP),whichIs,[Dépression],3584,3585
+(PAT),whichIs,[Processus Pathologique Chronique],3587,3588
+(TYP),whichIs,[Maladie Coronarienne],3589,3590
+(PAT),whichIs,[Processus Pathologique Chronique],3592,3593
+(TYP),whichIs,[Constipation],3594,3595
+(PAT),whichIs,[Processus Pathologique Chronique],3597,3598
+(TYP),whichIs,[Ménopause],3599,3600
+(PAT),whichIs,[Processus Pathologique Chronique],3602,3603
+(TYP),whichIs,[Colite],3604,3605
+(PAT),whichIs,[Processus Pathologique Chronique],3607,3608
+(TYP),whichIs,[Arthrose] ,3609,3610
+(PAT),whichIs,[Processus Pathologique Chronique],3612,3613
+(TYP),whichIs,[Asthme],3614,3615
+(PAT),whichIs,[Processus Pathologique Chronique],3617,3618
+(TYP),whichIs,[Varice],3619,3620
+(LOC),whichIs,[Membre Inférieur],3621,3622
+(PAT),whichIs,[Processus Pathologique Chronique],3624,3625
+(TYP),whichIs,[Lourdeurs de jambe],3626,3627
+(PAT),whichIs,[Processus Pathologique Chronique],3629,3630
+(TYP),whichIs,[Hypothyroïdie],3631,3632
+(PAT),whichIs,[Processus Pathologique Chronique],3634,3635
+(TYP),whichIs,[Addiction],3636,3637
+(AGT),whichIs,[Alcool],3638,3639
+(PAT),whichIs,[Processus Pathologique Chronique],3641,3642
+(TYP),whichIs,[Addiction],3643,3644
+(AGT),whichIs,[Tabac],3645,3646
+(PAT),whichIs,[Processus Pathologique Chronique],3648,3649
+(TYP),whichIs,[Maladie Thrombo-embolique],3650,3651
+(PAT),whichIs,[Processus Pathologique Chronique],3653,3654
+(TYP),whichIs,[Cancer],3655,3656
+(PAT),whichIs,[Processus Pathologique Chronique],3658,3659
+(TYP),whichIs,[Fibrillation Auriculaire],3660,3661
+(PAT),whichIs,[Processus Pathologique Chronique],3663,3664
+(TYP),whichIs,[Insuffisance Cardiaque],3665,3666
+(PAT),whichIs,[Processus Pathologique Chronique],3668,3669
+(TYP),whichIs,[Bronchite Chronique],3670,3671
+(PAT),whichIs,[Processus Pathologique Chronique],3673,3674
+(TYP),whichIs,[Apnée du sommeil],3675,3676
+(PAT),whichIs,[Processus Pathologique Chronique],3678,3679
+(TYP),whichIs,[Maladie de Parkinson],3680,3681
+(PAT),whichIs,[Processus Pathologique Chronique],3683,3684
+(TYP),whichIs,[Eczéma],3685,3686
+(PAT),whichIs,[Processus Pathologique Chronique],3688,3689
+(TYP),whichIs,[Maladie infectieuse],3690,3691
+(PAT),whichIs,[Processus Pathologique Chronique],3693,3694
+(TYP),whichIs,[Maladie],3695,3696
+(0.a_pour_valeur),whichIs,[Valeur: #?],3697,3698
+(AGT),whichIs,[Patient],3700,3701
+(RESULT),whichIs,[Tension Artérielle Diastolique],3703,3704
+(0.a_pour_valeur),whichIs,[Valeur: #?],3705,3706
+(RESULT),whichIs,[Tension Artérielle Systolique],3708,3709
+(0.a_pour_valeur),whichIs,[Valeur: #?],3710,3711
+(ELT),whichIs,[Anhédonie],3713,3714
+(fin),whichIs,[Fin],3716,3717
+(Time),whichIs,[Temps: t < #maintenant],3718,3719
+(fin),whichIs,[Fin],3721,3722
+(Time),whichIs,[Temps: t > #maintenant],3723,3724
+(PAT-1),whichIs,[Evolution],3726,3727
+(TYP),whichIs,[Non spécifié],3728,3729
+(SIGN),whichIs,[Température: #1],3731,3732
+(DATE),whichIs,[Il y a],3734,3735
+(0.a_pour_valeur),whichIs,[Valeur: #?],3736,3737
+(0.a_pour_valeur),whichIs,[Valeur: #?],3739,3740
+(0.a_pour_valeur),whichIs,[Valeur: 0],3742,3743
+(0.a_pour_valeur),whichIs,[Valeur: 1],3745,3746
+(0.a_pour_valeur),whichIs,[Valeur: 2],3748,3749
+(0.a_pour_valeur),whichIs,[Valeur: 3],3751,3752
+(0.a_pour_valeur),whichIs,[Valeur: 0],3754,3755
+(0.a_pour_valeur),whichIs,[Valeur: 1],3757,3758
+(0.a_pour_valeur),whichIs,[Valeur: 2],3760,3761
+(0.a_pour_valeur),whichIs,[Valeur: 3],3763,3764
+(----),whichIs,[Données],3766,3767
+(SOURC),whichIs,[Information],3768,3769
+(BENEF),whichIs,[Médecin: #y],3770,3771
+(---¬),whichIs,[Données],3773,3774
+(SOURC),whichIs,[Information],3775,3776
+(BENEF),whichIs,[Médecin: #y],3777,3778
+(PAT),whichIs,[Patient: #x],3780,3781
+(DUR),whichIs,[Durée: > 6 mois],3783,3784
+(a_constituant),whichIs,[Thérapie],3786,3787
+(PART-1),whichIs,[Dossier Médical],3789,3790
+(FIN),whichIs,[Date: t < maintenant],3792,3793
+(FIN),whichIs,[Date: t > maintenant],3795,3796
+(a_début),whichIs,[Début: t > #Maintenant],3798,3799

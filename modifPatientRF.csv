@@ -1,0 +1,820 @@
+head,relation,tail,head_id,tail_id
+[>ANTECEDENTS FAMILIAUX<],hasA,(PART-1),0,1
+[>ANTECEDENTS PERSONNELS<],hasA,(PART-1),3,4
+[Action: #D1],hasA,(Objet),6,7
+[Allergie],hasA,(05.CAUS),9,10
+[Médicament: #1],hasA,(0.a_pour_valeur),11,12
+[Allergie],hasA,(05.CAUS),14,15
+[Médicament: #2],hasA,(0.a_pour_valeur),16,17
+[Allergie],hasA,(05.CAUS),19,20
+[Médicament: #3],hasA,(0.a_pour_valeur),21,22
+[Allergie],hasA,(05.CAUS),24,25
+[Médicament],hasA,(0.a_pour_valeur),26,27
+[Hospitalisation],hasA,(LOC),31,32
+[Service],hasA,(a_spécialité),33,34
+[Antériorité],hasA,(01.DESCR),36,37
+[Consultation],hasA,(AGT),38,39
+[Médecin],hasA,(a_spécialité),40,41
+[Antériorité],hasA,(01.DESCR),43,44
+[Patient],hasA,(01.PAT),45,46
+[Evènement],hasA,(00.TYP),47,48
+[Type],hasA,(0.a_pour_valeur),49,50
+[Antériorité],hasA,(01.DESCR),52,53
+[Patient],hasA,(01.PAT),54,55
+[Antériorité],hasA,(01.DESCR),57,58
+[Patient],hasA,(01.PAT),59,60
+[Procédure],hasA,(00.TYP),61,62
+[Antériorité],hasA,(01.DESCR),64,65
+[Patient],hasA,(01.PAT),66,67
+[Procédure],hasA,(00.TYP),68,69
+[Médecin: €],hasA,(a_une),80,81
+[Personne: #x30],hasA,(---¬),87,88
+[Personne: €],hasA,(REL-1),89,90
+[Médecin Traitant: €],hasA,(rôle-1),91,92
+[Assertion: #32],hasA,(01.DESCR),96,97
+[Personne: #x4],hasA,(AGT),98,99
+[Réponse attendue],hasA,(01.DESCR),125,126
+[Réponse attendue],hasA,(01.DESCR),142,143
+[Réponse attendue],hasA,(01.DESCR),159,160
+[Assertion: #21],hasA,(----),164,165
+[Traitement],hasA,(a_cause),166,167
+[Assertion: #21],hasA,(0.a_pour_valeur),169,170
+[Assertion: #21],hasA,(0.a_pour_valeur),172,173
+[Réponse attendue],hasA,(01.DESCR),179,180
+[Assertion: #5],hasA,(0.a_pour_valeur),184,185
+[Dossier Médical],hasA,(POSS),201,202
+[Personne: #x],hasA,(01.PAT),206,207
+[Fausse-Couche],hasA,(CARD),208,209
+[Nombre],hasA,(0.a_pour_valeur),210,211
+[Personne: #x],hasA,(01.PAT),215,216
+[IVG],hasA,(CARD),217,218
+[Nombre],hasA,(0.a_pour_valeur),219,220
+[Personne: #x],hasA,(AGT),224,225
+[Accouchement],hasA,(CARD),226,227
+[Nombre],hasA,(0.a_pour_valeur),228,229
+[ATCD Familial],hasA,(0.a_pour_valeur),231,232
+[Autre demande],hasA,(0.a_pour_valeur),234,235
+[Problème de Santé],hasA,(----),245,246
+[Problème de Santé],hasA,(05.CAUS),254,255
+[Problème de Santé],hasA,(05.CAUS),261,262
+[Processus Pathologique Chronique],hasA,(TYP),270,271
+[Processus Pathologique Chronique],hasA,(TYP),277,278
+[Processus Pathologique Chronique],hasA,(TYP),284,285
+[Processus Pathologique Chronique],hasA,(TYP),291,292
+[Processus Pathologique Chronique],hasA,(TYP),298,299
+[Processus Pathologique Chronique],hasA,(TYP),305,306
+[Processus Pathologique Chronique],hasA,(TYP),312,313
+[Processus Pathologique Chronique],hasA,(TYP),319,320
+[Processus Pathologique Chronique],hasA,(TYP),326,327
+[Processus Pathologique Chronique],hasA,(TYP),333,334
+[Processus Pathologique Chronique],hasA,(TYP),340,341
+[Processus Pathologique Chronique],hasA,(TYP),347,348
+[Processus Pathologique Chronique],hasA,(TYP),354,355
+[Varice],hasA,(LOC),356,357
+[Processus Pathologique Chronique],hasA,(TYP),363,364
+[Processus Pathologique Chronique],hasA,(TYP),370,371
+[Processus Pathologique Chronique],hasA,(TYP),377,378
+[Addiction],hasA,(AGT),379,380
+[Processus Pathologique Chronique],hasA,(TYP),386,387
+[Addiction],hasA,(AGT),388,389
+[Processus Pathologique Chronique],hasA,(TYP),395,396
+[Processus Pathologique Chronique],hasA,(TYP),402,403
+[Processus Pathologique Chronique],hasA,(TYP),409,410
+[Processus Pathologique Chronique],hasA,(TYP),416,417
+[Processus Pathologique Chronique],hasA,(TYP),423,424
+[Processus Pathologique Chronique],hasA,(TYP),430,431
+[Processus Pathologique Chronique],hasA,(TYP),437,438
+[Processus Pathologique Chronique],hasA,(TYP),444,445
+[Processus Pathologique Chronique],hasA,(TYP),451,452
+[Maladie],hasA,(0.a_pour_valeur),453,454
+[Profil Evolutif],hasA,(00.de_type),460,461
+[Biologie],hasA,(0.a_pour_valeur),466,467
+[Biologie],hasA,(0.a_pour_valeur),469,470
+[Pratique],hasA,(PAT),477,478
+[Pratique],hasA,(PAT),484,485
+[Pratique],hasA,(PAT),491,492
+[Pratique],hasA,(PAT),498,499
+[Pratique],hasA,(PAT),505,506
+[Pratique],hasA,(PAT),512,513
+[Pratique],hasA,(PAT),519,520
+[Pratique],hasA,(PAT),526,527
+[Pratique],hasA,(PAT),533,534
+[Pratique],hasA,(PAT),540,541
+[Pratique],hasA,(PAT),547,548
+[Pratique],hasA,(PAT),554,555
+[Pratique],hasA,(PAT),561,562
+[Pratique],hasA,(PAT),568,569
+[Pratique],hasA,(PAT),575,576
+[Pratique],hasA,(PAT),582,583
+[Pratique],hasA,(PAT),589,590
+[Pratique],hasA,(PAT),596,597
+[Pratique],hasA,(PAT),603,604
+[Pratique],hasA,(PAT),610,611
+[Pratique],hasA,(PAT),617,618
+[Pratique],hasA,(PAT),624,625
+[Pratique],hasA,(PAT),631,632
+[Pratique],hasA,(PAT),638,639
+[Pratique],hasA,(PAT),645,646
+[Pratique],hasA,(PAT),652,653
+[Processus Pathologique Chronique],hasA,(TYP),663,664
+[Addiction],hasA,(AGT),665,666
+[Processus Pathologique Chronique],hasA,(TYP),670,671
+[Addiction],hasA,(AGT),672,673
+[Processus Pathologique Chronique],hasA,(TYP),677,678
+[Processus Pathologique Chronique],hasA,(TYP),682,683
+[Processus Pathologique Chronique],hasA,(TYP),687,688
+[Processus Pathologique Chronique],hasA,(TYP),692,693
+[Processus Pathologique Chronique],hasA,(TYP),697,698
+[Processus Pathologique Chronique],hasA,(TYP),702,703
+[Processus Pathologique Chronique],hasA,(TYP),707,708
+[Processus Pathologique Chronique],hasA,(TYP),712,713
+[Processus Pathologique Chronique],hasA,(TYP),717,718
+[Processus Pathologique Chronique],hasA,(TYP),722,723
+[Processus Pathologique Chronique],hasA,(TYP),727,728
+[Processus Pathologique Chronique],hasA,(TYP),732,733
+[Processus Pathologique Chronique],hasA,(TYP),737,738
+[Processus Pathologique Chronique],hasA,(TYP),742,743
+[Processus Pathologique Chronique],hasA,(TYP),747,748
+[Processus Pathologique Chronique],hasA,(TYP),752,753
+[Processus Pathologique Chronique],hasA,(TYP),757,758
+[Processus Pathologique Chronique],hasA,(TYP),762,763
+[Processus Pathologique Chronique],hasA,(TYP),767,768
+[Processus Pathologique Chronique],hasA,(TYP),772,773
+[Maladie],hasA,(0.a_pour_valeur),774,775
+[Processus Pathologique Chronique],hasA,(TYP),779,780
+[Processus Pathologique Chronique],hasA,(TYP),784,785
+[Processus Pathologique Chronique],hasA,(TYP),789,790
+[Date],hasA,(0.a_pour_valeur),794,795
+[Chirurgie],hasA,(LOC),797,798
+[Chirurgie],hasA,(LOC),800,801
+[Chirurgie],hasA,(LOC),803,804
+[Chirurgie],hasA,(LOC),806,807
+[Chirurgie],hasA,(LOC),809,810
+[Chirurgie],hasA,(LOC),812,813
+[Chirurgie],hasA,(LOC),815,816
+[Chirurgie],hasA,(LOC),818,819
+[Cholesterol],hasA,(00.TYP),821,822
+[Concept],hasA,(0.a_pour_valeur),827,828
+[Concept],hasA,(REL),830,831
+[Concept],hasA,(REL),833,834
+[Occurrence],hasA,(a_un),847,848
+[Occurrence],hasA,(a_un),854,855
+[Occurrence],hasA,(a_un),861,862
+[Occurrence],hasA,(a_un),868,869
+[Occurrence],hasA,(a_un),875,876
+[Occurrence],hasA,(a_un),882,883
+[Consultation],hasA,(00.de_type),887,888
+[Consultation],hasA,(00.de_type),890,891
+[Courrier],hasA,(0.a_pour_valeur),896,897
+[Courrier],hasA,(0.a_pour_valeur),899,900
+[Locuteur],hasA,(01.DESCR),904,905
+[Locuteur],hasA,(01.DESCR),909,910
+[Réponse attendue],hasA,(01.DESCR),914,915
+[Réponse attendue],hasA,(01.DESCR),921,922
+[Réponse attendue],hasA,(01.DESCR),928,929
+[Réponse attendue],hasA,(01.DESCR),935,936
+[Réponse attendue],hasA,(01.DESCR),942,943
+[Réponse attendue],hasA,(01.DESCR),949,950
+[Concept],hasA,(0.a_pour_valeur),988,989
+[Avis],hasA,(AGT),997,998
+[Médecin],hasA,(a_spécialité),999,1000
+[Procédure Sanitaire],hasA,(00.TYP),1008,1009
+[Procédure Sanitaire],hasA,(00.TYP),1019,1020
+[Procédure Sanitaire],hasA,(00.TYP),1030,1031
+[Concept],hasA,(0.a_pour_valeur),1032,1033
+[Résultat: #2],hasA,(RESUL-1),1041,1042
+[Procédure Sanitaire],hasA,(00.TYP),1043,1044
+[Doléance Psychique],hasA,(TYPE),1060,1061
+[Ecoulement],hasA,(2.a_origine),1072,1073
+[Examen Oblgatoire],hasA,(PAT),1079,1080
+[Enfant],hasA,(01.a_age),1081,1082
+[Age],hasA,(0.a_pour_valeur),1083,1084
+[Maintien Santé],hasA,(METH),1105,1106
+[Maintien Santé],hasA,(METH),1114,1115
+[Injection],hasA,(RESOR),1118,1119
+[Procédure Sanitaire],hasA,(00.TYP),1132,1133
+[Prescription: #2],hasA,(PAT),1139,1140
+[Procédure Sanitaire],hasA,(00.TYP),1141,1142
+[Prescription],hasA,(01.PAT),1153,1154
+[Procédure],hasA,(01.PAT),1165,1166
+[Admission],hasA,(DEST),1167,1168
+[Etablissement de Santé],hasA,(00.TYP),1169,1170
+[Suivi],hasA,(PAT),1191,1192
+[Prestation],hasA,(00.de_type),1196,1197
+[Réponse],hasA,(REP-1),1198,1199
+[Questionnement],hasA,(AGT-1),1200,1201
+[Cumul: #10],hasA,(0.a_pour_valeur),1205,1206
+[Cumul: #11],hasA,(0.a_pour_valeur),1210,1211
+[Cumul: #12],hasA,(0.a_pour_valeur),1215,1216
+[Cumul: #13],hasA,(0.a_pour_valeur),1220,1221
+[Cumul: #14],hasA,(0.a_pour_valeur),1225,1226
+[Cumul: #15],hasA,(0.a_pour_valeur),1230,1231
+[Cumul: #16],hasA,(0.a_pour_valeur),1235,1236
+[Cumul: #18],hasA,(0.a_pour_valeur),1240,1241
+[Cumul: #19],hasA,(0.a_pour_valeur),1245,1246
+[Cumul: #1],hasA,(0.a_pour_valeur),1250,1251
+[Cumul: #20],hasA,(0.a_pour_valeur),1255,1256
+[Cumul: #21],hasA,(0.a_pour_valeur),1260,1261
+[Cumul: #22],hasA,(0.a_pour_valeur),1265,1266
+[Cumul: #23],hasA,(0.a_pour_valeur),1270,1271
+[Cumul: #24],hasA,(0.a_pour_valeur),1275,1276
+[Cumul: #25],hasA,(0.a_pour_valeur),1280,1281
+[Cumul: #26],hasA,(0.a_pour_valeur),1285,1286
+[Cumul: #27],hasA,(0.a_pour_valeur),1290,1291
+[Cumul: #27a],hasA,(0.a_pour_valeur),1295,1296
+[Cumul: #27b],hasA,(0.a_pour_valeur),1300,1301
+[Cumul: #28],hasA,(0.a_pour_valeur),1305,1306
+[Cumul: #29],hasA,(0.a_pour_valeur),1310,1311
+[Cumul: #2],hasA,(0.a_pour_valeur),1315,1316
+[Cumul: #30],hasA,(0.a_pour_valeur),1320,1321
+[Cumul: #3],hasA,(0.a_pour_valeur),1325,1326
+[Cumul: #4],hasA,(0.a_pour_valeur),1330,1331
+[Cumul: #5],hasA,(0.a_pour_valeur),1335,1336
+[Cumul: #6],hasA,(0.a_pour_valeur),1340,1341
+[Cumul: #7],hasA,(0.a_pour_valeur),1345,1346
+[Cumul: #97],hasA,(0.a_pour_valeur),1350,1351
+[Cumul: #99],hasA,(0.a_pour_valeur),1355,1356
+[Durée: maintenant-t1],hasA,(0.a_pour_valeur),1360,1361
+[Durée: maintenant-t2],hasA,(0.a_pour_valeur),1365,1366
+[Durée: maintenant-t3],hasA,(0.a_pour_valeur),1370,1371
+[Durée: maintenant-t3],hasA,(0.a_pour_valeur),1375,1376
+[Douleur: #A],hasA,(INT),1378,1379
+[Intensité],hasA,(0.a_pour_valeur),1380,1381
+[Intensité],hasA,(0.a_pour_valeur),1385,1386
+[Intensité],hasA,(0.a_pour_valeur),1390,1391
+[Tout ou Partie de l'Abdomen],hasA,(00.TYP),1395,1396
+[Problème de santé: #45],hasA,(---¬),1400,1401
+[Adressage],hasA,(PAT),1405,1406
+[Consultation],hasA,(02.AGT),1407,1408
+[Médecin],hasA,(a_spécialité),1409,1410
+[Dépistage: #10],hasA,(DET),1412,1413
+[Dépistage],hasA,(----),1415,1416
+[Dépistage: #1],hasA,(DET),1417,1418
+[Cancer],hasA,(LOC),1419,1420
+[Tout ou Partie],hasA,(PART-1),1421,1422
+[Dépistage],hasA,(----),1424,1425
+[Dépistage: #2],hasA,(DET),1426,1427
+[Cancer],hasA,(INIT),1428,1429
+[Mélanocyte],hasA,(PART),1430,1431
+[Dépistage],hasA,(----),1433,1434
+[Dépistage: #6],hasA,(DET),1435,1436
+[Cancer],hasA,(LOC),1437,1438
+[Tout ou Partie],hasA,(PART-1),1439,1440
+[Dépistage],hasA,(----),1442,1443
+[Dépistage: #7],hasA,(DET),1444,1445
+[Cancer],hasA,(LOC),1446,1447
+[Partie],hasA,(PART-1),1448,1449
+[Uterus],hasA,(PART),1450,1451
+[Dépistage],hasA,(----),1453,1454
+[Dépistage: #8],hasA,(DET),1455,1456
+[Cancer],hasA,(LOC),1457,1458
+[Tout ou Partie],hasA,(PART-1),1459,1460
+[Dépistage],hasA,(cible),1462,1463
+[Population],hasA,(ELT),1464,1465
+[Personne: n],hasA,(ELT-1),1466,1467
+[Famille],hasA,(ELT),1468,1469
+[Dépistage],hasA,(cible),1471,1472
+[Population],hasA,(ELT),1473,1474
+[Dépistage],hasA,(cible),1476,1477
+[Population],hasA,(ELT),1478,1479
+[Personne: x],hasA,(01.PAT),1480,1481
+[Dépistage],hasA,(METH),1483,1484
+[Dépistage],hasA,(METH),1486,1487
+[Dépistage],hasA,(METH),1489,1490
+[Dépistage],hasA,(METH),1492,1493
+[Déplacement],hasA,(AGT),1495,1496
+[Déplacement],hasA,(MOY),1498,1499
+[Déplacement],hasA,(MOY),1501,1502
+[Emission],hasA,(voie),1513,1514
+[Epworth: #01],hasA,(0.a_pour_valeur),1516,1517
+[Epworth: #01],hasA,(0.a_pour_valeur),1519,1520
+[Epworth: #01],hasA,(0.a_pour_valeur),1522,1523
+[Epworth: #01],hasA,(0.a_pour_valeur),1525,1526
+[Epworth: #02],hasA,(0.a_pour_valeur),1528,1529
+[Epworth: #02],hasA,(0.a_pour_valeur),1531,1532
+[Epworth: #02],hasA,(0.a_pour_valeur),1534,1535
+[Epworth: #02],hasA,(0.a_pour_valeur),1537,1538
+[Epworth: #03],hasA,(0.a_pour_valeur),1540,1541
+[Epworth: #03],hasA,(0.a_pour_valeur),1543,1544
+[Epworth: #03],hasA,(0.a_pour_valeur),1546,1547
+[Epworth: #03],hasA,(0.a_pour_valeur),1549,1550
+[Epworth: #04],hasA,(0.a_pour_valeur),1552,1553
+[Epworth: #04],hasA,(0.a_pour_valeur),1555,1556
+[Epworth: #04],hasA,(0.a_pour_valeur),1558,1559
+[Epworth: #04],hasA,(0.a_pour_valeur),1561,1562
+[Epworth: #05],hasA,(0.a_pour_valeur),1564,1565
+[Epworth: #05],hasA,(0.a_pour_valeur),1567,1568
+[Epworth: #05],hasA,(0.a_pour_valeur),1570,1571
+[Epworth: #05],hasA,(0.a_pour_valeur),1573,1574
+[Epworth: #06],hasA,(0.a_pour_valeur),1576,1577
+[Epworth: #06],hasA,(0.a_pour_valeur),1579,1580
+[Epworth: #06],hasA,(0.a_pour_valeur),1582,1583
+[Epworth: #06],hasA,(0.a_pour_valeur),1585,1586
+[Epworth: #07],hasA,(0.a_pour_valeur),1588,1589
+[Epworth: #07],hasA,(0.a_pour_valeur),1591,1592
+[Epworth: #07],hasA,(0.a_pour_valeur),1594,1595
+[Epworth: #07],hasA,(0.a_pour_valeur),1597,1598
+[Epworth: #08],hasA,(0.a_pour_valeur),1600,1601
+[Epworth: #08],hasA,(0.a_pour_valeur),1603,1604
+[Epworth: #08],hasA,(0.a_pour_valeur),1606,1607
+[Epworth: #08],hasA,(0.a_pour_valeur),1609,1610
+[Etat de Santé],hasA,(1.classé en),1612,1613
+[Etat de Santé],hasA,(EVT),1615,1616
+[Expertise Médicale],hasA,(01.PAT),1633,1634
+[Objet],hasA,(---¬),1635,1636
+[Test de FACE: #1],hasA,(0.a_pour_valeur),1645,1646
+[Test de FACE: #1],hasA,(0.a_pour_valeur),1652,1653
+[Test de FACE: #1],hasA,(0.a_pour_valeur),1659,1660
+[Test de FACE: #1],hasA,(0.a_pour_valeur),1666,1667
+[Test de FACE: #1],hasA,(0.a_pour_valeur),1673,1674
+[Test de FACE: #2],hasA,(0.a_pour_valeur),1680,1681
+[Test de FACE: #2],hasA,(0.a_pour_valeur),1687,1688
+[Test de FACE: #2],hasA,(0.a_pour_valeur),1694,1695
+[Test de FACE: #2],hasA,(0.a_pour_valeur),1701,1702
+[Test de FACE: #2],hasA,(0.a_pour_valeur),1708,1709
+[Test de FACE: #3],hasA,(0.a_pour_valeur),1715,1716
+[Test de FACE: #3],hasA,(0.a_pour_valeur),1722,1723
+[Test de FACE: #4],hasA,(0.a_pour_valeur),1729,1730
+[Test de FACE: #4],hasA,(0.a_pour_valeur),1736,1737
+[Test de FACE: #5],hasA,(0.a_pour_valeur),1743,1744
+[Test de FACE: #5],hasA,(0.a_pour_valeur),1750,1751
+[Durée],hasA,(0.a_pour_valeur),1758,1759
+[Cigarette],hasA,(0.a_pour_valeur),1763,1764
+[Durée],hasA,(0.a_pour_valeur),1768,1769
+[Cigarette],hasA,(0.a_pour_valeur),1773,1774
+[Durée],hasA,(0.a_pour_valeur),1778,1779
+[Cigarette],hasA,(0.a_pour_valeur),1783,1784
+[Exposition: #t],hasA,(RES),1786,1787
+[Début],hasA,(Time),1793,1794
+[Fin],hasA,(Time),1800,1801
+[Fin],hasA,(Time),1807,1808
+[GAD7: #01],hasA,(0.a_pour_valeur),1831,1832
+[GAD7: #01],hasA,(0.a_pour_valeur),1834,1835
+[GAD7: #01],hasA,(0.a_pour_valeur),1837,1838
+[GAD7: #01],hasA,(0.a_pour_valeur),1840,1841
+[GAD7: #02],hasA,(0.a_pour_valeur),1843,1844
+[GAD7: #02],hasA,(0.a_pour_valeur),1846,1847
+[GAD7: #02],hasA,(0.a_pour_valeur),1849,1850
+[GAD7: #02],hasA,(0.a_pour_valeur),1852,1853
+[GAD7: #03],hasA,(0.a_pour_valeur),1855,1856
+[GAD7: #03],hasA,(0.a_pour_valeur),1858,1859
+[GAD7: #03],hasA,(0.a_pour_valeur),1861,1862
+[GAD7: #03],hasA,(0.a_pour_valeur),1864,1865
+[GAD7: #04],hasA,(0.a_pour_valeur),1867,1868
+[GAD7: #04],hasA,(0.a_pour_valeur),1870,1871
+[GAD7: #04],hasA,(0.a_pour_valeur),1873,1874
+[GAD7: #04],hasA,(0.a_pour_valeur),1876,1877
+[GAD7: #05],hasA,(0.a_pour_valeur),1879,1880
+[GAD7: #05],hasA,(0.a_pour_valeur),1882,1883
+[GAD7: #05],hasA,(0.a_pour_valeur),1885,1886
+[GAD7: #05],hasA,(0.a_pour_valeur),1888,1889
+[GAD7: #06],hasA,(0.a_pour_valeur),1891,1892
+[GAD7: #06],hasA,(0.a_pour_valeur),1894,1895
+[GAD7: #06],hasA,(0.a_pour_valeur),1897,1898
+[GAD7: #06],hasA,(0.a_pour_valeur),1900,1901
+[GAD7: #07],hasA,(0.a_pour_valeur),1903,1904
+[GAD7: #07],hasA,(0.a_pour_valeur),1906,1907
+[GAD7: #07],hasA,(0.a_pour_valeur),1909,1910
+[GAD7: #07],hasA,(0.a_pour_valeur),1912,1913
+[Hospitalisation],hasA,(LOC),1915,1916
+[Début],hasA,(au_cours),1920,1921
+[Année],hasA,(0.a_pour_valeur),1922,1923
+[Imagerie Médicale],hasA,(00.TYP),1925,1926
+[Echographie],hasA,(Cible),1927,1928
+[Contenu],hasA,(Conteneur),1929,1930
+[Uterus],hasA,(01.PAT),1931,1932
+[Imagerie Médicale],hasA,(00.TYP),1934,1935
+[Echographie],hasA,(Cible),1936,1937
+[Partie du corps humain spécifiée],hasA,(00.TYP),1938,1939
+[Imagerie Médicale],hasA,(00.TYP),1941,1942
+[Echographie],hasA,(Cible),1943,1944
+[Partie du corps humain spécifiée],hasA,(00.TYP),1945,1946
+[Imagerie Médicale],hasA,(00.TYP),1948,1949
+[Echographie],hasA,(Cible),1950,1951
+[Partie du corps humain spécifiée],hasA,(00.TYP),1952,1953
+[Imagerie Médicale],hasA,(00.TYP),1955,1956
+[Echographie],hasA,(Cible),1957,1958
+[Partie du corps humain spécifiée],hasA,(00.TYP),1959,1960
+[Organe: {*}],hasA,(LOC),1961,1962
+[Imagerie Médicale],hasA,(00.TYP),1964,1965
+[Echographie],hasA,(Cible),1966,1967
+[Partie du corps humain spécifiée],hasA,(00.TYP),1968,1969
+[Organe: {*}],hasA,(LOC),1970,1971
+[Imagerie Médicale],hasA,(00.TYP),1973,1974
+[Echographie],hasA,(Cible),1975,1976
+[Partie du corps humain spécifiée],hasA,(00.TYP),1977,1978
+[Imagerie Médicale],hasA,(00.TYP),1980,1981
+[Echographie],hasA,(Cible),1982,1983
+[Partie du corps humain spécifiée],hasA,(00.TYP),1984,1985
+[Imagerie Médicale],hasA,(00.TYP),1987,1988
+[Echographie],hasA,(Cible),1989,1990
+[Partie du corps humain spécifiée],hasA,(00.TYP),1991,1992
+[Imagerie Médicale],hasA,(00.TYP),1994,1995
+[Echographie],hasA,(Cible),1996,1997
+[Partie du corps humain spécifiée],hasA,(00.TYP),1998,1999
+[Type],hasA,(0.a_pour_valeur),2000,2001
+[Imagerie Médicale],hasA,(00.TYP),2003,2004
+[IRM],hasA,(Cible),2005,2006
+[Partie du corps humain spécifiée],hasA,(00.TYP),2007,2008
+[Articulation: *],hasA,(LOC),2009,2010
+[Imagerie Médicale],hasA,(00.TYP),2012,2013
+[IRM],hasA,(Cible),2014,2015
+[Partie du corps humain spécifiée],hasA,(00.TYP),2016,2017
+[Articulation: *],hasA,(LOC),2018,2019
+[Imagerie Médicale],hasA,(00.TYP),2021,2022
+[IRM],hasA,(Cible),2023,2024
+[Partie du corps humain spécifiée],hasA,(00.TYP),2025,2026
+[Imagerie Médicale],hasA,(00.TYP),2028,2029
+[IRM],hasA,(Cible),2030,2031
+[Partie du corps humain spécifiée],hasA,(00.TYP),2032,2033
+[Imagerie Médicale],hasA,(00.TYP),2035,2036
+[IRM],hasA,(Cible),2037,2038
+[Partie du corps humain spécifiée],hasA,(00.TYP),2039,2040
+[Organe: {*}],hasA,(LOC),2041,2042
+[Imagerie Médicale],hasA,(00.TYP),2044,2045
+[IRM],hasA,(Cible),2046,2047
+[Partie du corps humain spécifiée],hasA,(00.TYP),2048,2049
+[Organe: {*}],hasA,(LOC),2050,2051
+[Imagerie Médicale],hasA,(00.TYP),2053,2054
+[IRM],hasA,(Cible),2055,2056
+[Partie du corps humain spécifiée],hasA,(00.TYP),2057,2058
+[Organe: {*}],hasA,(LOC),2059,2060
+[Imagerie Médicale],hasA,(00.TYP),2062,2063
+[IRM],hasA,(Cible),2064,2065
+[Partie du corps humain spécifiée],hasA,(00.TYP),2066,2067
+[Imagerie Médicale],hasA,(00.TYP),2069,2070
+[IRM],hasA,(Cible),2071,2072
+[Partie du corps humain spécifiée],hasA,(00.TYP),2073,2074
+[Imagerie Médicale],hasA,(00.TYP),2076,2077
+[IRM],hasA,(Cible),2078,2079
+[Partie du corps humain spécifiée],hasA,(00.TYP),2080,2081
+[Imagerie Médicale],hasA,(00.TYP),2083,2084
+[Scanner],hasA,(Cible),2085,2086
+[Partie du corps humain spécifiée],hasA,(00.TYP),2087,2088
+[Articulation: *],hasA,(LOC),2089,2090
+[Imagerie Médicale],hasA,(00.TYP),2092,2093
+[Scanner],hasA,(Cible),2094,2095
+[Partie du corps humain spécifiée],hasA,(00.TYP),2096,2097
+[Articulation: *],hasA,(LOC),2098,2099
+[Imagerie Médicale],hasA,(00.TYP),2101,2102
+[Scanner],hasA,(Cible),2103,2104
+[Partie du corps humain spécifiée],hasA,(00.TYP),2105,2106
+[Imagerie Médicale],hasA,(00.TYP),2108,2109
+[Scanner],hasA,(Cible),2110,2111
+[Partie du corps humain spécifiée],hasA,(00.TYP),2112,2113
+[Imagerie Médicale],hasA,(00.TYP),2115,2116
+[Scanner],hasA,(Cible),2117,2118
+[Partie du corps humain spécifiée],hasA,(00.TYP),2119,2120
+[Organe: {*}],hasA,(LOC),2121,2122
+[Imagerie Médicale],hasA,(00.TYP),2124,2125
+[Scanner],hasA,(Cible),2126,2127
+[Partie du corps humain spécifiée],hasA,(00.TYP),2128,2129
+[Organe: {*}],hasA,(LOC),2130,2131
+[Imagerie Médicale],hasA,(00.TYP),2133,2134
+[Scanner],hasA,(Cible),2135,2136
+[Partie du corps humain spécifiée],hasA,(00.TYP),2137,2138
+[Organe: {*}],hasA,(LOC),2139,2140
+[Imagerie Médicale],hasA,(00.TYP),2142,2143
+[Scanner],hasA,(Cible),2144,2145
+[Partie du corps humain spécifiée],hasA,(00.TYP),2146,2147
+[Imagerie Médicale],hasA,(00.TYP),2149,2150
+[Scanner],hasA,(Cible),2151,2152
+[Partie du corps humain spécifiée],hasA,(00.TYP),2153,2154
+[Imagerie Médicale],hasA,(00.TYP),2156,2157
+[Scanner],hasA,(Cible),2158,2159
+[Partie du corps humain spécifiée],hasA,(00.TYP),2160,2161
+[Intervention: #O1],hasA,(2.a_date),2163,2164
+[Date],hasA,(0.a_pour_valeur),2165,2166
+[Laboratoire],hasA,(a_un),2168,2169
+[Nom],hasA,(0.a_pour_valeur),2170,2171
+[Laboratoire],hasA,(a_un),2173,2174
+[Téléphone],hasA,(0.a_pour_valeur),2175,2176
+[Laboratoire],hasA,(a_un),2178,2179
+[Téléphone],hasA,(0.a_pour_valeur),2180,2181
+[Personne: #x3],hasA,(01.PAT),2188,2189
+[Difficulté],hasA,(REL),2190,2191
+[Language],hasA,(00.TYP),2192,2193
+[Localisation],hasA,(0.a_pour_valeur),2198,2199
+[Localisation],hasA,(01.DESCR),2201,2202
+[Localisation],hasA,(01.DESCR),2204,2205
+[Localisation],hasA,(01.DESCR),2207,2208
+[Localisation],hasA,(01.DESCR),2210,2211
+[Localisation],hasA,(01.DESCR),2213,2214
+[Localisation],hasA,(01.DESCR),2216,2217
+[Localisation],hasA,(01.DESCR),2219,2220
+[Localisation],hasA,(01.DESCR),2222,2223
+[Locuteur],hasA,(01.DESCR),2225,2226
+[Locuteur],hasA,(01.DESCR),2228,2229
+[Inquiétude],hasA,(PAT),2233,2234
+[Autre Signe],hasA,(0.a_pour_valeur),2253,2254
+[Fin],hasA,(VAL),2338,2339
+[Valeur: 14],hasA,(unité),2345,2346
+[Valeur: 2],hasA,(unité),2352,2353
+[Valeur: 31],hasA,(unité),2359,2360
+[Valeur: 8],hasA,(unité),2366,2367
+[Valeur: 1],hasA,(unité),2373,2374
+[Valeur: 3],hasA,(unité),2380,2381
+[Valeur: 0],hasA,(unité),2387,2388
+[Medecin: #h],hasA,(a_un),2393,2394
+[Propositus],hasA,(01.DESCR),2404,2405
+[Personne: #x],hasA,(----),2406,2407
+[Interlocuteur],hasA,(01.DESCR),2411,2412
+[Personne: #z],hasA,(----),2413,2414
+[Assertion: #5],hasA,(----),2442,2443
+[Traitement],hasA,(a_début),2446,2447
+[Mode de vie],hasA,(REL),2476,2477
+[Mode de vie],hasA,(REL),2479,2480
+[Mode de vie],hasA,(REL),2482,2483
+[Mode de vie],hasA,(REL),2485,2486
+[Mode de vie],hasA,(REL),2488,2489
+[Mode de vie],hasA,(REL),2491,2492
+[Mode de vie],hasA,(REL),2494,2495
+[DateJour],hasA,(0.a_pour_valeur),2499,2500
+[Heure],hasA,(0.a_pour_valeur),2504,2505
+[Motif CS addictologue],hasA,(0.a_pour_valeur),2507,2508
+[Motif CS allergologue],hasA,(0.a_pour_valeur),2510,2511
+[Motif CS Anesthésiste],hasA,(0.a_pour_valeur),2513,2514
+[Motif CS Cancerologue],hasA,(0.a_pour_valeur),2516,2517
+[Motif CS Cardiologue],hasA,(0.a_pour_valeur),2519,2520
+[Motif CS Chirurgien ORL],hasA,(0.a_pour_valeur),2522,2523
+[Motif CS Chirurgien Orthopédiste],hasA,(0.a_pour_valeur),2525,2526
+[Motif CS Chirurgien],hasA,(0.a_pour_valeur),2528,2529
+[Motif CS Dermatologue],hasA,(0.a_pour_valeur),2531,2532
+[Motif CS Diabétologue],hasA,(0.a_pour_valeur),2534,2535
+[Motif CS Endocrinologue],hasA,(0.a_pour_valeur),2537,2538
+[Motif CS Gastro-entérologue],hasA,(0.a_pour_valeur),2540,2541
+[Motif CS Gynécologue],hasA,(0.a_pour_valeur),2543,2544
+[Motif CS Gériatre],hasA,(0.a_pour_valeur),2546,2547
+[Motif CS Hématologue],hasA,(0.a_pour_valeur),2549,2550
+[Motif CS Hépatologue],hasA,(0.a_pour_valeur),2552,2553
+[Motif CS Infectiologue],hasA,(0.a_pour_valeur),2555,2556
+[Motif CS Neurologue],hasA,(0.a_pour_valeur),2558,2559
+[Motif CS Néonatologiste],hasA,(0.a_pour_valeur),2561,2562
+[Motif CS Néphrologue],hasA,(0.a_pour_valeur),2564,2565
+[Motif CS Obstétricien],hasA,(0.a_pour_valeur),2567,2568
+[Motif CS Odontologiste],hasA,(0.a_pour_valeur),2570,2571
+[Motif CS Ophtalmologue],hasA,(0.a_pour_valeur),2573,2574
+[Motif CS Pédiatre],hasA,(0.a_pour_valeur),2576,2577
+[Motif CS Radiologue],hasA,(0.a_pour_valeur),2579,2580
+[Motif CS Radiothérapie],hasA,(0.a_pour_valeur),2582,2583
+[Motif CS Rhumatologie],hasA,(0.a_pour_valeur),2585,2586
+[Motif CS Urologie],hasA,(0.a_pour_valeur),2588,2589
+[Médecin Traitant: #tt2],hasA,(REL),2593,2594
+[Patient: #],hasA,(02.est_patient_de),2628,2629
+[Consultation antérieure],hasA,(LOC),2630,2631
+[Patient: #],hasA,(02.est_patient_de),2635,2636
+[Consultation antérieure],hasA,(LOC),2637,2638
+[Personne: #],hasA,(PAT-1),2642,2643
+[Personne: #],hasA,(PAT-1),2647,2648
+[Accompagnement],hasA,(AGT),2649,2650
+[Patient: #],hasA,(02.est_patient_de),2654,2655
+[Consultation antérieure],hasA,(LOC),2656,2657
+[Mesure],hasA,(RESULT),2664,2665
+[Diabète],hasA,(00.TYP),2676,2677
+[Diabète],hasA,(00.TYP),2683,2684
+[Diabète],hasA,(00.TYP),2690,2691
+[Diabète],hasA,(00.TYP),2697,2698
+[Accompagnement],hasA,(AGT),2705,2706
+[Mère],hasA,(REL),2707,2708
+[Accompagnement],hasA,(AGT),2712,2713
+[Personne: #p],hasA,(AGT-1),2714,2715
+[Aide],hasA,(PAT),2716,2717
+[Accompagnement],hasA,(AGT),2721,2722
+[Personne: #p],hasA,(AGT-1),2723,2724
+[Accompagnement],hasA,(AGT),2728,2729
+[Personne: #p],hasA,(REL),2730,2731
+[Accompagnement],hasA,(AGT),2735,2736
+[Père],hasA,(REL),2737,2738
+[Personne: #x],hasA,(---¬),2740,2741
+[Personne: #],hasA,(EFF),2742,2743
+[Sommeil: #2],hasA,(moment),2744,2745
+[Personne: #x],hasA,(a_un),2747,2748
+[Fille],hasA,(nbr),2749,2750
+[Nombre],hasA,(0.a_pour_valeur),2751,2752
+[Personne: #x],hasA,(a_un),2754,2755
+[Fils],hasA,(nbr),2756,2757
+[Nombre],hasA,(0.a_pour_valeur),2758,2759
+[Personne: #x],hasA,(a_un),2761,2762
+[Frère],hasA,(nbr),2763,2764
+[Nombre],hasA,(0.a_pour_valeur),2765,2766
+[Personne: #x],hasA,(a_un),2768,2769
+[Soeur],hasA,(nbr),2770,2771
+[Nombre],hasA,(0.a_pour_valeur),2772,2773
+[Personne: #],hasA,(MEMBR-1),2777,2778
+[Union],hasA,(MEMBR),2779,2780
+[Pays],hasA,(00.de_type),2832,2833
+[Poids: #m1],hasA,(0.a_pour_valeur),2837,2838
+[Poids: #m6],hasA,(0.a_pour_valeur),2842,2843
+[Poids],hasA,(0.a_pour_valeur),2847,2848
+[Taille],hasA,(0.a_pour_valeur),2852,2853
+[Profession],hasA,(00.de_type),2857,2858
+[Personne: #w],hasA,(01.PAT),2864,2865
+[Personne: #z],hasA,(a_un),2867,2868
+[Nom],hasA,(0.a_pour_valeur),2869,2870
+[Personne: #z],hasA,(a_un),2872,2873
+[Téléphone],hasA,(0.a_pour_valeur),2874,2875
+[Pharmacie],hasA,(a_un),2877,2878
+[Nom],hasA,(0.a_pour_valeur),2879,2880
+[Pharmacie],hasA,(a_un),2882,2883
+[Téléphone],hasA,(0.a_pour_valeur),2884,2885
+[PHQ9: #01],hasA,(0.a_pour_valeur),2887,2888
+[PHQ9: #01],hasA,(0.a_pour_valeur),2890,2891
+[PHQ9: #01],hasA,(0.a_pour_valeur),2893,2894
+[PHQ9: #01],hasA,(0.a_pour_valeur),2896,2897
+[PHQ9: #02],hasA,(0.a_pour_valeur),2899,2900
+[PHQ9: #02],hasA,(0.a_pour_valeur),2902,2903
+[PHQ9: #02],hasA,(0.a_pour_valeur),2905,2906
+[PHQ9: #02],hasA,(0.a_pour_valeur),2908,2909
+[PHQ9: #03],hasA,(0.a_pour_valeur),2911,2912
+[PHQ9: #03],hasA,(0.a_pour_valeur),2914,2915
+[PHQ9: #03],hasA,(0.a_pour_valeur),2917,2918
+[PHQ9: #03],hasA,(0.a_pour_valeur),2920,2921
+[PHQ9: #04],hasA,(0.a_pour_valeur),2923,2924
+[PHQ9: #04],hasA,(0.a_pour_valeur),2926,2927
+[PHQ9: #04],hasA,(0.a_pour_valeur),2929,2930
+[PHQ9: #04],hasA,(0.a_pour_valeur),2932,2933
+[PHQ9: #05],hasA,(0.a_pour_valeur),2935,2936
+[PHQ9: #05],hasA,(0.a_pour_valeur),2938,2939
+[PHQ9: #05],hasA,(0.a_pour_valeur),2941,2942
+[PHQ9: #05],hasA,(0.a_pour_valeur),2944,2945
+[PHQ9: #06],hasA,(0.a_pour_valeur),2947,2948
+[PHQ9: #06],hasA,(0.a_pour_valeur),2950,2951
+[PHQ9: #06],hasA,(0.a_pour_valeur),2953,2954
+[PHQ9: #06],hasA,(0.a_pour_valeur),2956,2957
+[PHQ9: #07],hasA,(0.a_pour_valeur),2959,2960
+[PHQ9: #07],hasA,(0.a_pour_valeur),2962,2963
+[PHQ9: #07],hasA,(0.a_pour_valeur),2965,2966
+[PHQ9: #07],hasA,(0.a_pour_valeur),2968,2969
+[PHQ9: #08],hasA,(0.a_pour_valeur),2971,2972
+[PHQ9: #08],hasA,(0.a_pour_valeur),2974,2975
+[PHQ9: #08],hasA,(0.a_pour_valeur),2977,2978
+[PHQ9: #08],hasA,(0.a_pour_valeur),2980,2981
+[PHQ9: #09],hasA,(0.a_pour_valeur),2983,2984
+[PHQ9: #09],hasA,(0.a_pour_valeur),2986,2987
+[PHQ9: #09],hasA,(0.a_pour_valeur),2989,2990
+[PHQ9: #09],hasA,(0.a_pour_valeur),2992,2993
+[precision_motif_autre],hasA,(a_une),2995,2996
+[Réponse],hasA,(0.a_pour_valeur),2997,2998
+[Nombre: #1],hasA,(0.a_pour_valeur),3002,3003
+[Nombre: #2],hasA,(0.a_pour_valeur),3007,3008
+[Nombre: #3],hasA,(0.a_pour_valeur),3012,3013
+[Nombre: #4],hasA,(0.a_pour_valeur),3017,3018
+[Nombre: #5],hasA,(0.a_pour_valeur),3022,3023
+[Nombre: #6],hasA,(0.a_pour_valeur),3027,3028
+[Nombre: #7],hasA,(0.a_pour_valeur),3032,3033
+[Procédure],hasA,(METH),3037,3038
+[Consultation Médicale],hasA,(07.MNT),3042,3043
+[Ancienneté],hasA,(DUR),3076,3077
+[Quantité],hasA,(0.a_pour_valeur),3080,3081
+[Problème connu récidivant],hasA,(01.DESCR),3083,3084
+[Problème connu récidivant],hasA,(01.DESCR),3086,3087
+[Problème connu récidivant],hasA,(01.DESCR),3089,3090
+[Problème connu récidivant],hasA,(01.DESCR),3092,3093
+[Problème connu récidivant],hasA,(01.DESCR),3095,3096
+[Problème connu récidivant],hasA,(01.DESCR),3098,3099
+[Problème connu récidivant],hasA,(01.DESCR),3101,3102
+[Problème connu récidivant],hasA,(01.DESCR),3104,3105
+[Problème connu récidivant],hasA,(01.DESCR),3107,3108
+[Problème connu récidivant],hasA,(01.DESCR),3110,3111
+[Problème connu récidivant],hasA,(01.DESCR),3113,3114
+[Problème connu récidivant],hasA,(01.DESCR),3116,3117
+[Problème connu récidivant],hasA,(01.DESCR),3119,3120
+[Problème connu récidivant],hasA,(01.DESCR),3122,3123
+[Problème connu récidivant],hasA,(01.DESCR),3125,3126
+[Problème connu récidivant],hasA,(01.DESCR),3128,3129
+[Problème connu récidivant],hasA,(01.DESCR),3131,3132
+[Problème connu récidivant],hasA,(01.DESCR),3134,3135
+[Problème connu récidivant],hasA,(01.DESCR),3137,3138
+[Problème connu récidivant],hasA,(01.DESCR),3140,3141
+[Problème connu récidivant],hasA,(01.DESCR),3143,3144
+[Problème connu récidivant],hasA,(a_un),3146,3147
+[Libellé],hasA,(0.a_pour_valeur),3148,3149
+[Procedure Chirurgicale: #O],hasA,(00.de_type),3176,3177
+[Trouble Homéostasie],hasA,(01.PAT),3181,3182
+[Trouble Homéostasie],hasA,(01.PAT),3186,3187
+[Diabète],hasA,(10.a_un_suivi),3191,3192
+[Personne: #x],hasA,(01.PAT),3195,3196
+[Diabète],hasA,(10.a_un_suivi),3202,3203
+[Personne: #x],hasA,(01.PAT),3206,3207
+[Procédure médicale: #PM1],hasA,(00.de_type),3211,3212
+[Procédure médicale: #PM1],hasA,(2.a_date),3214,3215
+[Date],hasA,(0.a_pour_valeur),3216,3217
+[Procédure médicale: #PM2],hasA,(00.de_type),3219,3220
+[Procédure médicale: #PM2],hasA,(2.a_date),3222,3223
+[Date],hasA,(0.a_pour_valeur),3224,3225
+[Procédure Sanitaire],hasA,(00.TYP),3227,3228
+[Radiographie],hasA,(Cible),3229,3230
+[Partie du corps humain spécifiée],hasA,(00.TYP),3231,3232
+[Procédure Sanitaire],hasA,(00.TYP),3234,3235
+[Radiographie],hasA,(Cible),3236,3237
+[Partie du corps humain spécifiée],hasA,(00.TYP),3238,3239
+[Procédure Sanitaire],hasA,(00.TYP),3241,3242
+[Radiographie],hasA,(Cible),3243,3244
+[Partie du corps humain spécifiée],hasA,(00.TYP),3245,3246
+[Procédure Sanitaire],hasA,(00.TYP),3248,3249
+[Radiographie],hasA,(Cible),3250,3251
+[Partie du corps humain spécifiée],hasA,(00.TYP),3252,3253
+[Injection],hasA,(RESOR),3257,3258
+[Vaccin],hasA,(00.de_type),3259,3260
+[Injection],hasA,(RESOR),3264,3265
+[Vaccin],hasA,(00.de_type),3266,3267
+[Injection],hasA,(RESOR),3271,3272
+[Vaccin],hasA,(00.de_type),3273,3274
+[Injection],hasA,(RESOR),3278,3279
+[Vaccin],hasA,(00.de_type),3280,3281
+[Injection],hasA,(RESOR),3285,3286
+[Vaccin],hasA,(00.de_type),3287,3288
+[Injection],hasA,(RESOR),3292,3293
+[Vaccin],hasA,(00.de_type),3294,3295
+[Partie du corps humain spécifiée],hasA,(00.TYP),3299,3300
+[Partie du corps humain spécifiée],hasA,(00.TYP),3304,3305
+[Partie du corps humain spécifiée],hasA,(00.TYP),3309,3310
+[Partie du corps humain spécifiée],hasA,(00.TYP),3314,3315
+[Partie du corps humain spécifiée],hasA,(00.TYP),3319,3320
+[Partie du corps humain spécifiée],hasA,(00.TYP),3324,3325
+[Renseignement],hasA,(a_objet),3327,3328
+[Renseignement],hasA,(a_objet),3330,3331
+[Nombre: #1],hasA,(0.a_pour_valeur),3335,3336
+[Nombre: #2],hasA,(0.a_pour_valeur),3340,3341
+[Nombre: #3],hasA,(0.a_pour_valeur),3345,3346
+[Nombre: #4],hasA,(0.a_pour_valeur),3350,3351
+[Nombre: #5],hasA,(0.a_pour_valeur),3355,3356
+[Nombre: #6],hasA,(0.a_pour_valeur),3360,3361
+[Nombre: #7],hasA,(0.a_pour_valeur),3365,3366
+[Nombre: #99],hasA,(0.a_pour_valeur),3370,3371
+[Santé Mentale],hasA,(---¬),3373,3374
+[Contenu],hasA,(est_contenu_pour),3375,3376
+[Message],hasA,(04.a_destinataire),3377,3378
+[Interlocuteur],hasA,(01.DESCR),3379,3380
+[Douleur: #GA],hasA,(LOC),3415,3416
+[Incontinence],hasA,(LOC),3426,3427
+[Prurit],hasA,(LOC),3437,3438
+[Douleur: #U0],hasA,(LOC),3463,3464
+[Douleur: #U1],hasA,(LOC),3468,3469
+[Douleur: #U],hasA,(LOC),3473,3474
+[Ecoulement],hasA,(voie),3481,3482
+[Douleur: #O],hasA,(LOC),3498,3499
+[Douleur: #P],hasA,(LOC),3503,3504
+[Douleur: #T],hasA,(LOC),3508,3509
+[Lieu],hasA,(01.DESCR),3516,3517
+[Personne: #x],hasA,(----),3521,3522
+[Personne: #],hasA,(a_emploi),3523,3524
+[Personne: #x],hasA,(---¬),3528,3529
+[Personne: #],hasA,(a_emploi),3530,3531
+[Sommeil: #2],hasA,(occurence),3542,3543
+[Sommeil: #2],hasA,(occurence),3545,3546
+[Sommeil: #2],hasA,(occurence),3548,3549
+[Autre],hasA,(0.a_pour_valeur),3553,3554
+[Processus Pathologique Chronique],hasA,(TYP),3558,3559
+[Processus Pathologique Chronique],hasA,(TYP),3563,3564
+[Processus Pathologique Chronique],hasA,(TYP),3568,3569
+[Processus Pathologique Chronique],hasA,(TYP),3573,3574
+[Processus Pathologique Chronique],hasA,(TYP),3578,3579
+[Processus Pathologique Chronique],hasA,(TYP),3583,3584
+[Processus Pathologique Chronique],hasA,(TYP),3588,3589
+[Processus Pathologique Chronique],hasA,(TYP),3593,3594
+[Processus Pathologique Chronique],hasA,(TYP),3598,3599
+[Processus Pathologique Chronique],hasA,(TYP),3603,3604
+[Processus Pathologique Chronique],hasA,(TYP),3608,3609
+[Processus Pathologique Chronique],hasA,(TYP),3613,3614
+[Processus Pathologique Chronique],hasA,(TYP),3618,3619
+[Varice],hasA,(LOC),3620,3621
+[Processus Pathologique Chronique],hasA,(TYP),3625,3626
+[Processus Pathologique Chronique],hasA,(TYP),3630,3631
+[Processus Pathologique Chronique],hasA,(TYP),3635,3636
+[Addiction],hasA,(AGT),3637,3638
+[Processus Pathologique Chronique],hasA,(TYP),3642,3643
+[Addiction],hasA,(AGT),3644,3645
+[Processus Pathologique Chronique],hasA,(TYP),3649,3650
+[Processus Pathologique Chronique],hasA,(TYP),3654,3655
+[Processus Pathologique Chronique],hasA,(TYP),3659,3660
+[Processus Pathologique Chronique],hasA,(TYP),3664,3665
+[Processus Pathologique Chronique],hasA,(TYP),3669,3670
+[Processus Pathologique Chronique],hasA,(TYP),3674,3675
+[Processus Pathologique Chronique],hasA,(TYP),3679,3680
+[Processus Pathologique Chronique],hasA,(TYP),3684,3685
+[Processus Pathologique Chronique],hasA,(TYP),3689,3690
+[Processus Pathologique Chronique],hasA,(TYP),3694,3695
+[Maladie],hasA,(0.a_pour_valeur),3696,3697
+[Tension Artérielle Diastolique],hasA,(0.a_pour_valeur),3704,3705
+[Tension Artérielle Systolique],hasA,(0.a_pour_valeur),3709,3710
+[Fin],hasA,(Time),3717,3718
+[Fin],hasA,(Time),3722,3723
+[Evolution],hasA,(TYP),3727,3728
+[Il y a],hasA,(0.a_pour_valeur),3735,3736
+[Température: #1],hasA,(0.a_pour_valeur),3738,3739
+[Test de Fagerström: #7],hasA,(0.a_pour_valeur),3741,3742
+[Test de Fagerström: #7],hasA,(0.a_pour_valeur),3744,3745
+[Test de Fagerström: #7],hasA,(0.a_pour_valeur),3747,3748
+[Test de Fagerström: #7],hasA,(0.a_pour_valeur),3750,3751
+[Test de Fagerström: #8],hasA,(0.a_pour_valeur),3753,3754
+[Test de Fagerström: #8],hasA,(0.a_pour_valeur),3756,3757
+[Test de Fagerström: #8],hasA,(0.a_pour_valeur),3759,3760
+[Test de Fagerström: #8],hasA,(0.a_pour_valeur),3762,3763
+[Données],hasA,(SOURC),3767,3768
+[Information],hasA,(BENEF),3769,3770
+[Données],hasA,(SOURC),3774,3775
+[Information],hasA,(BENEF),3776,3777
+[Traitement],hasA,(a_constituant),3785,3786
+[TRAITEMENTS],hasA,(PART-1),3788,3789
+[Voyage],hasA,(a_début),3797,3798
