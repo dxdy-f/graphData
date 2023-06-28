@@ -1,4 +1,78 @@
 head,relation,tail,head_id,relation_id,tail_id
+[Assertion: #121‹],(05.CAUS),[Assertion: #122‹],74,83,76
+[Assertion: #1‹],(01.DESCR),[Conjonction: #1‹],106,124,110
+[Conjonction: #1‹],(ET),[Assertion: #11‹],110,125,71
+[Assertion: #11‹],(01.DESCR),[Situation: #1‹],71,126,113
+[Situation: #1‹],(01.DESCR),[Patient: #x‹],113,127,115
+[Patient: #x‹],(02.est_patient_de),[Demande: #d‹],115,128,117
+[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,129,130
+[Assertion: #7‹],(DESCR),[Personne: #x],180,189,190
+[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé],211,223,224
+[Certificat Médical: #1‹],(PAT),[Pratique],411,420,421
+[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,573,574
+[Consultation: #c‹],(OCCUR),[Occurrence],726,733,734
+[Consultation: #o‹],(OCCUR),[Occurrence],743,750,751
+[Demande: #d‹],(02.AGT),[Locuteur],117,778,779
+[Prestation: #00‹],(00.de_type),[Consultation],121,785,786
+[Prestation: #00‹],(00.de_type),[Renseignement],121,790,791
+[Situation: #2‹],(00.de_type),[Rendez-Vous],142,810,811
+[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,815,211
+[Besoin de Santé: #1‹],(01.DESCR),[Conduite à tenir: #1‹],211,843,835
+[Conduite à tenir: #1‹],(05.CAUS),[Résultat: #1‹],835,858,851
+[Résultat: #1‹],(RESUL-1),[Procédure Sanitaire],851,859,860
+[Besoin de Santé: #1‹],(01.DESCR),[Maintien Santé],211,918,919
+[Besoin de Santé: #1‹],(01.DESCR),[Prescription],211,947,948
+[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé: #1n‹],211,952,220
+[Besoin de Santé: #1‹],(01.DESCR),[Suivi],211,972,973
+[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1391,1386
+[Test de FACE: #F‹],(ITEM),[Test de FACE: #1],1386,1392,1393
+[Test de FACE: #F‹],(ITEM),[Test de FACE: #2],1386,1417,1418
+[Test de FACE: #F‹],(ITEM),[Test de FACE: #3],1386,1442,1443
+[Test de FACE: #F‹],(ITEM),[Test de FACE: #4],1386,1452,1453
+[Test de FACE: #F‹],(ITEM),[Test de FACE: #5],1386,1462,1463
+[Exposition: #tbc‹],(a_un),[Déroulement: #tbc‹],1499,1506,1501
+[Déroulement: #tbc‹],(a_un),[Fin],1501,1512,1513
+[Manifestation: #1r‹],(a_début),[Début: #db‹],1941,2002,1999
+[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2015,2010
+[Message: #‹],(10.a_contenu),[Assertion: #9‹],2051,2103,2100
+[Patient: #x‹],(---¬),[Personne: #],115,2261,2262
+[Patient: #x‹],(02.est_patient_de),[Processus Morbide: #1‹],115,2282,399
+[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2283,2284
+[Patient: #x‹],(PAT-1),[Accompagnement],115,2310,2311
+[Personne: #x‹],(01.a_age),[Age: #‹],2274,2393,2390
+[Problème de Santé: #1n‹],(SIGN),[Manifestation: #1p‹],220,2711,1936
+[Processus Morbide: #1‹],(00.TYP),[Trouble Homéostasie],399,2730,2731
+[Suivi: #diab‹],(01.DESCR),[Personne: #x],2737,2746,2747
+[Prévention: #03‹],(METH),[Injection],2802,2809,2810
+[Situation: #1‹],(00.a_lieu),[Lieu],113,3011,3012
+[Situation: #e‹],(01.DESCR),[Personne: #x],3015,3022,3023
+[Suivi: #01‹],(PAT),[Processus Pathologique Chronique],235,3049,3050
+[Suivi: #02‹],(PAT),[Processus Pathologique Chronique],241,3052,3053
+[Suivi: #03‹],(PAT),[Processus Pathologique Chronique],247,3056,3057
+[Suivi: #04‹],(PAT),[Processus Pathologique Chronique],253,3060,3061
+[Suivi: #05‹],(PAT),[Processus Pathologique Chronique],259,3064,3065
+[Suivi: #06‹],(PAT),[Processus Pathologique Chronique],265,3068,3069
+[Suivi: #07‹],(PAT),[Processus Pathologique Chronique],271,3072,3073
+[Suivi: #08‹],(PAT),[Processus Pathologique Chronique],277,3076,3077
+[Suivi: #09‹],(PAT),[Processus Pathologique Chronique],283,3080,3081
+[Suivi: #10‹],(PAT),[Processus Pathologique Chronique],289,3084,3085
+[Suivi: #11‹],(PAT),[Processus Pathologique Chronique],295,3088,3089
+[Suivi: #12‹],(PAT),[Processus Pathologique Chronique],301,3092,3093
+[Suivi: #13‹],(PAT),[Processus Pathologique Chronique],307,3096,3097
+[Suivi: #14‹],(PAT),[Processus Pathologique Chronique],315,3102,3103
+[Suivi: #15‹],(PAT),[Processus Pathologique Chronique],321,3106,3107
+[Suivi: #16‹],(PAT),[Processus Pathologique Chronique],327,3110,3111
+[Suivi: #17‹],(PAT),[Processus Pathologique Chronique],335,3116,3117
+[Suivi: #19‹],(PAT),[Processus Pathologique Chronique],343,3127,3128
+[Suivi: #20‹],(PAT),[Processus Pathologique Chronique],349,3131,3132
+[Suivi: #21‹],(PAT),[Processus Pathologique Chronique],355,3135,3136
+[Suivi: #22‹],(PAT),[Processus Pathologique Chronique],361,3139,3140
+[Suivi: #23‹],(PAT),[Processus Pathologique Chronique],367,3143,3144
+[Suivi: #30‹],(PAT),[Processus Pathologique Chronique],373,3147,3148
+[Suivi: #52‹],(PAT),[Processus Pathologique Chronique],379,3151,3152
+[Suivi: #60‹],(PAT),[Processus Pathologique Chronique],385,3155,3156
+[Suivi: #99‹],(PAT),[Processus Pathologique Chronique],391,3159,3160
+[Syndrôme Fébrile: #1‹],(fin),[Fin],1985,3182,3183
 [>ANTECEDENTS FAMILIAUX<],(PART-1),[Dossier Médical],0,1,2
 [>ANTECEDENTS PERSONNELS<],(PART-1),[Dossier Médical],3,4,5
 [Action: #D1],(Objet),[Document],6,7,8
@@ -29,11 +103,9 @@ head,relation,tail,head_id,relation_id,tail_id
 [Patient],(01.PAT),[Procédure],66,67,68
 [Procédure],(00.TYP),[Imagerie médicale],68,69,70
 [Assertion: #11‹],(00.Denotatum),[>PATIENT<],71,72,73
-[Assertion: #121‹],(05.CAUS),[Assertion: #122‹],74,75,76
 [Assertion: #122‹],(01.DESCR),[Médecin: #tt2‹],76,77,78
 [Médecin: #tt2‹],(---¬),[Médecin: €],78,79,80
 [Médecin: €],(a_une),[Disponibilité],80,81,82
-[Assertion: #121‹],(05.CAUS),[Assertion: #122‹],74,83,76
 [Assertion: #122‹],(01.DESCR),[Personne: #x30],76,84,85
 [Personne: #x30],(---¬),[Personne: €],85,86,87
 [Personne: €],(REL-1),[Médecin Traitant: €],87,88,89
@@ -45,36 +117,14 @@ head,relation,tail,head_id,relation_id,tail_id
 [Assertion: #12‹],(00.Denotatum),[>MEDECIN<],100,101,102
 [Assertion: #13‹],(00.Denotatum),[>AUTONOMIE<],103,104,105
 [Assertion: #1‹],(00.Denotatum),[CONTEXTE],106,107,108
-[Assertion: #1‹],(01.DESCR),[Conjonction: #1‹],106,109,110
-[Conjonction: #1‹],(ET),[Assertion: #11‹],110,111,71
-[Assertion: #11‹],(01.DESCR),[Situation: #1‹],71,112,113
-[Situation: #1‹],(01.DESCR),[Patient: #x‹],113,114,115
-[Patient: #x‹],(02.est_patient_de),[Demande: #d‹],115,116,117
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,118,119
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],119,120,121
-[Prestation: #00‹],(00.de_type),[Consultation],121,122,123
-[Assertion: #1‹],(01.DESCR),[Conjonction: #1‹],106,124,110
-[Conjonction: #1‹],(ET),[Assertion: #11‹],110,125,71
-[Assertion: #11‹],(01.DESCR),[Situation: #1‹],71,126,113
-[Situation: #1‹],(01.DESCR),[Patient: #x‹],113,127,115
-[Patient: #x‹],(02.est_patient_de),[Demande: #d‹],115,128,117
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,129,130
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],130,131,121
-[Prestation: #00‹],(00.de_type),[Renseignement],121,132,133
-[Assertion: #1‹],(01.DESCR),[Conjonction: #1‹],106,134,110
-[Conjonction: #1‹],(ET),[Assertion: #11‹],110,135,71
-[Assertion: #11‹],(01.DESCR),[Situation: #1‹],71,136,113
-[Situation: #1‹],(01.DESCR),[Patient: #x‹],113,137,115
-[Patient: #x‹],(02.est_patient_de),[Demande: #d‹],115,138,117
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,139,140
 [Réponse attendue],(01.DESCR),[Situation: #2‹],140,141,142
-[Situation: #2‹],(00.de_type),[Rendez-Vous],142,143,144
 [Assertion: #21],(----),[Traitement],145,146,147
 [Traitement],(a_cause),[Prescription],147,148,149
 [Assertion: #21],(0.a_pour_valeur),[FAUX],150,151,152
 [Assertion: #21],(0.a_pour_valeur),[VRAI],153,154,155
 [Assertion: #2‹],(01.DESCR),[Demande: #d‹],156,157,117
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,158,159
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],159,160,121
 [Prestation: #00‹],(07.MNT),[Moment: #t0‹],121,161,162
 [Assertion: #5],(0.a_pour_valeur),[FAUX],163,164,165
@@ -84,15 +134,12 @@ head,relation,tail,head_id,relation_id,tail_id
 [Assertion: #6‹],(DQM),[Renseignement: €],171,174,175
 [Assertion: #6‹],(PART-1),[Dossier Médical],171,176,177
 [Dossier Médical],(POSS),[Médecin: #z],177,178,179
-[Assertion: #7‹],(DESCR),[Personne: #x],180,181,182
 [Personne: #x],(01.PAT),[Fausse-Couche],182,183,184
 [Fausse-Couche],(CARD),[Nombre],184,185,186
 [Nombre],(0.a_pour_valeur),[Valeur: #?],186,187,188
-[Assertion: #7‹],(DESCR),[Personne: #x],180,189,190
 [Personne: #x],(01.PAT),[IVG],190,191,192
 [IVG],(CARD),[Nombre],192,193,194
 [Nombre],(0.a_pour_valeur),[Valeur: #?],194,195,196
-[Assertion: #7‹],(DESCR),[Personne: #x],180,197,198
 [Personne: #x],(AGT),[Accouchement],198,199,200
 [Accouchement],(CARD),[Nombre],200,201,202
 [Nombre],(0.a_pour_valeur),[Valeur: #?],202,203,204
@@ -100,96 +147,66 @@ head,relation,tail,head_id,relation_id,tail_id
 [Autre demande],(0.a_pour_valeur),[Valeur: #?],208,209,210
 [Besoin de Santé: #1‹],(----),[Assertion: #15 ‹],211,212,213
 [Besoin de Santé: #1‹],(01.DESCR),[Besoin de Santé perçu],211,214,215
-[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé],211,216,217
 [Problème de Santé],(----),[Besoin de Santé: #1‹],217,218,211
-[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé: #1n‹],211,219,220
 [Problème de Santé: #1n‹],(occurrence),[Occurrence: N>1],220,221,222
-[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé],211,223,224
 [Problème de Santé],(05.CAUS),[Prestation: #1n‹],224,225,226
 [Prestation: #1n‹],(a_occurrence),[Occurrence: N=0],226,227,228
-[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé],211,229,230
 [Problème de Santé],(05.CAUS),[Prestation: #1n‹],230,231,226
 [Prestation: #1n‹],(a_occurrence),[Occurrence: N≥1],226,232,233
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #01‹],211,234,235
-[Suivi: #01‹],(PAT),[Processus Pathologique Chronique],235,236,237
 [Processus Pathologique Chronique],(TYP),[HTA: #1‹],237,238,239
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #02‹],211,240,241
-[Suivi: #02‹],(PAT),[Processus Pathologique Chronique],241,242,243
 [Processus Pathologique Chronique],(TYP),[Hyperlipidémie],243,244,245
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #03‹],211,246,247
-[Suivi: #03‹],(PAT),[Processus Pathologique Chronique],247,248,249
 [Processus Pathologique Chronique],(TYP),[Insomnie],249,250,251
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #04‹],211,252,253
-[Suivi: #04‹],(PAT),[Processus Pathologique Chronique],253,254,255
 [Processus Pathologique Chronique],(TYP),[Surcharge Pondérale],255,256,257
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #05‹],211,258,259
-[Suivi: #05‹],(PAT),[Processus Pathologique Chronique],259,260,261
 [Processus Pathologique Chronique],(TYP),[Diabète],261,262,263
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #06‹],211,264,265
-[Suivi: #06‹],(PAT),[Processus Pathologique Chronique],265,266,267
 [Processus Pathologique Chronique],(TYP),[Dépression],267,268,269
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #07‹],211,270,271
-[Suivi: #07‹],(PAT),[Processus Pathologique Chronique],271,272,273
 [Processus Pathologique Chronique],(TYP),[Maladie Coronarienne],273,274,275
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #08‹],211,276,277
-[Suivi: #08‹],(PAT),[Processus Pathologique Chronique],277,278,279
 [Processus Pathologique Chronique],(TYP),[Constipation],279,280,281
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #09‹],211,282,283
-[Suivi: #09‹],(PAT),[Processus Pathologique Chronique],283,284,285
 [Processus Pathologique Chronique],(TYP),[Ménopause],285,286,287
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #10‹],211,288,289
-[Suivi: #10‹],(PAT),[Processus Pathologique Chronique],289,290,291
 [Processus Pathologique Chronique],(TYP),[Colite],291,292,293
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #11‹],211,294,295
-[Suivi: #11‹],(PAT),[Processus Pathologique Chronique],295,296,297
 [Processus Pathologique Chronique],(TYP),[Arthrose],297,298,299
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #12‹],211,300,301
-[Suivi: #12‹],(PAT),[Processus Pathologique Chronique],301,302,303
 [Processus Pathologique Chronique],(TYP),[Asthme],303,304,305
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #13‹],211,306,307
-[Suivi: #13‹],(PAT),[Processus Pathologique Chronique],307,308,309
 [Processus Pathologique Chronique],(TYP),[Varice],309,310,311
 [Varice],(LOC),[Membre Inférieur],311,312,313
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #14‹],211,314,315
-[Suivi: #14‹],(PAT),[Processus Pathologique Chronique],315,316,317
 [Processus Pathologique Chronique],(TYP),[Lourdeurs de jambe],317,318,319
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #15‹],211,320,321
-[Suivi: #15‹],(PAT),[Processus Pathologique Chronique],321,322,323
 [Processus Pathologique Chronique],(TYP),[Hypothyroïdie],323,324,325
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #16‹],211,326,327
-[Suivi: #16‹],(PAT),[Processus Pathologique Chronique],327,328,329
 [Processus Pathologique Chronique],(TYP),[Addiction],329,330,331
 [Addiction],(AGT),[Alcool],331,332,333
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #17‹],211,334,335
-[Suivi: #17‹],(PAT),[Processus Pathologique Chronique],335,336,337
 [Processus Pathologique Chronique],(TYP),[Addiction],337,338,339
 [Addiction],(AGT),[Tabac],339,340,341
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #19‹],211,342,343
-[Suivi: #19‹],(PAT),[Processus Pathologique Chronique],343,344,345
 [Processus Pathologique Chronique],(TYP),[Cancer],345,346,347
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #20‹],211,348,349
-[Suivi: #20‹],(PAT),[Processus Pathologique Chronique],349,350,351
 [Processus Pathologique Chronique],(TYP),[Fibrillation Auriculaire],351,352,353
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #21‹],211,354,355
-[Suivi: #21‹],(PAT),[Processus Pathologique Chronique],355,356,357
 [Processus Pathologique Chronique],(TYP),[Insuffisance Cardiaque],357,358,359
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #22‹],211,360,361
-[Suivi: #22‹],(PAT),[Processus Pathologique Chronique],361,362,363
 [Processus Pathologique Chronique],(TYP),[Bronchite Chronique],363,364,365
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #23‹],211,366,367
-[Suivi: #23‹],(PAT),[Processus Pathologique Chronique],367,368,369
 [Processus Pathologique Chronique],(TYP),[Apnée du sommeil],369,370,371
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #30‹],211,372,373
-[Suivi: #30‹],(PAT),[Processus Pathologique Chronique],373,374,375
 [Processus Pathologique Chronique],(TYP),[Maladie de Parkinson],375,376,377
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #52‹],211,378,379
-[Suivi: #52‹],(PAT),[Processus Pathologique Chronique],379,380,381
 [Processus Pathologique Chronique],(TYP),[Eczéma],381,382,383
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #60‹],211,384,385
-[Suivi: #60‹],(PAT),[Processus Pathologique Chronique],385,386,387
 [Processus Pathologique Chronique],(TYP),[Maladie Infectieuse],387,388,389
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi: #99‹],211,390,391
-[Suivi: #99‹],(PAT),[Processus Pathologique Chronique],391,392,393
 [Processus Pathologique Chronique],(TYP),[Maladie],393,394,395
 [Maladie],(0.a_pour_valeur),[Valeur: #?],395,396,397
 [Besoin de Santé: #1‹],(05.CAUS),[Processus Morbide: #1‹],211,398,399
@@ -199,137 +216,85 @@ head,relation,tail,head_id,relation_id,tail_id
 [Biologie],(0.a_pour_valeur),[Faux],405,406,407
 [Biologie],(0.a_pour_valeur),[Vrai],408,409,410
 [Certificat Médical: #1‹],(PAT),[Arrêt de Travail],411,412,413
-[Certificat Médical: #1‹],(PAT),[Pratique],411,414,415
 [Pratique],(PAT),[Sport: #10‹],415,416,417
 [Sport: #10‹],(TYP),[Volley-ball],417,418,419
-[Certificat Médical: #1‹],(PAT),[Pratique],411,420,421
 [Pratique],(PAT),[Sport: #11‹],421,422,423
 [Sport: #11‹],(TYP),[Badmington],423,424,425
-[Certificat Médical: #1‹],(PAT),[Pratique],411,426,427
 [Pratique],(PAT),[Sport: #12‹],427,428,429
 [Sport: #12‹],(TYP),[Gymnastique],429,430,431
-[Certificat Médical: #1‹],(PAT),[Pratique],411,432,433
 [Pratique],(PAT),[Sport: #13‹],433,434,435
 [Sport: #13‹],(TYP),[Boxe],435,436,437
-[Certificat Médical: #1‹],(PAT),[Pratique],411,438,439
 [Pratique],(PAT),[Sport: #14‹],439,440,441
 [Sport: #14‹],(TYP),[Vélo-Tout-Terrain],441,442,443
-[Certificat Médical: #1‹],(PAT),[Pratique],411,444,445
 [Pratique],(PAT),[Sport: #15‹],445,446,447
 [Sport: #15‹],(TYP),[Judo],447,448,449
-[Certificat Médical: #1‹],(PAT),[Pratique],411,450,451
 [Pratique],(PAT),[Sport: #16‹],451,452,453
 [Sport: #16‹],(TYP),[Natation],453,454,455
-[Certificat Médical: #1‹],(PAT),[Pratique],411,456,457
 [Pratique],(PAT),[Sport: #17‹],457,458,459
 [Sport: #17‹],(TYP),[Moto-Cross],459,460,461
-[Certificat Médical: #1‹],(PAT),[Pratique],411,462,463
 [Pratique],(PAT),[Sport: #18‹],463,464,465
 [Sport: #18‹],(TYP),[Karting],465,466,467
-[Certificat Médical: #1‹],(PAT),[Pratique],411,468,469
 [Pratique],(PAT),[Sport: #19‹],469,470,471
 [Sport: #19‹],(TYP),[Course-à-Pied],471,472,473
-[Certificat Médical: #1‹],(PAT),[Pratique],411,474,475
 [Pratique],(PAT),[Sport: #1‹],475,476,477
 [Sport: #1‹],(TYP),[Football],477,478,479
-[Certificat Médical: #1‹],(PAT),[Pratique],411,480,481
 [Pratique],(PAT),[Sport: #20‹],481,482,483
 [Sport: #20‹],(TYP),[Marathon],483,484,485
-[Certificat Médical: #1‹],(PAT),[Pratique],411,486,487
 [Pratique],(PAT),[Sport: #21‹],487,488,489
 [Sport: #21‹],(TYP),[Escalade],489,490,491
-[Certificat Médical: #1‹],(PAT),[Pratique],411,492,493
 [Pratique],(PAT),[Sport: #22‹],493,494,495
 [Sport: #22‹],(TYP),[Canoë-Kayak],495,496,497
-[Certificat Médical: #1‹],(PAT),[Pratique],411,498,499
 [Pratique],(PAT),[Sport: #23‹],499,500,501
 [Sport: #23‹],(TYP),[Escrime],501,502,503
-[Certificat Médical: #1‹],(PAT),[Pratique],411,504,505
 [Pratique],(PAT),[Sport: #24‹],505,506,507
 [Sport: #24‹],(TYP),[Sport de Combat],507,508,509
-[Certificat Médical: #1‹],(PAT),[Pratique],411,510,511
 [Pratique],(PAT),[Sport: #25‹],511,512,513
 [Sport: #25‹],(TYP),[Equitation],513,514,515
-[Certificat Médical: #1‹],(PAT),[Pratique],411,516,517
 [Pratique],(PAT),[Sport: #2‹],517,518,519
 [Sport: #2‹],(TYP),[Basket-Ball],519,520,521
-[Certificat Médical: #1‹],(PAT),[Pratique],411,522,523
 [Pratique],(PAT),[Sport: #3‹],523,524,525
 [Sport: #3‹],(TYP),[Tennis],525,526,527
-[Certificat Médical: #1‹],(PAT),[Pratique],411,528,529
 [Pratique],(PAT),[Sport: #4‹],529,530,531
 [Sport: #4‹],(TYP),[Hand-Ball],531,532,533
-[Certificat Médical: #1‹],(PAT),[Pratique],411,534,535
 [Pratique],(PAT),[Sport: #5‹],535,536,537
 [Sport: #5‹],(TYP),[Ski],537,538,539
-[Certificat Médical: #1‹],(PAT),[Pratique],411,540,541
 [Pratique],(PAT),[Sport: #6‹],541,542,543
 [Sport: #6‹],(TYP),[Musculation],543,544,545
-[Certificat Médical: #1‹],(PAT),[Pratique],411,546,547
 [Pratique],(PAT),[Sport: #7‹],547,548,549
 [Sport: #7‹],(TYP),[Ping-Pong],549,550,551
-[Certificat Médical: #1‹],(PAT),[Pratique],411,552,553
 [Pratique],(PAT),[Sport: #8‹],553,554,555
 [Sport: #8‹],(TYP),[Cyclisme],555,556,557
-[Certificat Médical: #1‹],(PAT),[Pratique],411,558,559
 [Pratique],(PAT),[Sport: #9‹],559,560,561
 [Sport: #9‹],(TYP),[Rugby],561,562,563
-[Certificat Médical: #1‹],(PAT),[Pratique],411,564,565
 [Pratique],(PAT),[Sport],565,566,567
 [Check-up: #‹],(05.CAUS),[Cause: ¬€],568,569,570
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,571,572
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,573,574
 [Processus Pathologique Chronique],(TYP),[Addiction],574,575,576
 [Addiction],(AGT),[Alcool],576,577,578
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,579,580
 [Processus Pathologique Chronique],(TYP),[Addiction],580,581,582
 [Addiction],(AGT),[Tabac],582,583,584
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,585,586
 [Processus Pathologique Chronique],(TYP),[Arthrose],586,587,588
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,589,590
 [Processus Pathologique Chronique],(TYP),[Asthme],590,591,592
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,593,594
 [Processus Pathologique Chronique],(TYP),[Bronchite Chronique],594,595,596
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,597,598
 [Processus Pathologique Chronique],(TYP),[Cancer],598,599,600
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,601,602
 [Processus Pathologique Chronique],(TYP),[Colite],602,603,604
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,605,606
 [Processus Pathologique Chronique],(TYP),[Constipation],606,607,608
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,609,610
 [Processus Pathologique Chronique],(TYP),[Diabète],610,611,612
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,613,614
 [Processus Pathologique Chronique],(TYP),[Dépression],614,615,616
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,617,618
 [Processus Pathologique Chronique],(TYP),[Eczéma],618,619,620
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,621,622
 [Processus Pathologique Chronique],(TYP),[Fibrillation auriculaire],622,623,624
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,625,626
 [Processus Pathologique Chronique],(TYP),[HTA: #1‹],626,627,239
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,628,629
 [Processus Pathologique Chronique],(TYP),[Hyperlipidémie],629,630,631
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,632,633
 [Processus Pathologique Chronique],(TYP),[Hypothyroïdie],633,634,635
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,636,637
 [Processus Pathologique Chronique],(TYP),[Insomnie],637,638,639
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,640,641
 [Processus Pathologique Chronique],(TYP),[Insuffisance cardiaque],641,642,643
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,644,645
 [Processus Pathologique Chronique],(TYP),[Lourdeurs de jambe],645,646,647
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,648,649
 [Processus Pathologique Chronique],(TYP),[Maladie coronarienne],649,650,651
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,652,653
 [Processus Pathologique Chronique],(TYP),[Maladie de Parkinson],653,654,655
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,656,657
 [Processus Pathologique Chronique],(TYP),[Maladie infectieuse],657,658,659
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,660,661
 [Processus Pathologique Chronique],(TYP),[Maladie],661,662,663
 [Maladie],(0.a_pour_valeur),[Valeur: #?],663,664,665
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,666,667
 [Processus Pathologique Chronique],(TYP),[Ménopause],667,668,669
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,670,671
 [Processus Pathologique Chronique],(TYP),[Surcharge pondérale],671,672,673
-[Check-up: #‹],(05.CAUS),[Processus Pathologique Chronique],568,674,675
 [Processus Pathologique Chronique],(TYP),[Varice des jambes],675,676,677
 [Check-up: #‹],(précédent),[Date],568,678,679
 [Date],(0.a_pour_valeur),[Valeur: #?],679,680,681
@@ -350,22 +315,16 @@ head,relation,tail,head_id,relation_id,tail_id
 [Assertion: #13‹],(01.DESCR),[Patient: #x3‹],103,720,721
 [Patient: #x3‹],(01.PAT),[Limitation: #2‹],721,722,723
 [Limitation: #2‹],(01.PAT),[Mobilité],723,724,725
-[Consultation: #c‹],(OCCUR),[Occurrence],726,727,728
 [Occurrence],(a_un),[Temps écoulé: #c‹],728,729,730
 [Temps écoulé: #c‹],(0.a_pour_valeur),[Valeur: #?],730,731,732
-[Consultation: #c‹],(OCCUR),[Occurrence],726,733,734
 [Occurrence],(a_un),[Temps écoulé: #c‹],734,735,730
 [Temps écoulé: #c‹],(depuis),[Temps: #t],730,736,737
-[Consultation: #c‹],(OCCUR),[Occurrence],726,738,739
 [Occurrence],(a_un),[Temps écoulé: #c‹],739,740,730
 [Temps écoulé: #c‹],(par rapport à),[Temps: #Maintenant],730,741,742
-[Consultation: #o‹],(OCCUR),[Occurrence],743,744,745
 [Occurrence],(a_un),[Temps écoulé: #o‹],745,746,747
 [Temps écoulé: #o‹],(0.a_pour_valeur),[Valeur: #?],747,748,749
-[Consultation: #o‹],(OCCUR),[Occurrence],743,750,751
 [Occurrence],(a_un),[Temps écoulé: #o‹],751,752,747
 [Temps écoulé: #o‹],(depuis),[Temps: #t],747,753,754
-[Consultation: #o‹],(OCCUR),[Occurrence],743,755,756
 [Occurrence],(a_un),[Temps écoulé: #o‹],756,757,747
 [Temps écoulé: #o‹],(par rapport à),[Temps: #Maintenant],747,758,759
 [Consultation],(00.de_type),[Consultation au cabinet],760,761,762
@@ -373,130 +332,69 @@ head,relation,tail,head_id,relation_id,tail_id
 [Contexte Pysiologique: #1‹],(07.MNT),[Moment: #t0‹],766,767,162
 [Courrier],(0.a_pour_valeur),[Faux],768,769,770
 [Courrier],(0.a_pour_valeur),[Vrai],771,772,773
-[Demande: #d‹],(02.AGT),[Locuteur],117,774,775
 [Locuteur],(01.DESCR),[Personne: #x],775,776,777
-[Demande: #d‹],(02.AGT),[Locuteur],117,778,779
 [Locuteur],(01.DESCR),[Personne: #y],779,780,781
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,782,783
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],783,784,121
-[Prestation: #00‹],(00.de_type),[Consultation],121,785,786
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,787,788
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],788,789,121
-[Prestation: #00‹],(00.de_type),[Renseignement],121,790,791
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,792,793
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],793,794,121
 [Prestation: #00‹],(00.de_type),[Téléconsultation],121,795,796
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,797,798
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],798,799,121
 [Prestation: #00‹],(00.de_type),[Visite],121,800,801
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,802,803
 [Réponse attendue],(01.DESCR),[Prestation: #00‹],803,804,121
 [Prestation: #00‹],(04.BENEF),[Patient: #x],121,805,806
-[Demande: #d‹],(05.a_pour_réponse),[Réponse attendue],117,807,808
 [Réponse attendue],(01.DESCR),[Situation: #2‹],808,809,142
-[Situation: #2‹],(00.de_type),[Rendez-Vous],142,810,811
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,812,211
 [Besoin de Santé: #1‹],(01.DESCR),[Anomalie Glande Mammaire],211,813,814
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,815,211
 [Besoin de Santé: #1‹],(01.DESCR),[Anomalie Menstruation],211,816,817
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,818,211
 [Besoin de Santé: #1‹],(01.DESCR),[Autre Demande],211,819,820
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,821,211
 [Besoin de Santé: #1‹],(01.DESCR),[Bouffées de chaleur],211,822,823
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,824,211
 [Besoin de Santé: #1‹],(01.DESCR),[Certificat Médical: #1‹],211,825,411
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,826,211
 [Besoin de Santé: #1‹],(01.DESCR),[Check-up: #‹],211,827,568
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,828,211
 [Besoin de Santé: #1‹],(01.DESCR),[Concept],211,829,830
 [Concept],(0.a_pour_valeur),[Valeur: #?],830,831,832
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,833,211
-[Besoin de Santé: #1‹],(01.DESCR),[Conduite à tenir: #1‹],211,834,835
 [Conduite à tenir: #1‹],(05.CAUS),[Avis],835,836,837
 [Avis],(AGT),[Médecin],837,838,839
 [Médecin],(a_spécialité),[Spécialité],839,840,841
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,842,211
-[Besoin de Santé: #1‹],(01.DESCR),[Conduite à tenir: #1‹],211,843,835
 [Conduite à tenir: #1‹],(05.CAUS),[Procédure Sanitaire],835,844,845
 [Procédure Sanitaire],(00.TYP),[Hospitalisation],845,846,847
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,848,211
-[Besoin de Santé: #1‹],(01.DESCR),[Conduite à tenir: #1‹],211,849,835
-[Conduite à tenir: #1‹],(05.CAUS),[Résultat: #1‹],835,850,851
-[Résultat: #1‹],(RESUL-1),[Procédure Sanitaire],851,852,853
 [Procédure Sanitaire],(00.TYP),[Biologie Médicale],853,854,855
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,856,211
-[Besoin de Santé: #1‹],(01.DESCR),[Conduite à tenir: #1‹],211,857,835
-[Conduite à tenir: #1‹],(05.CAUS),[Résultat: #1‹],835,858,851
-[Résultat: #1‹],(RESUL-1),[Procédure Sanitaire],851,859,860
 [Procédure Sanitaire],(00.TYP),[Concept],860,861,862
 [Concept],(0.a_pour_valeur),[Valeur: #?],862,863,864
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,865,211
-[Besoin de Santé: #1‹],(01.DESCR),[Conduite à tenir: #1‹],211,866,835
 [Conduite à tenir: #1‹],(05.CAUS),[Résultat: #2],835,867,868
 [Résultat: #2],(RESUL-1),[Procédure Sanitaire],868,869,870
 [Procédure Sanitaire],(00.TYP),[Imagerie Médicale],870,871,872
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,873,211
 [Besoin de Santé: #1‹],(01.DESCR),[Conseil],211,874,875
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,876,211
 [Besoin de Santé: #1‹],(01.DESCR),[Contraception],211,877,878
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,879,211
 [Besoin de Santé: #1‹],(01.DESCR),[Doléance Psychique],211,880,881
 [Doléance Psychique],(TYPE),[Anxiété-Dépression],881,882,883
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,884,211
 [Besoin de Santé: #1‹],(01.DESCR),[Déclaration de Grossesse],211,885,886
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,887,211
 [Besoin de Santé: #1‹],(01.DESCR),[Ecoulement],211,888,889
 [Ecoulement],(2.a_origine),[Vagin],889,890,891
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,892,211
 [Besoin de Santé: #1‹],(01.DESCR),[Examen Oblgatoire],211,893,894
 [Examen Oblgatoire],(PAT),[Enfant],894,895,896
 [Enfant],(01.a_age),[Age],896,897,898
 [Age],(0.a_pour_valeur),[Valeur: #x],898,899,900
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,901,211
 [Besoin de Santé: #1‹],(01.DESCR),[Examen Obligatoire],211,902,903
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,904,211
 [Besoin de Santé: #1‹],(01.DESCR),[Expertise Médicale],211,905,906
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,907,211
 [Besoin de Santé: #1‹],(01.DESCR),[Interruption Volontaire de Grossesse],211,908,909
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,910,211
-[Besoin de Santé: #1‹],(01.DESCR),[Maintien Santé],211,911,912
 [Maintien Santé],(METH),[Prévention: #1‹],912,913,914
 [Prévention: #1‹],(MOY),[Dépistage],914,915,916
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,917,211
-[Besoin de Santé: #1‹],(01.DESCR),[Maintien Santé],211,918,919
 [Maintien Santé],(METH),[Prévention: #2‹],919,920,921
 [Prévention: #2‹],(METH),[Injection],921,922,923
 [Injection],(RESOR),[Vaccin],923,924,925
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,926,211
 [Besoin de Santé: #1‹],(01.DESCR),[Ménopause],211,927,928
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,929,211
 [Besoin de Santé: #1‹],(01.DESCR),[Prescription: #1‹],211,930,931
 [Prescription: #1‹],(PAT),[Procédure Sanitaire],931,932,933
 [Procédure Sanitaire],(00.TYP),[Biologie Médicale],933,934,935
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,936,211
 [Besoin de Santé: #1‹],(01.DESCR),[Prescription: #2],211,937,938
 [Prescription: #2],(PAT),[Procédure Sanitaire],938,939,940
 [Procédure Sanitaire],(00.TYP),[Imagerie Médicale],940,941,942
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,943,211
-[Besoin de Santé: #1‹],(01.DESCR),[Prescription],211,944,945
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,946,211
-[Besoin de Santé: #1‹],(01.DESCR),[Prescription],211,947,948
 [Prescription],(01.PAT),[Pilule],948,949,950
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,951,211
-[Besoin de Santé: #1‹],(01.DESCR),[Problème de Santé: #1n‹],211,952,220
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,953,211
 [Besoin de Santé: #1‹],(01.DESCR),[Procédure],211,954,955
 [Procédure],(01.PAT),[Admission],955,956,957
 [Admission],(DEST),[Etablissement de Santé],957,958,959
 [Etablissement de Santé],(00.TYP),[EHPAD],959,960,961
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,962,211
 [Besoin de Santé: #1‹],(01.DESCR),[Renouvellement Traitement],211,963,964
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,965,211
 [Besoin de Santé: #1‹],(01.DESCR),[Suivi de Grossesse],211,966,967
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,968,211
-[Besoin de Santé: #1‹],(01.DESCR),[Suivi],211,969,970
-[Demande: #d‹],(05.CAUS),[Besoin de Santé: #1‹],117,971,211
-[Besoin de Santé: #1‹],(01.DESCR),[Suivi],211,972,973
 [Suivi],(PAT),[Processus Pathologique Chronique],973,974,975
 [Demande: #d‹],(a_pour_objet),[Prestation],117,976,977
 [Prestation],(00.de_type),[Réponse],977,978,979
@@ -670,53 +568,21 @@ head,relation,tail,head_id,relation_id,tail_id
 [Expertise Médicale],(01.PAT),[Objet],1377,1378,1379
 [Objet],(---¬),[Permis de Conduire],1379,1380,1381
 [Exposition: #OH‹],(PAT-1),[Modification],1382,1383,1384
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1385,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #1],1386,1387,1388
 [Test de FACE: #1],(0.a_pour_valeur),[Valeur: 0],1388,1389,1390
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1391,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #1],1386,1392,1393
 [Test de FACE: #1],(0.a_pour_valeur),[Valeur: 1],1393,1394,1395
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1396,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #1],1386,1397,1398
 [Test de FACE: #1],(0.a_pour_valeur),[Valeur: 2],1398,1399,1400
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1401,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #1],1386,1402,1403
 [Test de FACE: #1],(0.a_pour_valeur),[Valeur: 3],1403,1404,1405
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1406,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #1],1386,1407,1408
 [Test de FACE: #1],(0.a_pour_valeur),[Valeur: 4],1408,1409,1410
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1411,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #2],1386,1412,1413
 [Test de FACE: #2],(0.a_pour_valeur),[Valeur: 0],1413,1414,1415
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1416,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #2],1386,1417,1418
 [Test de FACE: #2],(0.a_pour_valeur),[Valeur: 1],1418,1419,1420
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1421,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #2],1386,1422,1423
 [Test de FACE: #2],(0.a_pour_valeur),[Valeur: 2],1423,1424,1425
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1426,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #2],1386,1427,1428
 [Test de FACE: #2],(0.a_pour_valeur),[Valeur: 3],1428,1429,1430
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1431,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #2],1386,1432,1433
 [Test de FACE: #2],(0.a_pour_valeur),[Valeur: 4],1433,1434,1435
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1436,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #3],1386,1437,1438
 [Test de FACE: #3],(0.a_pour_valeur),[Valeur: 0],1438,1439,1440
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1441,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #3],1386,1442,1443
 [Test de FACE: #3],(0.a_pour_valeur),[Valeur: 4],1443,1444,1445
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1446,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #4],1386,1447,1448
 [Test de FACE: #4],(0.a_pour_valeur),[Valeur: 0],1448,1449,1450
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1451,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #4],1386,1452,1453
 [Test de FACE: #4],(0.a_pour_valeur),[Valeur: 4],1453,1454,1455
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1456,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #5],1386,1457,1458
 [Test de FACE: #5],(0.a_pour_valeur),[Valeur: 0],1458,1459,1460
-[Exposition: #OH‹],(QUANT),[Test de FACE: #F‹],1382,1461,1386
-[Test de FACE: #F‹],(ITEM),[Test de FACE: #5],1386,1462,1463
 [Test de FACE: #5],(0.a_pour_valeur),[Valeur: 4],1463,1464,1465
 [Exposition: #PHYS‹],(PAT-1),[Modification],1466,1467,1468
 [Exposition: #t4‹],(DUR),[Durée],1469,1470,1471
@@ -732,14 +598,9 @@ head,relation,tail,head_id,relation_id,tail_id
 [Exposition: #t6‹],(QUANT),[Cigarette],1487,1492,1493
 [Cigarette],(0.a_pour_valeur),[Valeur: #?],1493,1494,1495
 [Exposition: #t],(RES),[Tabac],1496,1497,1498
-[Exposition: #tbc‹],(a_un),[Déroulement: #tbc‹],1499,1500,1501
 [Déroulement: #tbc‹],(a_un),[Début],1501,1502,1503
 [Début],(Time),[Temps: t ≤ #maintenant],1503,1504,1505
-[Exposition: #tbc‹],(a_un),[Déroulement: #tbc‹],1499,1506,1501
-[Déroulement: #tbc‹],(a_un),[Fin],1501,1507,1508
 [Fin],(Time),[Temps: t < #maintenant],1508,1509,1510
-[Exposition: #tbc‹],(a_un),[Déroulement: #tbc‹],1499,1511,1501
-[Déroulement: #tbc‹],(a_un),[Fin],1501,1512,1513
 [Fin],(Time),[Temps: t > #maintenant],1513,1514,1515
 [Exposition: #TBC‹],(PAT-1),[Modification],1516,1517,1518
 [Exposition: #tbc‹],(val_qual),[Non précisé],1499,1519,1520
@@ -942,28 +803,20 @@ head,relation,tail,head_id,relation_id,tail_id
 [Manifestation: #1r‹],(01.DESCR),[Toux],1941,1992,1993
 [Manifestation: #1r‹],(01.DESCR),[Troubles du Comportement],1941,1994,1995
 [Manifestation: #1r‹],(01.DESCR),[Vomissements],1941,1996,1997
-[Manifestation: #1r‹],(a_début),[Début: #db‹],1941,1998,1999
 [Début: #db‹],(VAL.QUAL),[Brutal],1999,2000,2001
-[Manifestation: #1r‹],(a_début),[Début: #db‹],1941,2002,1999
 [Début: #db‹],(VAL.QUAL),[Progressif],1999,2003,2004
 [Manifestation: #1r‹],(a_fin),[Fin],1941,2005,2006
 [Fin],(VAL),[t = #Maintenant],2006,2007,2008
-[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2009,2010
 [Durée: #m - #tdb #‹],(≤),[Valeur: 14],2010,2011,2012
 [Valeur: 14],(unité),[Unité: jours],2012,2013,2014
-[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2015,2010
 [Durée: #m - #tdb #‹],(≤),[Valeur: 2],2010,2016,2017
 [Valeur: 2],(unité),[Unité: jours],2017,2018,2019
-[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2020,2010
 [Durée: #m - #tdb #‹],(≤),[Valeur: 31],2010,2021,2022
 [Valeur: 31],(unité),[Unité: jours],2022,2023,2024
-[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2025,2010
 [Durée: #m - #tdb #‹],(≤),[Valeur: 8],2010,2026,2027
 [Valeur: 8],(unité),[Unité: jours],2027,2028,2029
-[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2030,2010
 [Durée: #m - #tdb #‹],(≥),[Valeur: 1],2010,2031,2032
 [Valeur: 1],(unité),[Unité: mois],2032,2033,2034
-[Manifestation: #1r‹],(DUR),[Durée: #m - #tdb #‹],1941,2035,2010
 [Durée: #m - #tdb #‹],(≥),[Valeur: 3],2010,2036,2037
 [Valeur: 3],(unité),[Unité: mois],2037,2038,2039
 [Manifestation: #1r‹],(DUR),[Durée: #m - tdb #‹],1941,2040,2041
@@ -981,10 +834,6 @@ head,relation,tail,head_id,relation_id,tail_id
 [Personne: #z],(----),[Médecin: #z],2065,2066,2067
 [Message: #‹],(07.a_moment_emission),[Moment: #m‹],2051,2068,2069
 [Message: #‹],(10.a_contenu),[Assertion: #1‹],2051,2070,106
-[Assertion: #1‹],(01.DESCR),[Conjonction: #1‹],106,2071,110
-[Conjonction: #1‹],(ET),[Assertion: #11‹],110,2072,71
-[Assertion: #11‹],(01.DESCR),[Situation: #1‹],71,2073,113
-[Situation: #1‹],(01.DESCR),[Patient: #x‹],113,2074,115
 [Message: #‹],(10.a_contenu),[Assertion: #2‹],2051,2075,156
 [Assertion: #2‹],(00.Denotatum),[>DEMANDE<],156,2076,2077
 [Message: #‹],(10.a_contenu),[Assertion: #3‹],2051,2078,2079
@@ -999,9 +848,7 @@ head,relation,tail,head_id,relation_id,tail_id
 [Assertion: #7‹],(00.Denotatum),[>ANTECEDENTS PERSONNELS<],180,2093,2094
 [Message: #‹],(10.a_contenu),[Assertion: #8‹],2051,2095,2096
 [Assertion: #8‹],(00.Denotatum),[TRAITEMENTS],2096,2097,2098
-[Message: #‹],(10.a_contenu),[Assertion: #9‹],2051,2099,2100
 [Assertion: #9‹],(00.Denotatum),[HYGIENE_DE_VIE],2100,2101,2102
-[Message: #‹],(10.a_contenu),[Assertion: #9‹],2051,2103,2100
 [Assertion: #9‹],(DESCR),[Exposition: #OH‹],2100,2104,1382
 [Exposition: #OH‹],(facteur de risque),[Alcool],1382,2105,2106
 [Mode de vie],(REL),[Autre],2107,2108,2109
@@ -1061,9 +908,7 @@ head,relation,tail,head_id,relation_id,tail_id
 [Patient: #x‹],(---¬),[Patient: #],115,2251,2252
 [Patient: #],(02.est_patient_de),[Consultation antérieure],2252,2253,2254
 [Consultation antérieure],(LOC),[Cabinet Médical: #c],2254,2255,2256
-[Patient: #x‹],(---¬),[Personne: #],115,2257,2258
 [Personne: #],(PAT-1),[Accompagnement],2258,2259,2260
-[Patient: #x‹],(---¬),[Personne: #],115,2261,2262
 [Personne: #],(PAT-1),[Accompagnement],2262,2263,2264
 [Accompagnement],(AGT),[Personne: #p],2264,2265,2266
 [Patient: #x‹],(-?-),[Patient: #],115,2267,2268
@@ -1072,35 +917,20 @@ head,relation,tail,head_id,relation_id,tail_id
 [Patient: #x‹],(01.DESCR),[Personne: #x‹],115,2273,2274
 [Patient: #x‹],(02.est_patient_de),[Mesure],115,2275,2276
 [Mesure],(RESULT),[Température],2276,2277,2278
-[Patient: #x‹],(02.est_patient_de),[Processus Morbide: #1‹],115,2279,399
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2280,2281
-[Patient: #x‹],(02.est_patient_de),[Processus Morbide: #1‹],115,2282,399
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2283,2284
 [Diabète],(00.TYP),[Diabète de type I],2284,2285,2286
-[Patient: #x‹],(02.est_patient_de),[Processus Morbide: #1‹],115,2287,399
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2288,2289
 [Diabète],(00.TYP),[Diabète de type II],2289,2290,2291
-[Patient: #x‹],(02.est_patient_de),[Processus Morbide: #1‹],115,2292,399
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2293,2294
 [Diabète],(00.TYP),[Diabète Gestationnel],2294,2295,2296
-[Patient: #x‹],(02.est_patient_de),[Processus Morbide: #1‹],115,2297,399
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2298,2299
 [Diabète],(00.TYP),[Diabète Secondaire],2299,2300,2301
 [Patient: #x‹],(a_température),[Température: #1],115,2302,2303
-[Patient: #x‹],(PAT-1),[Accompagnement],115,2304,2305
 [Accompagnement],(AGT),[Mère],2305,2306,2307
 [Mère],(REL),[Personne: #x],2307,2308,2309
-[Patient: #x‹],(PAT-1),[Accompagnement],115,2310,2311
 [Accompagnement],(AGT),[Personne: #p],2311,2312,2313
 [Personne: #p],(AGT-1),[Aide],2313,2314,2315
 [Aide],(PAT),[Personne: #x],2315,2316,2317
-[Patient: #x‹],(PAT-1),[Accompagnement],115,2318,2319
 [Accompagnement],(AGT),[Personne: #p],2319,2320,2321
 [Personne: #p],(AGT-1),[Traduction],2321,2322,2323
-[Patient: #x‹],(PAT-1),[Accompagnement],115,2324,2325
 [Accompagnement],(AGT),[Personne: #p],2325,2326,2327
 [Personne: #p],(REL),[Personne: #x],2327,2328,2329
-[Patient: #x‹],(PAT-1),[Accompagnement],115,2330,2331
 [Accompagnement],(AGT),[Père],2331,2332,2333
 [Père],(REL),[Personne: #x],2333,2334,2335
 [Personne: #x],(---¬),[Personne: #],2336,2337,2338
@@ -1127,9 +957,7 @@ head,relation,tail,head_id,relation_id,tail_id
 [Personne: #x‹],(00.a_nom),[Nom: MARTIN],2274,2383,2384
 [Personne: #x‹],(00.date_naissance),[Naissance: #‹],2274,2385,2386
 [Naissance: #‹],(0.a_pour_valeur),[Valeur: #?],2386,2387,2388
-[Personne: #x‹],(01.a_age),[Age: #‹],2274,2389,2390
 [Age: #‹],(1.classé en),[Enfant,2390,2391,2392
-[Personne: #x‹],(01.a_age),[Age: #‹],2274,2393,2390
 [Age: #‹],(1.classé en),[Enfant],2390,2394,2395
 [Personne: #x‹],(01.DESCR),[Nom: #‹],2274,2396,2397
 [Nom: #‹],(0.a_pour_valeur),[Valeur: #?],2397,2398,2399
@@ -1255,29 +1083,19 @@ head,relation,tail,head_id,relation_id,tail_id
 [Problème connu récidivant],(01.DESCR),[Tachycardie],2700,2701,2702
 [Problème connu récidivant],(a_un),[Libellé],2703,2704,2705
 [Libellé],(0.a_pour_valeur),[Valeur: #?],2705,2706,2707
-[Problème de Santé: #1n‹],(SIGN),[Manifestation: #1p‹],220,2708,1936
 [Manifestation: #1p‹],(00.TYP),[Intolérance traitement],1936,2709,2710
-[Problème de Santé: #1n‹],(SIGN),[Manifestation: #1p‹],220,2711,1936
 [Manifestation: #1p‹],(00.TYP),[Manifestation Psychique],1936,2712,2713
-[Problème de Santé: #1n‹],(SIGN),[Manifestation: #1p‹],220,2714,1936
 [Manifestation: #1p‹],(00.TYP),[Troubles du sommeil],1936,2715,2716
-[Problème de Santé: #1n‹],(SIGN),[Manifestation: #1p‹],220,2717,1936
 [Manifestation: #1p‹],(01.DESCR),[Syndrôme Dépressif: #1‹],1936,2718,2719
 [Problème de Santé: #1n‹],(SIGN),[Manifestation: #1r‹],220,2720,1941
 [Manifestation: #1r‹],(00.TYP),[Manifestation Somatique],1941,2721,2722
 [Procedure Chirurgicale: #O],(00.de_type),[Intervention: #O1],2723,2724,2725
-[Processus Morbide: #1‹],(00.TYP),[Trouble Homéostasie],399,2726,2727
 [Trouble Homéostasie],(01.PAT),[Cholesterol],2727,2728,2729
-[Processus Morbide: #1‹],(00.TYP),[Trouble Homéostasie],399,2730,2731
 [Trouble Homéostasie],(01.PAT),[Triglycéride],2731,2732,2733
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2734,2735
 [Diabète],(10.a_un_suivi),[Suivi: #diab‹],2735,2736,2737
-[Suivi: #diab‹],(01.DESCR),[Personne: #x],2737,2738,2739
 [Personne: #x],(01.PAT),[Consultation: #c‹],2739,2740,726
 [Consultation: #c‹],(02.AGT),[Cardiologue],726,2741,2742
-[Processus Morbide: #1‹],(01.DESCR),[Diabète],399,2743,2744
 [Diabète],(10.a_un_suivi),[Suivi: #diab‹],2744,2745,2737
-[Suivi: #diab‹],(01.DESCR),[Personne: #x],2737,2746,2747
 [Personne: #x],(01.PAT),[Consultation: #o‹],2747,2748,743
 [Consultation: #o‹],(02.AGT),[Ophtalmologue],743,2749,2750
 [Procédure médicale: #PM1],(00.de_type),[Hospitalisation: #H1],2751,2752,2753
@@ -1301,10 +1119,8 @@ head,relation,tail,head_id,relation_id,tail_id
 [Prévention: #00‹],(METH),[Injection],2795,2796,2797
 [Injection],(RESOR),[Vaccin],2797,2798,2799
 [Vaccin],(00.de_type),[Vaccin anti-coqueluche],2799,2800,2801
-[Prévention: #03‹],(METH),[Injection],2802,2803,2804
 [Injection],(RESOR),[Vaccin],2804,2805,2806
 [Vaccin],(00.de_type),[Vaccin anti-grippal],2806,2807,2808
-[Prévention: #03‹],(METH),[Injection],2802,2809,2810
 [Injection],(RESOR),[Vaccin],2810,2811,2812
 [Vaccin],(00.de_type),[Vaccin Covid-19],2812,2813,2814
 [Prévention: #06‹],(METH),[Injection],2815,2816,2817
@@ -1397,13 +1213,9 @@ head,relation,tail,head_id,relation_id,tail_id
 [Douleur: #P],(LOC),[Pharynx],3002,3003,3004
 [Signe ORL: €‹],(ELT),[Douleur: #T],2996,3005,3006
 [Douleur: #T],(LOC),[Tête],3006,3007,3008
-[Situation: #1‹],(00.a_lieu),[Lieu],113,3009,3010
-[Situation: #1‹],(00.a_lieu),[Lieu],113,3011,3012
 [Lieu],(01.DESCR),[Cabinet Médical: #c],3012,3013,3014
-[Situation: #e‹],(01.DESCR),[Personne: #x],3015,3016,3017
 [Personne: #x],(----),[Personne: #],3017,3018,3019
 [Personne: #],(a_emploi),[Emploi],3019,3020,3021
-[Situation: #e‹],(01.DESCR),[Personne: #x],3015,3022,3023
 [Personne: #x],(---¬),[Personne: #],3023,3024,3025
 [Personne: #],(a_emploi),[Emploi],3025,3026,3027
 [Situation: #e‹],(05.CAUS),[Invalidité],3015,3028,3029
@@ -1414,62 +1226,36 @@ head,relation,tail,head_id,relation_id,tail_id
 [Sommeil: #2],(occurence),[Rare],3041,3042,3043
 [Sport: #26‹],(TYP),[Autre],3044,3045,3046
 [Autre],(0.a_pour_valeur),[Libellé: #?],3046,3047,3048
-[Suivi: #01‹],(PAT),[Processus Pathologique Chronique],235,3049,3050
 [Processus Pathologique Chronique],(TYP),[HTA: #1‹],3050,3051,239
-[Suivi: #02‹],(PAT),[Processus Pathologique Chronique],241,3052,3053
 [Processus Pathologique Chronique],(TYP),[Hyperlipidémie],3053,3054,3055
-[Suivi: #03‹],(PAT),[Processus Pathologique Chronique],247,3056,3057
 [Processus Pathologique Chronique],(TYP),[Insomnie],3057,3058,3059
-[Suivi: #04‹],(PAT),[Processus Pathologique Chronique],253,3060,3061
 [Processus Pathologique Chronique],(TYP),[Surcharge Pondérale],3061,3062,3063
-[Suivi: #05‹],(PAT),[Processus Pathologique Chronique],259,3064,3065
 [Processus Pathologique Chronique],(TYP),[Diabète],3065,3066,3067
-[Suivi: #06‹],(PAT),[Processus Pathologique Chronique],265,3068,3069
 [Processus Pathologique Chronique],(TYP),[Dépression],3069,3070,3071
-[Suivi: #07‹],(PAT),[Processus Pathologique Chronique],271,3072,3073
 [Processus Pathologique Chronique],(TYP),[Maladie Coronarienne],3073,3074,3075
-[Suivi: #08‹],(PAT),[Processus Pathologique Chronique],277,3076,3077
 [Processus Pathologique Chronique],(TYP),[Constipation],3077,3078,3079
-[Suivi: #09‹],(PAT),[Processus Pathologique Chronique],283,3080,3081
 [Processus Pathologique Chronique],(TYP),[Ménopause],3081,3082,3083
-[Suivi: #10‹],(PAT),[Processus Pathologique Chronique],289,3084,3085
 [Processus Pathologique Chronique],(TYP),[Colite],3085,3086,3087
-[Suivi: #11‹],(PAT),[Processus Pathologique Chronique],295,3088,3089
 [Processus Pathologique Chronique],(TYP),[Arthrose] ,3089,3090,3091
-[Suivi: #12‹],(PAT),[Processus Pathologique Chronique],301,3092,3093
 [Processus Pathologique Chronique],(TYP),[Asthme],3093,3094,3095
-[Suivi: #13‹],(PAT),[Processus Pathologique Chronique],307,3096,3097
 [Processus Pathologique Chronique],(TYP),[Varice],3097,3098,3099
 [Varice],(LOC),[Membre Inférieur],3099,3100,3101
-[Suivi: #14‹],(PAT),[Processus Pathologique Chronique],315,3102,3103
 [Processus Pathologique Chronique],(TYP),[Lourdeurs de jambe],3103,3104,3105
-[Suivi: #15‹],(PAT),[Processus Pathologique Chronique],321,3106,3107
 [Processus Pathologique Chronique],(TYP),[Hypothyroïdie],3107,3108,3109
-[Suivi: #16‹],(PAT),[Processus Pathologique Chronique],327,3110,3111
 [Processus Pathologique Chronique],(TYP),[Addiction],3111,3112,3113
 [Addiction],(AGT),[Alcool],3113,3114,3115
-[Suivi: #17‹],(PAT),[Processus Pathologique Chronique],335,3116,3117
 [Processus Pathologique Chronique],(TYP),[Addiction],3117,3118,3119
 [Addiction],(AGT),[Tabac],3119,3120,3121
 [Suivi: #18‹],(PAT),[Processus Pathologique Chronique],3122,3123,3124
 [Processus Pathologique Chronique],(TYP),[Maladie Thrombo-embolique],3124,3125,3126
-[Suivi: #19‹],(PAT),[Processus Pathologique Chronique],343,3127,3128
 [Processus Pathologique Chronique],(TYP),[Cancer],3128,3129,3130
-[Suivi: #20‹],(PAT),[Processus Pathologique Chronique],349,3131,3132
 [Processus Pathologique Chronique],(TYP),[Fibrillation Auriculaire],3132,3133,3134
-[Suivi: #21‹],(PAT),[Processus Pathologique Chronique],355,3135,3136
 [Processus Pathologique Chronique],(TYP),[Insuffisance Cardiaque],3136,3137,3138
-[Suivi: #22‹],(PAT),[Processus Pathologique Chronique],361,3139,3140
 [Processus Pathologique Chronique],(TYP),[Bronchite Chronique],3140,3141,3142
-[Suivi: #23‹],(PAT),[Processus Pathologique Chronique],367,3143,3144
 [Processus Pathologique Chronique],(TYP),[Apnée du sommeil],3144,3145,3146
-[Suivi: #30‹],(PAT),[Processus Pathologique Chronique],373,3147,3148
 [Processus Pathologique Chronique],(TYP),[Maladie de Parkinson],3148,3149,3150
-[Suivi: #52‹],(PAT),[Processus Pathologique Chronique],379,3151,3152
 [Processus Pathologique Chronique],(TYP),[Eczéma],3152,3153,3154
-[Suivi: #60‹],(PAT),[Processus Pathologique Chronique],385,3155,3156
 [Processus Pathologique Chronique],(TYP),[Maladie infectieuse],3156,3157,3158
-[Suivi: #99‹],(PAT),[Processus Pathologique Chronique],391,3159,3160
 [Processus Pathologique Chronique],(TYP),[Maladie],3160,3161,3162
 [Maladie],(0.a_pour_valeur),[Valeur: #?],3162,3163,3164
 [Surveillance: #1‹],(AGT),[Patient],3165,3166,3167
@@ -1478,9 +1264,7 @@ head,relation,tail,head_id,relation_id,tail_id
 [Surveillance: #1‹],(RESULT),[Tension Artérielle Systolique],3165,3172,3173
 [Tension Artérielle Systolique],(0.a_pour_valeur),[Valeur: #?],3173,3174,3175
 [Syndrôme Dépressif: #1‹],(ELT),[Anhédonie],2719,3176,3177
-[Syndrôme Fébrile: #1‹],(fin),[Fin],1985,3178,3179
 [Fin],(Time),[Temps: t < #maintenant],3179,3180,3181
-[Syndrôme Fébrile: #1‹],(fin),[Fin],1985,3182,3183
 [Fin],(Time),[Temps: t > #maintenant],3183,3184,3185
 [Syndrôme Fébrile: #1‹],(PAT-1),[Evolution],1985,3186,3187
 [Evolution],(TYP),[Non spécifié],3187,3188,3189
